@@ -3,7 +3,5 @@
 exports[`extra-large-title renders correctly 1`] = `
 <div
   className="govuk-heading-xl"
->
-  a title
-</div>
+/>
 `;
