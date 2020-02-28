@@ -2,13 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84e290e1-2f63-4704-84ff-51a06504ae52" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/chunk-map.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/chunk-map.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/get_started/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/get_started/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/page-data/app-data.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/page-data/app-data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webpack.stats.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/webpack.stats.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-685f630c72a5f7979810.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-685f630c72a5f7979810.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-6b1ea138bdb428e76ce6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-6b1ea138bdb428e76ce6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-f44190538eadb7db0b81.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/app-f44190538eadb7db0b81.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/chunk-map.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/commons-56e67c19341bc938dfb7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/commons-56e67c19341bc938dfb7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-404-js-9f23e457a2542b61e82b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-404-js-9f23e457a2542b61e82b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-get-started-mdx-313336c4476044d9347b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-get-started-mdx-313336c4476044d9347b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-get-started-mdx-8decb22754f86b77c785.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-get-started-mdx-8decb22754f86b77c785.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-get-started-mdx-f11d53eda902226de36a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-get-started-mdx-f11d53eda902226de36a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-mdx-91134b19a44f2ecb5b41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-mdx-91134b19a44f2ecb5b41.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-mdx-b7611fc9bc5f92b14c2b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-mdx-b7611fc9bc5f92b14c2b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-mdx-bd87100f97a86791910f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/component---src-pages-index-mdx-bd87100f97a86791910f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/get_started/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-256x256.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-384x384.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-48x48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/icon-96x96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/404.html/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/404/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/app-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/dev-404-page/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/get_started/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/page-data/index/page-data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/2a4de/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/5db04/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/62b1f/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/630fb/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/6d161/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/6d91c86c0fde632ba4cd01062fd9ccfa/ee604/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bold-affa96571d-v2-affa96571d94a9ab7d95b0850b26edde.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/bold-b542beb274-v2-b542beb2746ca0e4a5a9aa7ea7767df7.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/1025518380.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/1309964585.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/149136290.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/1947073912.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/2011440971.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/2407922404.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/323500081.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/408310413.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/755544856.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/d/990956708.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/light-94a07e06a1-v2-94a07e06a104e76fe40583f74b204aee.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/light-f591b13f7d-v2-f591b13f7daad512cf0dfa0ddcb2960e.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles-5937170deb9587b021a1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles-5937170deb9587b021a1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.06c3018169d8a0ee8c74.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-3e27a259f47cabd18704.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-3e27a259f47cabd18704.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-cdb55c202115faac22c0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-cdb55c202115faac22c0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-efc40e621baa66d4bcb4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack-runtime-efc40e621baa66d4bcb4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/webpack.stats.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,10 +99,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110" />
+            <state relative-caret-position="421">
+              <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/image.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/seo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -103,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/components/__tests__/extra-large-title.js" />
         <option value="$PROJECT_DIR$/src/components/__tests__/button.js" />
         <option value="$PROJECT_DIR$/src/components/__tests__/header.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -198,7 +289,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6945000" />
+    <option name="totallyTimeSpent" value="7546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="974" extended-state="6" />
@@ -207,6 +298,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
@@ -214,15 +306,23 @@
       <window_info anchor="bottom" id="Terminal" visible="true" weight="0.38908246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.38863108" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +620,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110" />
+        <state relative-caret-position="421">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/seo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
