@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 const NavItems = [
-  { name: "About", href: "/" },
+  { name: "About", href: "/about" },
   { name: "Get Started", href: "/get_started" },
   { name: "Documentation", href: "https://training.cop.homeoffice.gov.uk/" }
 ];
