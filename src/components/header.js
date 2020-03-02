@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 const NavItems = [
-  { name: "About", href: "/about" },
+  { name: "About", href: "/about_sub_pages/cop" },
   { name: "Get Started", href: "/get_started" },
   { name: "Documentation", href: "https://training.cop.homeoffice.gov.uk/" }
 ];
@@ -71,16 +71,6 @@ const Header = (props) => {
                       <a href={value.href} className="govuk-header__link header-nav-items">
                         {value.name}
                       </a>
-                    </div>
-                  </li>;
-                } else if (value.name === 'About') {
-                  return <li className="govuk-header__navigation-item"
-                             key={index}>
-                    <div
-                      className={props.currentPage === value.href ? "govuk-header__navigation-item--active" : ""}>
-                      <Link to={value.href} className="govuk-header__link header-nav-items">
-                        {value.name}
-                      </Link>
                     </div>
                   </li>;
                 } else {
