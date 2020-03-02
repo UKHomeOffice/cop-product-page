@@ -44,6 +44,7 @@ public/
 node_modules/
 .cache/
 .netlify
+tests_output
 
 # IDE specific
 .idea/
