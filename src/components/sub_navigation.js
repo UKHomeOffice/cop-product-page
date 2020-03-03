@@ -9,7 +9,6 @@ const SubNavigation = (props) => {
     { name: "Roadmap", href: "about_sub_pages/roadmap" },
     { name: "Security", href: "about_sub_pages/security" }
   ];
-  console.log(props.currentPage, 'sub')
   return (
     <div>
       <nav>
@@ -19,7 +18,7 @@ const SubNavigation = (props) => {
               className="sub-navigation__item"
               key={index}>
               <div
-                className={props.currentPage === `${value.href}/` ? "sub-navigation__item--active" : ""}>
+                className={props.currentPage === `/${value.href}/` ? "sub-navigation__item--active" : ""}>
                 <Link className="govuk-link" to={value.href} itemProp="item">
                   <span itemProp="name">{value.name}</span>
                 </Link>
