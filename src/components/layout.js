@@ -3,11 +3,13 @@ import Header from "./header";
 import "./layout.css";
 import Footer from "./footer";
 import SubNavigation from "./sub_navigation";
+import PhaseBanner from "./phase-banner";
 
 const Layout = ({ path, children }) => (
   <>
     <Header currentPage={path}/>
-    <div className="govuk-main-wrapper govuk-width-container main-height">
+    <div className="govuk-width-container main-height">
+      <PhaseBanner/>
       <LayoutManager path={path} children={children}/>
     </div>
     <Footer/>
