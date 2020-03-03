@@ -1,23 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import './layout.css'
 import Footer from "./footer";
 
 const Layout = ({ path, children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={data => (
+
       <>
         <Header currentPage={path} />
         <div
@@ -27,8 +16,6 @@ const Layout = ({ path, children }) => (
         </div>
         <Footer/>
       </>
-    )}
-  />
 )
 
 Layout.propTypes = {
