@@ -12,15 +12,15 @@ const SubNavigation = (props) => {
   return (
     <div>
       <nav>
-        <ol itemScope="" itemType="http://schema.org/ItemList">
+        <ol>
           {navItems.map((value, index) => {
             return <li
               className="sub-navigation__item"
               key={index}>
               <div
                 className={props.currentPage === `/${value.href}/` ? "sub-navigation__item--active" : ""}>
-                <Link className="govuk-link" to={value.href} itemProp="item">
-                  <span itemProp="name">{value.name}</span>
+                <Link className="govuk-link" to={value.href}>
+                  <span>{value.name}</span>
                 </Link>
               </div>
             </li>;

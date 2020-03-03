@@ -15,7 +15,7 @@ const Layout = ({ path, children }) => (
 );
 
 const LayoutManager = (props) => {
-  if (!props.path.includes("/about")) {
+  if (props.path && !props.path.includes("/about")) {
     return (
       <div>
         {props.children}
