@@ -4,6 +4,11 @@ exports[`Footer renders correctly 1`] = `
 <footer
   className="govuk-footer "
   role="contentinfo"
+  style={
+    Object {
+      "marginTop": "40px",
+    }
+  }
 >
   <div
     className="govuk-width-container "
