@@ -73,6 +73,16 @@ const Header = (props) => {
                       </a>
                     </div>
                   </li>;
+                } else if (value.name === "About") {
+                  return <li className="govuk-header__navigation-item"
+                             key={index}>
+                    <div
+                      className={props.currentPage.includes('about_sub_pages') ? "govuk-header__navigation-item--active" : ""}>
+                      <Link to={value.href} className="govuk-header__link header-nav-items">
+                        {value.name}
+                      </Link>
+                    </div>
+                  </li>;
                 } else {
                   return <li className="govuk-header__navigation-item"
                              key={index}>

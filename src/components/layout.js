@@ -1,51 +1,38 @@
 import React from "react";
-import PropTypes from "prop-types";
-
 import Header from "./header";
 import "./layout.css";
 import Footer from "./footer";
 import SubNavigation from "./sub_navigation";
 
-const Layout = ({ path, children }) => {
-  console.log(path, "path");
-  if (!path.includes("/about")) {
-    return (<>
-        <Header currentPage={path}/>
-        <div
-          className="govuk-main-wrapper govuk-width-container main-height"
-        >
-          {children}
-        </div>
-        <Footer/>
-      </>
+const Layout = ({ path, children }) => (
+  <>
+    <Header currentPage={path}/>
+    <div className="govuk-main-wrapper govuk-width-container main-height">
+      <LayoutManager path={path} children={children}/>
+    </div>
+    <Footer/>
+  </>
+);
+
+const LayoutManager = (props) => {
+  if (!props.path.includes("/about")) {
+    return (
+      <div>
+        {props.children}
+      </div>
     );
   } else {
-    return (<>
-        <Header currentPage={path}/>
-        <div
-          className="govuk-main-wrapper govuk-width-container main-height"
-        >
-          <div className="grid-row">
-
-
-            <div className="column-one-quarter">
-
-              <SubNavigation/>
-            </div>
-            <div className="column-five-eighths">
-              {children}
-            </div>
-          </div>
+    return (
+      <div className="grid-row">
+        <div className="column-one-quarter">
+          <SubNavigation currentPage={props.path}/>
         </div>
-        <Footer/>
-      </>
+        <div className="column-five-eighths">
+          {props.children}
+        </div>
+      </div>
     );
   }
-};
-
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired
 };
 
 export default Layout;

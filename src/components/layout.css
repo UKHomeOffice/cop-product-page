@@ -44,9 +44,9 @@ html, body {
     color: #1d70b8
 }
 
-.govuk-link:visited, .app-prose-scope a:visited {
-    color: #4c2c92
-}
+/*.govuk-link:visited, .app-prose-scope a:visited {*/
+    /*color: #4c2c92*/
+/*}*/
 
 .govuk-link:hover, .app-prose-scope a:hover {
     color: #003078
@@ -9463,7 +9463,7 @@ table caption {
 }
 
 .govuk-link:visited {
-    color: #4c2c92
+    color: #000000
 }
 
 .govuk-link:hover {
@@ -14919,14 +14919,14 @@ a.table-show-more-link {
 }
 
 .sub-navigation__item {
-    font-family: nta, Arial, sans-serif;
+    font-family: "GDS Transport", Arial, sans-serif;
     font-weight: 400;
     text-transform: none;
     font-size: 14px;
     line-height: 1.14286;
     border-bottom: 1px #dee0e2 solid;
     display: block;
-    padding: 10px 0
+    padding: 10px 0;
 }
 
 @media (min-width: 641px) {
@@ -14937,11 +14937,13 @@ a.table-show-more-link {
 }
 
 .sub-navigation__item a:link {
-    text-decoration: none
+    text-decoration: none;
+    color: black;
 }
 
 .sub-navigation__item a:active, .sub-navigation__item a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    color: black
 }
 
 ol ol .sub-navigation__item {
@@ -14949,7 +14951,7 @@ ol ol .sub-navigation__item {
 }
 
 .sub-navigation__item--active {
-    font-family: nta, Arial, sans-serif;
+    font-family: "GDS Transport", Arial, sans-serif;
     font-weight: 700;
     text-transform: none;
     font-size: 14px;
