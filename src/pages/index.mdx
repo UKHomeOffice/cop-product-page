@@ -4,5 +4,21 @@ import Image from '../components/image'
 import SEO from '../components/seo'
 <SEO title="Home" keywords={['gatsby', 'application', 'react']} />
 import ExtraLargeTitle from "../components/extra-large-title"
+import Panel from "../components/panel"
+import LargeTitle from "../components/large-title"
+import MediumTitle from "../components/MediumTitle"
+import LandingContent from "../components/landing-content"
+import Hr from "../components/hr"
+import BreakLine from "../components/Break-line"
+import StatContent from "../components/stats-content"
 
-<ExtraLargeTitle text={'Welcome to COP!'}/>
+<Panel title={'Easily complete forms and reports online'} imageSource={'/images/home/banner.png'} imageHeight={'264'} imageWidth={'330'} imageAlt={'transform'} paragraphText={'Move away from old spreadsheets and databases — capture and share information consistently, quickly and more accurately on a mobile-friendly platform.'}/>
+<BreakLine pixels={'50px'}/>
+<LandingContent title={'Transform the way you collect and share information'} imageSource={'/images/home/input.png'} imageHeight={'264'} imageWidth={'396'} imageAlt={'transform'}
+description={'Stop using old spreadsheets and databases to log and share critical information. Reduce duplication and capture information faster with The  Central Operations Platform (COP)'}/>
+<Hr inContent={true}/>
+<LandingContent title={'Input, track and analyse your data'} imageSource={'/images/home/transform.png'} imageHeight={'264'} imageWidth={'396'} imageAlt={'input'}
+description={'Enter information remotely, view and share analytics, spot trends and make data-driven decisions. Find out more about the benefits of using COP'}/>
+<Hr inContent={true}/>
+<StatContent title={'Used and trusted by Border Force teams'}
+paragraph={'Services already on the platform, include the ‘Mandatory Declarations’(Man Dec), ‘Immediate Event Notification’ (IEN) and ‘Operational Activity Reporting (OAR).’'} stats={[{number: '6,652', description: 'Border Force users'}, {number: '7,500+', description: 'forms and reports submitted per month '}, {number: '300+', description: 'COP visits per day '}]}/>
