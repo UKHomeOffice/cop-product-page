@@ -15,15 +15,9 @@ const Layout = ({ path, children }) => (
 );
 
 const LayoutManager = (props) => {
-  if (props.path === "/") {
+   if (props.path && !props.path.includes("/about")) {
     return (
-      <div>
-        {props.children}
-      </div>
-    );
-  } else if (props.path && !props.path.includes("/about")) {
-    return (
-      <div className="govuk-width-container main-height" style={{marginTop: '30px'}}>
+      <div >
         {props.children}
       </div>
     );
