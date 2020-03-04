@@ -23,7 +23,7 @@ const LayoutManager = (props) => {
     );
   } else if (props.path && !props.path.includes("/about")) {
     return (
-      <div className="govuk-width-container main-height">
+      <div className="govuk-width-container main-height" style={{marginTop: '30px'}}>
         {props.children}
       </div>
     );
