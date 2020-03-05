@@ -3,15 +3,15 @@ import { Link } from "gatsby";
 
 const SubNavigation = (props) => {
   const navItems = [
-    { name: "Central Operations Platform", href: "/about_sub_pages/cop" },
-    { name: "Benefits of using COP", href: "/about_sub_pages/benefits" },
-    { name: "Accessing COP", href: "/about_sub_pages/accessing" },
-    { name: "Roadmap", href: "/about_sub_pages/roadmap" },
-    { name: "Security", href: "/about_sub_pages/security" }
+    { name: "Central Operations Platform", href: "/about/cop" },
+    { name: "Benefits of using COP", href: "/about/benefits" },
+    { name: "Accessing COP", href: "/about/accessing" },
+    { name: "Roadmap", href: "/about/roadmap" },
+    { name: "Security", href: "/about/security" }
   ];
   return (<>
       <div>
-        <nav className="govuk-width-container">
+        <nav>
           <ol>
             {navItems.map((value, index) => {
               return <li

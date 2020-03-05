@@ -7,7 +7,7 @@ import BreakLine from "./Break-line";
 const StatContent = (props) => {
   const stats = props.stats;
   return (
-    <div className="govuk-width-container">
+    <div>
       <MediumTitle text={props.title}/>
       <BreakLine pixels={'50px'}/>
       <div className="govuk-grid-row">
@@ -17,12 +17,6 @@ const StatContent = (props) => {
             <Paragraph text={value.description}/>
           </div>;
         })}
-      </div>
-      <BreakLine pixels={'50px'}/>
-      <div className="govuk-grid-row">
-        <div className="govuk-grid-column-one-half">
-          <Paragraph text={props.paragraph}/>
-        </div>
       </div>
     </div>
   );

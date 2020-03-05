@@ -1,0 +1,26 @@
+import { Link } from 'gatsby'
+import Layout from '../../components/layout'
+import SEO from '../../components/seo'
+import LargeTitle from "../../components/large-title"
+import BreakLine from "../../components/Break-line"
+import "../../components/layout.css";
+import SubNavigation from "../../components/sub_navigation";
+
+<div className="govuk-width-container">
+
+<BreakLine pixels={'40px'}/>
+
+<div className="grid-row">
+
+<div className="column-one-quarter">
+<SubNavigation currentPage={props.path}/>
+</div>
+
+
+<div className="column-five-eighths">
+
+<LargeTitle text={'Services'}/>
+
+</div>
+</div>
+</div>
