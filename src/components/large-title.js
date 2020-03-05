@@ -1,9 +1,11 @@
-import React from "react"
+import React from "react";
 
 const LargeTitle = (props) => (
-  <div className="govuk-heading-l">
-    {props.text}
+  <div className="govuk-width-container">
+    <div className="govuk-heading-l">
+      {props.text}
+    </div>
   </div>
 );
 
-export default LargeTitle
+export default LargeTitle;

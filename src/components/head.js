@@ -16,7 +16,7 @@ const Head = () => (
     <link rel="apple-touch-icon" sizes="167x167" href="/images/govuk-apple-touch-icon-167x167.png"/>
     <link rel="apple-touch-icon" sizes="152x152" href="/images/govuk-apple-touch-icon-152x152.png"/>
     <link rel="apple-touch-icon" href="/images/govuk-apple-touch-icon.png"/>
-    <link href="/stylesheets/all.css" rel="stylesheet"/>
+    {/*<link href="/stylesheets/govuk-frontend-3.5.0.min.css" rel="stylesheet"/>*/}
   </Helmet>
 );
 

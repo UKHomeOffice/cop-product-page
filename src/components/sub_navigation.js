@@ -9,25 +9,26 @@ const SubNavigation = (props) => {
     { name: "Roadmap", href: "/about_sub_pages/roadmap" },
     { name: "Security", href: "/about_sub_pages/security" }
   ];
-  return (
-    <div>
-      <nav>
-        <ol>
-          {navItems.map((value, index) => {
-            return <li
-              className="sub-navigation__item"
-              key={index}>
-              <div
-                className={props.currentPage === `${value.href}/` ? "sub-navigation__item--active" : ""}>
-                <Link style={{color: "black"}} className="govuk-link subnav" to={value.href}>
-                  <span>{value.name}</span>
-                </Link>
-              </div>
-            </li>;
-          })}
-        </ol>
-      </nav>
-    </div>
+  return (<>
+      <div>
+        <nav className="govuk-width-container">
+          <ol>
+            {navItems.map((value, index) => {
+              return <li
+                className="sub-navigation__item"
+                key={index}>
+                <div
+                  className={props.currentPage === `${value.href}` ? "sub-navigation__item--active" : ""}>
+                  <Link style={{ color: "black" }} className="govuk-link subnav" to={value.href}>
+                    <span>{value.name}</span>
+                  </Link>
+                </div>
+              </li>;
+            })}
+          </ol>
+        </nav>
+      </div>
+    </>
   );
 };
 

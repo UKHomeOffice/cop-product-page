@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import { useEffect } from "react/cjs/react.production.min";
 
 const NavItems = [
   { name: "About", href: "/about_sub_pages/cop" },
@@ -18,11 +19,6 @@ const Header = (props) => {
             width: `60%`
           }}>
             <Link to="/" className="govuk-header__link govuk-header__link--homepage">
-        <span className="govuk-header__logotype">
-          <span className="govuk-header__logotype-text">
-            GOV.UK
-          </span>
-        </span>
 
               <span className="govuk-header__product-name">
           Central Operations Platform
@@ -58,10 +54,11 @@ const Header = (props) => {
                       </div>
                     </li>;
                   } else if (value.name === "About") {
+                   const a = props.currentPage && props.currentPage.includes("about_sub_pages");
                     return <li className="govuk-header__navigation-item"
                                key={index}>
                       <div
-                        className={props.currentPage && props.currentPage.includes("about_sub_pages") ? "govuk-header__navigation-item--active" : ""}>
+                        className={a ? "govuk-header__navigation-item--active" : a ? "govuk-header__navigation-item--active" : ""}>
                         <Link to={value.href} className="govuk-header__link header-nav-items">
                           {value.name}
                         </Link>

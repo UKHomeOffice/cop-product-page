@@ -3,11 +3,15 @@ import React from "react";
 const LargeParagraph = (props) => {
   if (props.isPanel) {
     return (
-      <p style={{color: 'white'}} className="govuk-body govuk-!-font-size-24">{props.text}</p>
+      <div className="govuk-width-container">
+        <p style={{ color: "white" }} className="govuk-body govuk-!-font-size-24">{props.text}</p>
+      </div>
     );
   } else {
     return (
-      <p className="govuk-body govuk-!-font-size-24">{props.text}</p>
+      <div className="govuk-width-container">
+        <p className="govuk-body govuk-!-font-size-24">{props.text}</p>
+      </div>
     );
   }
 };

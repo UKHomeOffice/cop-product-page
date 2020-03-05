@@ -15,17 +15,12 @@ const Layout = ({ path, children }) => (
 );
 
 const LayoutManager = (props) => {
-  if (props.path && !props.path.includes("/about")) {
-    return (
-      <div>
-        {props.children}
-      </div>
-    );
-  } else {
-    return (
-      <AboutPage children={props.children} path={props.path}/>
-    );
-  }
+  return (
+    <div>
+      {props.path && props.path.includes("/about_sub_pages") && (<div> <AboutPage children={props.children} path={props.path}/> </div>)}
+      {props.path && !props.path.includes("/about_sub_pages") && (<div> {props.children} </div>)}
+    </div>
+  );
 };
 
 export default Layout;

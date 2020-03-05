@@ -1,7 +1,9 @@
-import React from "react"
+import React from "react";
 
 const Paragraph = (props) => (
-  <p className="govuk-body">{props.text}</p>
+  <div className="govuk-width-container">
+    <p className="govuk-body">{props.text}</p>
+  </div>
 );
 
-export default Paragraph
+export default Paragraph;
