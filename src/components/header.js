@@ -15,7 +15,7 @@ const Header = (props) => {
         <div className="govuk-header__container govuk-width-container">
 
           <div className="govuk-header__logo" style={{
-            width: `52%`
+            width: `60%`
           }}>
             <Link to="/" className="govuk-header__link govuk-header__link--homepage">
         <span className="govuk-header__logotype">
@@ -27,12 +27,14 @@ const Header = (props) => {
               <span className="govuk-header__product-name">
           Central Operations Platform
         </span>
-
             </Link>
+            <strong className="govuk-tag govuk-phase-banner__content__tag">
+              beta
+            </strong>
           </div>
 
           <div className="govuk-header__content" style={{
-            width: `48%`
+            width: `40%`
           }}>
 
 
