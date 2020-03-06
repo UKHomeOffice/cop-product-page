@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Product Page CI
 
 on:
   push:
@@ -22,3 +22,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm test
+    - run: gatsby build
