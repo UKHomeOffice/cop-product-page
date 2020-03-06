@@ -5,6 +5,7 @@ import LargeTitle from "../../components/large-title"
 import BreakLine from "../../components/Break-line"
 import "../../components/layout.css";
 import SubNavigation from "../../components/sub_navigation";
+import MediumTitle from "../../components/MediumTitle"
 
 <div className="govuk-width-container">
 
@@ -13,13 +14,33 @@ import SubNavigation from "../../components/sub_navigation";
 <div className="grid-row">
 
 <div className="column-one-quarter">
+
 <SubNavigation currentPage={props.path}/>
+
 </div>
 
 
 <div className="column-five-eighths">
 
 <LargeTitle text={'RoadMap'}/>
+
+<p className="govuk-body">The COP roadmap shows what we want to achieve in the next 12 months.</p>
+
+<p className="govuk-body">The outcomes of the roadmap will not change during the year, though the actions we prioritise may alter as we go through the coming months.</p>
+
+<MediumTitle text={'Outcomes for the next 12 months'}/>
+
+<BreakLine pixels={'50px'}/>
+
+<div className="govuk-heading-m">What we've recently completed</div>
+
+<BreakLine pixels={'50px'}/>
+
+<MediumTitle text={'What we’re working on now'}/>
+
+<BreakLine pixels={'50px'}/>
+
+<MediumTitle text={'What we’ll do later'}/>
 
 </div>
 </div>

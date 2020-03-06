@@ -3,9 +3,9 @@ import { Link } from "gatsby";
 
 const SubNavigation = (props) => {
   const navItems = [
-    { name: "Central Operations Platform", href: "/about/cop" },
-    { name: "Benefits of using COP", href: "/about/benefits" },
-    { name: "Accessing COP", href: "/about/accessing" },
+    { name: "About COP", href: "/about/cop" },
+    { name: "Benefits of COP", href: "/about/benefits" },
+    { name: "How to use COP", href: "/about/accessing" },
     { name: "Roadmap", href: "/about/roadmap" },
     { name: "Security", href: "/about/security" }
   ];
