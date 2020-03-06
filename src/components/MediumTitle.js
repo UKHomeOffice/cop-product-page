@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
 
 const MediumTitle = (props) => (
-  <div className="govuk-heading-m">
-    {props.text}
+    <div className="govuk-heading-m">
+      {props.text}
   </div>
 );
 
-export default MediumTitle
+export default MediumTitle;

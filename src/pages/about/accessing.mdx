@@ -1,0 +1,37 @@
+import { Link } from 'gatsby'
+import Layout from '../../components/layout'
+import SEO from '../../components/seo'
+import LargeTitle from "../../components/large-title"
+import MediumTitle from "../../components/MediumTitle"
+import Paragraph from "../../components/paragraph"
+import HyperLink from "../../components/hyperlink"
+import BreakLine from "../../components/Break-line"
+import BulletList from "../../components/bullet-list"
+import Image from "../../components/image"
+import "../../components/layout.css";
+import SubNavigation from "../../components/sub_navigation";
+
+<div className="govuk-width-container">
+
+<BreakLine pixels={'40px'}/>
+
+<div className="grid-row">
+
+<div className="column-one-quarter">
+<SubNavigation currentPage={props.path}/>
+</div>
+
+
+<div className="column-five-eighths">
+
+<LargeTitle text={'Accessing COP'}/>
+
+<p className="govuk-body"> <span className="govuk-body govuk-!-font-weight-bold">NOTE:</span>  To use COP on desktop/laptop, you need a POISE account, Windows 10 and an up-to-date Edge browser. To access on iPhone and Android mobiles, you need a <span className="govuk-body govuk-!-font-weight-bold">POISE</span> account.</p>
+
+<p className="govuk-body"> Go to the COP platform to <a href="https://www.cop.homeoffice.gov.uk/" class="govuk-link">create your account.</a></p>
+
+<p className="govuk-body"> Once you’ve created your account, find how to register for the service you need on the <a href="https://training.cop.homeoffice.gov.uk/" class="govuk-link">documentation page.</a></p>
+
+</div>
+</div>
+</div>

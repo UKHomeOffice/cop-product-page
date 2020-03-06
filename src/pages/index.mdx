@@ -11,14 +11,56 @@ import LandingContent from "../components/landing-content"
 import Hr from "../components/hr"
 import BreakLine from "../components/Break-line"
 import StatContent from "../components/stats-content"
+import "../components/layout.css";
 
 <Panel title={'Easily complete forms and reports online'} imageSource={'/images/home/banner.png'} imageHeight={'264'} imageWidth={'330'} imageAlt={'transform'} paragraphText={'Move away from old spreadsheets and databases — capture and share information consistently, quickly and more accurately on a mobile-friendly platform.'}/>
+
+<div className="govuk-width-container">
+
 <BreakLine pixels={'50px'}/>
-<LandingContent title={'Transform the way you collect and share information'} imageSource={'/images/home/input.png'} imageHeight={'264'} imageWidth={'396'} imageAlt={'transform'}
-description={'Stop using old spreadsheets and databases to log and share critical information. Reduce duplication and capture information faster with The  Central Operations Platform (COP)'}/>
+
+<div className="govuk-grid-row">
+  <div className="govuk-grid-column-one-half">
+    <MediumTitle text={'Transform the way you collect and share information'}/>
+    <p className="govuk-body">'Stop using old spreadsheets and databases to log and share critical information. Reduce duplication and capture information faster with The <Link to="/about/cop" class="govuk-link">Central Operations Platform (COP)</Link>'</p>
+  </div>
+  <div className="govuk-grid-column-one-half">
+    <Image source={'/images/home/transform.png'} height={'264'} width={'396'} alt={'transform'}/>
+  </div>
+</div>
+
+
+
+
+
+
 <Hr inContent={true}/>
-<LandingContent title={'Input, track and analyse your data'} imageSource={'/images/home/transform.png'} imageHeight={'264'} imageWidth={'396'} imageAlt={'input'}
-description={'Enter information remotely, view and share analytics, spot trends and make data-driven decisions. Find out more about the benefits of using COP'}/>
+
+
+
+
+<div className="govuk-grid-row">
+  <div className="govuk-grid-column-one-half">
+    <MediumTitle text={'Input, track and analyse your data'}/>
+    <p className="govuk-body">'Enter information remotely, view and share analytics, spot trends and make data-driven decisions. Find out more about the <Link to="/about/benefits" class="govuk-link">benefits of using COP'</Link></p>
+  </div>
+  <div className="govuk-grid-column-one-half">
+    <Image source={'/images/home/input.png'} height={'264'} width={'396'} alt={'transform'}/>
+  </div>
+</div>
+
+
+
 <Hr inContent={true}/>
-<StatContent title={'Used and trusted by Border Force teams'}
-paragraph={'Services already on the platform, include the ‘Mandatory Declarations’(Man Dec), ‘Immediate Event Notification’ (IEN) and ‘Operational Activity Reporting (OAR).’'} stats={[{number: '6,652', description: 'Border Force users'}, {number: '7,500+', description: 'forms and reports submitted per month '}, {number: '300+', description: 'COP visits per day '}]}/>
+
+<StatContent title={'Used and trusted by Border Force teams'} stats={[{number: '6,652', description: 'Border Force users'}, {number: '7,500+', description: 'forms and reports submitted per month '}, {number: '300+', description: 'COP visits per day '}]}/>
+
+<div className="govuk-grid-row">
+ <div className="govuk-grid-column-one-half">
+  <p className="govuk-body">'<Link to="/about/services" class="govuk-link">Services already on the platform,</Link> include the ‘Mandatory Declarations’(Man Dec), ‘Immediate Event Notification’ (IEN) and ‘Operational Activity Reporting (OAR).'</p>
+ </div>
+</div>
+
+<BreakLine pixels={'50px'}/>
+
+</div>

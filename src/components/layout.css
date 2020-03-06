@@ -10830,6 +10830,14 @@ table caption {
     }
 }
 
+.govuk-header__navigation-item--active div:hover, .govuk-header__navigation-item--active div:link, .govuk-header__navigation-item--active div:visited {
+    color: #1d8feb
+}
+
+.govuk-header__navigation-item--active div:focus {
+    color: #0b0c0c
+}
+
 .govuk-header__navigation-item--active a:hover, .govuk-header__navigation-item--active a:link, .govuk-header__navigation-item--active a:visited {
     color: #1d8feb
 }

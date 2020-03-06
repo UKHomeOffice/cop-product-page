@@ -16,10 +16,10 @@ describe("Header", () => {
     expect(testInstance.findByProps({className: "govuk-header__product-name"}).children).toEqual(['Central Operations Platform']);
   });
 
-  it("displays the GOV.UK text/ logo", () => {
+  it("displays beta tag", () => {
     const tree = renderer
       .create(<Header/>);
     const testInstance = tree.root;
-    expect(testInstance.findByProps({className: "govuk-header__logotype-text"}).children).toEqual(['GOV.UK']);
+    expect(testInstance.findByProps({className: "govuk-tag govuk-phase-banner__content__tag"}).children).toEqual(['beta']);
   });
 });

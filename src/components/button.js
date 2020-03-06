@@ -6,11 +6,9 @@ const Button = (props) => {
     console.log(blah)
   }
   return (
-    <div>
       <button onClick={event => handler(event, "is clicked")} className="govuk-button" data-module="govuk-button">
         {props.text}
       </button>
-    </div>
   )
 }
 

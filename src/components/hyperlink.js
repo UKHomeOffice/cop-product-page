@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 
 const HyperLink = (props) => (
-  <a href={props.href} className="govuk-link">{props.text}</a>
+    <a href={props.href} className="govuk-link">{props.text}</a>
 );
 
-export default HyperLink
+export default HyperLink;

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 const NavItems = [
-  { name: "About", href: "/about_sub_pages/cop" },
+  { name: "About", href: "/about/cop" },
   { name: "Documentation", href: "https://training.cop.homeoffice.gov.uk/" },
   { name: "Sign-in", href: "https://www.cop.homeoffice.gov.uk/" }
 ];
@@ -15,24 +15,21 @@ const Header = (props) => {
         <div className="govuk-header__container govuk-width-container">
 
           <div className="govuk-header__logo" style={{
-            width: `52%`
+            width: `60%`
           }}>
             <Link to="/" className="govuk-header__link govuk-header__link--homepage">
-        <span className="govuk-header__logotype">
-          <span className="govuk-header__logotype-text">
-            GOV.UK
-          </span>
-        </span>
 
               <span className="govuk-header__product-name">
           Central Operations Platform
         </span>
-
             </Link>
+            <strong className="govuk-tag govuk-phase-banner__content__tag">
+              beta
+            </strong>
           </div>
 
           <div className="govuk-header__content" style={{
-            width: `48%`
+            width: `40%`
           }}>
 
 
@@ -49,17 +46,18 @@ const Header = (props) => {
                     return <li className="govuk-header__navigation-item"
                                key={index}>
                       <div
-                        className={props.currentPage === `${value.href}/` ? "govuk-header__navigation-item--active" : ""}>
+                        className={props.currentPage === `${value.href}` ? "govuk-header__navigation-item--active" : ""}>
                         <a href={value.href} className="govuk-header__link header-nav-items">
                           {value.name}
                         </a>
                       </div>
                     </li>;
                   } else if (value.name === "About") {
+                   const a = props.currentPage && props.currentPage.includes("about");
                     return <li className="govuk-header__navigation-item"
                                key={index}>
                       <div
-                        className={props.currentPage && props.currentPage.includes("about_sub_pages") ? "govuk-header__navigation-item--active" : ""}>
+                        className={a ? "govuk-header__navigation-item--active" : a ? "govuk-header__navigation-item--active" : ""}>
                         <Link to={value.href} className="govuk-header__link header-nav-items">
                           {value.name}
                         </Link>
@@ -69,7 +67,7 @@ const Header = (props) => {
                     return <li className="govuk-header__navigation-item"
                                key={index}>
                       <div
-                        className={props.currentPage === `${value.href}/` ? "govuk-header__navigation-item--active" : ""}>
+                        className={props.currentPage === `${value.href}` ? "govuk-header__navigation-item--active" : ""}>
                         <Link to={value.href} className="govuk-header__link header-nav-items">
                           {value.name}
                         </Link>

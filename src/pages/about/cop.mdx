@@ -1,5 +1,6 @@
 import { Link } from 'gatsby'
 import Layout from '../../components/layout'
+import "../../components/layout.css";
 import SEO from '../../components/seo'
 import LargeTitle from "../../components/large-title"
 import MediumTitle from "../../components/MediumTitle"
@@ -7,8 +8,20 @@ import Paragraph from "../../components/paragraph"
 import HyperLink from "../../components/hyperlink"
 import BreakLine from "../../components/Break-line"
 import BulletList from "../../components/bullet-list"
+import SubNavigation from "../../components/sub_navigation";
 
-<BreakLine pixels={'10px'}/>
+<div className="govuk-width-container">
+
+<BreakLine pixels={'40px'}/>
+
+<div className="grid-row">
+
+<div className="column-one-quarter">
+<SubNavigation currentPage={props.path}/>
+</div>
+
+
+<div className="column-five-eighths">
 
 <LargeTitle text={'Central Operations Platform'}/>
 
@@ -33,5 +46,6 @@ import BulletList from "../../components/bullet-list"
 <BulletList list={['Cash Detection', 'CT Referral', 'Immediate Event Notification (IEN)',
  'Intelligence Workflow', 'Mandatory Declarations (Man Dec)',
   'Operational Activity Reporting (OAR)', 'Use of Force',]}/>
-
-
+</div>
+</div>
+</div>
