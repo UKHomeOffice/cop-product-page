@@ -2,7 +2,7 @@ name: Product Page deploy
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ CP-12 ]
 
 jobs:
   build:
@@ -23,7 +23,7 @@ jobs:
     - run: npm test
     - run: npm run build
 
-    steps:
+
     # Invalidate Cloudfront (this action)
     - name: invalidate
       uses: chetan/invalidate-cloudfront-action@master
