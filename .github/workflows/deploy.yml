@@ -2,7 +2,7 @@ name: Product Page deploy
 
 on:
   push:
-    branches: [ CP-12 ]
+    branches: [ develop ]
 
 jobs:
   build:
