@@ -23,9 +23,9 @@ jobs:
     - run: npm test
     - run: npm run build
 
+    # Deploy to S3
     - name: Deploy to S3
-    - uses: actions/checkout@master
-    - uses: jakejarvis/s3-sync-action@master
+      uses: jakejarvis/s3-sync-action@master
       with:
         args: --follow-symlinks --delete
       env:
