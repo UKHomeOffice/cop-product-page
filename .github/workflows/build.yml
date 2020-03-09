@@ -1,8 +1,6 @@
-name: Node.js CI
+name: Product Page CI
 
 on:
-  push:
-    branches: [ develop ]
   pull_request:
 
 jobs:
@@ -22,3 +20,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm test
+    - run: npm run build
