@@ -10,35 +10,46 @@ const NavItems = [
 ];
 
 const Header = () => {
+  const showMobileButton = () => {
+    let menuButton = document.getElementById("menuButton");
+    let navigation = document.getElementById("navigation");
+
+    if (!menuButton.classList.contains("govuk-header__menu-button--open")) {
+      menuButton.classList.add("govuk-header__menu-button--open");
+      navigation.classList.add("govuk-header__navigation--open");
+      menuButton.setAttribute("aria-expanded", "true");
+      navigation.setAttribute("aria-hidden", "false");
+    } else {
+      menuButton.classList.remove("govuk-header__menu-button--open");
+      navigation.classList.remove("govuk-header__navigation--open");
+      menuButton.setAttribute("aria-expanded", "false");
+      navigation.setAttribute("aria-hidden", "true");
+    }
+  };
   return (
     <>
       <header className="govuk-header " role="banner" data-module="header">
         <div className="govuk-header__container govuk-width-container">
 
-          <div className="govuk-header__logo" style={{
-            width: `60%`
-          }}>
-            <Link to="/" className="govuk-header__link govuk-header__link--homepage">
+          <div className="govuk-header__logo">
+            <a href="/" className="govuk-header__link govuk-header__link--homepage">
 
               <span className="govuk-header__product-name">
-          Central Operations Platform
+            Common Operations Platform
         </span>
-            </Link>
+
+            </a>
             <strong className="govuk-tag govuk-phase-banner__content__tag">
               beta
             </strong>
           </div>
-
-          <div className="govuk-header__content" style={{
-            width: `40%`
-          }}>
+          <div className="govuk-header__content">
 
 
-            <button type="button" className="govuk-header__menu-button js-header-toggle"
-                    aria-controls="navigation" aria-label="Show or hide Top Level Navigation">Menu
+            <button id="menuButton" type="button" role="button" className="govuk-header__menu-button js-header-toggle"
+                    aria-controls="navigation" aria-label="Show or hide Top Level Navigation"
+                    onClick={() => showMobileButton()} onKeyPress={() => showMobileButton()}>Menu
             </button>
-
-
             <nav>
               <ul id="navigation" className="govuk-header__navigation govuk-header__navigation--end"
                   aria-label="Top Level Navigation">
@@ -70,7 +81,9 @@ const Header = () => {
                 })}
               </ul>
             </nav>
+
           </div>
+
         </div>
       </header>
     </>
