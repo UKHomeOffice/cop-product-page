@@ -58,58 +58,42 @@ exports[`Header renders correctly 1`] = `
           <li
             className="govuk-header__navigation-item"
           >
-            <div
-              className=""
+            <a
+              className="govuk-header__link header-nav-items"
+              href="/about/"
             >
-              <a
-                className="govuk-header__link header-nav-items"
-                href="/about/cop"
-              >
-                About
-              </a>
-            </div>
+              About
+            </a>
           </li>
           <li
             className="govuk-header__navigation-item"
           >
-            <div
-              className=""
+            <a
+              className="govuk-header__link header-nav-items"
+              href="https://training.cop.homeoffice.gov.uk/"
             >
-              <a
-                className="govuk-header__link header-nav-items"
-                href="https://training.cop.homeoffice.gov.uk/"
-              >
-                How to
-              </a>
-            </div>
+              How to
+            </a>
           </li>
           <li
             className="govuk-header__navigation-item"
           >
-            <div
-              className=""
+            <a
+              className="govuk-header__link header-nav-items"
+              href="/support/"
             >
-              <a
-                className="govuk-header__link header-nav-items"
-                href="/support"
-              >
-                Support
-              </a>
-            </div>
+              Support
+            </a>
           </li>
           <li
             className="govuk-header__navigation-item"
           >
-            <div
-              className=""
+            <a
+              className="govuk-header__link header-nav-items"
+              href="https://www.cop.homeoffice.gov.uk/"
             >
-              <a
-                className="govuk-header__link header-nav-items"
-                href="https://www.cop.homeoffice.gov.uk/"
-              >
-                Sign-in
-              </a>
-            </div>
+              Sign-in
+            </a>
           </li>
         </ul>
       </nav>
