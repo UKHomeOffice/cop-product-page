@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 import React from "react";
 
 const NavItems = [
-  { name: "About", href: "/about/cop" },
+  { name: "About", href: "/about/" },
   { name: "How to", href: "https://training.cop.homeoffice.gov.uk/" },
-  { name: "Support", href: "/support" },
+  { name: "Support", href: "/support/" },
   { name: "Sign-in", href: "https://www.cop.homeoffice.gov.uk/" }
 ];
 
-const Header = (props) => {
+const Header = () => {
   return (
     <>
       <header className="govuk-header " role="banner" data-module="header">
@@ -46,33 +46,25 @@ const Header = (props) => {
                   if (value.name === "How to" || value.name === "Sign-in") {
                     return <li className="govuk-header__navigation-item"
                                key={index}>
-                      <div
-                        className={props.currentPage === `${value.href}` ? "govuk-header__navigation-item--active" : ""}>
-                        <a href={value.href} className="govuk-header__link header-nav-items">
-                          {value.name}
-                        </a>
-                      </div>
+                      <a href={value.href} className="govuk-header__link header-nav-items">
+                        {value.name}
+                      </a>
                     </li>;
                   } else if (value.name === "About") {
-                   const a = props.currentPage && props.currentPage.includes("about");
                     return <li className="govuk-header__navigation-item"
                                key={index}>
-                      <div
-                        className={a ? "govuk-header__navigation-item--active" : a ? "govuk-header__navigation-item--active" : ""}>
-                        <Link to={value.href} className="govuk-header__link header-nav-items">
-                          {value.name}
-                        </Link>
-                      </div>
+                      <Link to={value.href} partiallyActive={true} activeStyle={{ color: "#1d8feb" }}
+                            className="govuk-header__link header-nav-items">
+                        {value.name}
+                      </Link>
                     </li>;
                   } else {
                     return <li className="govuk-header__navigation-item"
                                key={index}>
-                      <div
-                        className={props.currentPage === `${value.href}` ? "govuk-header__navigation-item--active" : ""}>
-                        <Link to={value.href} className="govuk-header__link header-nav-items">
-                          {value.name}
-                        </Link>
-                      </div>
+                      <Link to={value.href} activeStyle={{ color: "#1d8feb" }}
+                            className="govuk-header__link header-nav-items">
+                        {value.name}
+                      </Link>
                     </li>;
                   }
                 })}

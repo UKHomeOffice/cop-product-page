@@ -7,7 +7,7 @@ import Head from "./head";
 const Layout = ({ path, children }) => (
   <>
     <Head/>
-    <Header currentPage={path} isLandingPage={true}/>
+    <Header/>
     {children}
     <Footer/>
   </>

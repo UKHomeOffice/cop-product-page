@@ -12,7 +12,7 @@ const Panel = (props) => (
           <ExtraLargeTitle isPanel={true} text={props.title}/>
           <LargeParagraph isPanel={true} text={props.paragraphText}/>
           <div className="button-container">
-            <Link to="/about/cop" role="button" draggable="false"
+            <Link to="/about/" role="button" draggable="false"
                className="govuk-button product-page-button button-container__button govuk-!-margin-right-3">
               Find out more
             </Link>
