@@ -34,9 +34,7 @@ const Header = () => {
           <div className="govuk-header__logo">
             <a href="/" className="govuk-header__link govuk-header__link--homepage">
 
-              <span className="govuk-header__product-name">
-            Common Operations Platform
-        </span>
+              <span className="govuk-header__product-name">Central Operations Platform</span>
 
             </a>
             <strong className="govuk-tag govuk-phase-banner__content__tag">
