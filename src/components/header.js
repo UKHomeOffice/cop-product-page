@@ -1,6 +1,8 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import Image from "./image";
+import Logo from "./logo";
 
 const NavItems = [
   { name: "About", href: "/about/" },
@@ -33,11 +35,15 @@ const Header = () => {
 
           <div className="govuk-header__logo">
             <Link to="/" className="govuk-header__link govuk-header__link--homepage">
+                      <span className="cop-logo">
+                        <Logo source={"/images/logo.png"}/>
+                        </span>
               <span className="govuk-header__product-name">Central Operations Platform</span>
 
               <strong className="govuk-tag govuk-phase-banner__content__tag">
                 beta
               </strong>
+
             </Link>
           </div>
           <div className="govuk-header__content">
