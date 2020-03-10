@@ -18035,12 +18035,14 @@ details .arrow {
     white-space: nowrap
 }
 
-.heading-upcoming-jobs {
-    margin-top: 15px
+.homepage-content-margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .gov-hr {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     border: solid 1px #bbbdbf;
 }
+

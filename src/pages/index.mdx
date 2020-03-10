@@ -12,8 +12,9 @@ import Hr from "../components/hr"
 import BreakLine from "../components/Break-line"
 import StatContent from "../components/stats-content"
 import "../components/layout.css";
+import BulletList from "../components/bullet-list"
 
-<Panel title={'Easily complete forms and reports online'} imageSource={'/images/home/banner.png'} imageHeight={'264'} imageWidth={'330'} imageAlt={'transform'} paragraphText={'Move away from old spreadsheets and databases — capture and share information consistently, quickly and more accurately on a mobile-friendly platform.'}/>
+<Panel title={'Easily complete forms and reports online'} imageSource={'/images/home/banner.png'} imageAlt={'transform'} paragraphText={'The Central Operations Platform (COP) — a better way to log and manage information.'}/>
 
 <div className="govuk-width-container">
 
@@ -21,27 +22,35 @@ import "../components/layout.css";
 
 <div className="govuk-grid-row">
   <div className="govuk-grid-column-one-half">
-    <MediumTitle text={'Transform the way you collect and share information'}/>
-    <p style={{marginBottom: '40px'}} className="govuk-body">'Stop using old spreadsheets and databases to log and share critical information. Reduce duplication and capture information faster with The <Link to="/about/" class="govuk-link">Central Operations Platform (COP)</Link>'</p>
+    <MediumTitle text={'Services currently on COP'}/>
+    <p className="govuk-body">The services already on mobile-friendly COP platform include:</p>
+    <BulletList list={['Cash Detection', 'CT Referral', 'Immediate Event Notification (IEN)', 'Intelligence Workflow', 'Mandatory Declarations (Man Dec)', 'Operational Activity Reporting (OAR)', 'Use of Force']}/>
+    <p className="govuk-body">If you want to find out more about these services, or how to use them, go to our <a href="https://training.cop.homeoffice.gov.uk/" class="govuk-link">'Resources' section.</a></p>
   </div>
   <div className="govuk-grid-column-one-half">
-    <Image source={'/images/home/transform.png'} alt={'transform'}/>
+    <Image source={'/images/home/group-20.png'} alt={'transform'}/>
   </div>
 </div>
 
 <Hr inContent={true}/>
 
-<div className="govuk-grid-row">
+<div className="govuk-grid-row homepage-content-margin">
   <div className="govuk-grid-column-one-half">
-    <MediumTitle text={'Input, track and analyse your data'}/>
-    <p style={{marginBottom: '40px'}} className="govuk-body">'Enter information remotely, view and share analytics, spot trends and make data-driven decisions. Find out more about the <Link to="/about/benefits" class="govuk-link">benefits of using COP'</Link></p>
-  </div>
-  <div className="govuk-grid-column-one-half">
-    <Image source={'/images/home/input.png'} alt={'transform'}/>
+    <MediumTitle text={'How COP helps you input, track and analyse information'}/>
   </div>
 </div>
 
+<div style={{marginLeft: '20px'}} className="govuk-grid-row homepage-content-margin">
+  <div className="govuk-grid-column-two-thirds">
+    <Image source={'/images/home/group-5.png'} alt={'transform'}/>
+  </div>
+</div>
 
+<div className="govuk-grid-row homepage-content-margin">
+  <div className="govuk-grid-column-one-half">
+    <p className="govuk-body">COP provides analytics and trends that allow your organisation to make data-driven decisions. Find out how the information fed into COP <Link to="/about/#services" class="govuk-link">helps your work</Link></p>
+  </div>
+</div>
 
 <Hr inContent={true}/>
 
@@ -49,7 +58,7 @@ import "../components/layout.css";
 
 <div className="govuk-grid-row">
  <div className="govuk-grid-column-one-half">
-  <p className="govuk-body">'<Link to="/about/#services" class="govuk-link">Services already on the platform,</Link> include the ‘Mandatory Declarations’(Man Dec), ‘Immediate Event Notification’ (IEN) and ‘Operational Activity Reporting (OAR).'</p>
+  <p className="govuk-body">Learn <Link to="/about/#services" class="govuk-link">how COP is reducing work</Link> and capturing information faster and better. And watch how COP has made the <Link to="/about/#services" class="govuk-link">work of Border Force staff easier.</Link></p>
  </div>
 </div>
 
