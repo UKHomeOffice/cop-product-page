@@ -32,14 +32,13 @@ const Header = () => {
         <div className="govuk-header__container govuk-width-container">
 
           <div className="govuk-header__logo">
-            <a href="/" className="govuk-header__link govuk-header__link--homepage">
-
+            <Link to="/" className="govuk-header__link govuk-header__link--homepage">
               <span className="govuk-header__product-name">Central Operations Platform</span>
 
-            </a>
-            <strong className="govuk-tag govuk-phase-banner__content__tag">
-              beta
-            </strong>
+              <strong className="govuk-tag govuk-phase-banner__content__tag">
+                beta
+              </strong>
+            </Link>
           </div>
           <div className="govuk-header__content">
 

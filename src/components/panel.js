@@ -11,7 +11,7 @@ const Panel = (props) => (
         <div className="govuk-grid-column-two-thirds">
           <ExtraLargeTitle isPanel={true} text={props.title}/>
           <LargeParagraph isPanel={true} text={props.paragraphText}/>
-          <div className="button-container">
+          <div className="button-container" style={{marginBottom: '10px'}}>
             <Link to="/about/" role="button" draggable="false"
                className="govuk-button product-page-button button-container__button govuk-!-margin-right-3">
               Find out more
@@ -20,7 +20,7 @@ const Panel = (props) => (
           </div>
         </div>
         <div className="govuk-grid-column-one-third">
-          <Image source={props.imageSource} height={props.imageHeight} width={props.imageWidth} alt={props.imageAlt}/>
+          <Image source={props.imageSource} alt={props.imageAlt}/>
         </div>
       </div>
     </div>
