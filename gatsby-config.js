@@ -43,6 +43,14 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '4',
+        matomoUrl: 'https://matomo.cop.homeoffice.gov.uk/',
+        siteUrl: 'https://d1sbsc8gpwdy90.cloudfront.net/'
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
