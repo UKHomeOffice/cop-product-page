@@ -17,6 +17,7 @@ const Head = () => (
     <link rel="apple-touch-icon" sizes="152x152" href="/images/govuk-apple-touch-icon-152x152.png"/>
     <link rel="apple-touch-icon" href="/images/govuk-apple-touch-icon.png"/>
     {/*<link href="/stylesheets/govuk-frontend-3.5.0.min.css" rel="stylesheet"/>*/}
+    <body className="js-enabled govuk-template__body govuk-main-wrapper--auto-spacing " />
   </Helmet>
 );
 

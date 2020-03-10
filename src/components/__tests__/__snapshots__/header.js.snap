@@ -11,11 +11,6 @@ exports[`Header renders correctly 1`] = `
   >
     <div
       className="govuk-header__logo"
-      style={
-        Object {
-          "width": "60%",
-        }
-      }
     >
       <a
         className="govuk-header__link govuk-header__link--homepage"
@@ -35,16 +30,15 @@ exports[`Header renders correctly 1`] = `
     </div>
     <div
       className="govuk-header__content"
-      style={
-        Object {
-          "width": "40%",
-        }
-      }
     >
       <button
         aria-controls="navigation"
         aria-label="Show or hide Top Level Navigation"
         className="govuk-header__menu-button js-header-toggle"
+        id="menuButton"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
         type="button"
       >
         Menu
