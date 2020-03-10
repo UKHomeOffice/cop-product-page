@@ -17,15 +17,24 @@ exports[`Header renders correctly 1`] = `
         href="/"
       >
         <span
+          className="cop-logo"
+        >
+          <img
+            height="30px"
+            src="/images/logo.png"
+            style={
+              Object {
+                "marginBottom": "-4px",
+              }
+            }
+            width="49px"
+          />
+        </span>
+        <span
           className="govuk-header__product-name"
         >
           Central Operations Platform
         </span>
-        <strong
-          className="govuk-tag govuk-phase-banner__content__tag"
-        >
-          beta
-        </strong>
       </a>
     </div>
     <div
@@ -66,7 +75,7 @@ exports[`Header renders correctly 1`] = `
               className="govuk-header__link header-nav-items"
               href="https://training.cop.homeoffice.gov.uk/"
             >
-              How to
+              Resources
             </a>
           </li>
           <li

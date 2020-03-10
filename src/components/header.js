@@ -1,10 +1,12 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import Image from "./image";
+import Logo from "./logo";
 
 const NavItems = [
   { name: "About", href: "/about/" },
-  { name: "How to", href: "https://training.cop.homeoffice.gov.uk/" },
+  { name: "Resources", href: "https://training.cop.homeoffice.gov.uk/" },
   { name: "Support", href: "/support/" },
   { name: "Sign-in", href: "https://www.cop.homeoffice.gov.uk/" }
 ];
@@ -33,11 +35,10 @@ const Header = () => {
 
           <div className="govuk-header__logo">
             <Link to="/" className="govuk-header__link govuk-header__link--homepage">
+                      <span className="cop-logo">
+                        <Logo source={"/images/logo.png"}/>
+                        </span>
               <span className="govuk-header__product-name">Central Operations Platform</span>
-
-              <strong className="govuk-tag govuk-phase-banner__content__tag">
-                beta
-              </strong>
             </Link>
           </div>
           <div className="govuk-header__content">
@@ -51,7 +52,7 @@ const Header = () => {
               <ul id="navigation" className="govuk-header__navigation govuk-header__navigation--end"
                   aria-label="Top Level Navigation">
                 {NavItems.map((value, index) => {
-                  if (value.name === "How to" || value.name === "Sign-in") {
+                  if (value.name === "Resources" || value.name === "Sign-in") {
                     return <li className="govuk-header__navigation-item"
                                key={index}>
                       <a href={value.href} className="govuk-header__link header-nav-items">
