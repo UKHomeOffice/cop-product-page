@@ -6,12 +6,12 @@ import { Link } from "gatsby";
 
 const Panel = (props) => (
   <div className="govuk-panel">
-    <div className="govuk-width-container" style={{ marginTop: "50px" }}>
+    <div className="govuk-width-container" style={{ marginTop: "20px" }}>
       <div className="govuk-grid-row">
         <div className="govuk-grid-column-two-thirds">
           <ExtraLargeTitle isPanel={true} text={props.title}/>
           <LargeParagraph isPanel={true} text={props.paragraphText}/>
-          <div className="button-container" style={{marginBottom: '10px'}}>
+          <div className="button-container" style={{marginBottom: '20px'}}>
             <Link to="/about/" role="button" draggable="false"
                className="govuk-button product-page-button button-container__button govuk-!-margin-right-3">
               Find out more
