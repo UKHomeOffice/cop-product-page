@@ -3840,7 +3840,7 @@ html, body {
     border: 5px solid transparent;
     position: relative;
     margin: -10px 0px 0px 0px;
-    padding: 0 0 50px 0;
+    padding: 0 0 10px 0;
     background: #005ea5;
     color: #fff !important;
 }
@@ -4039,7 +4039,8 @@ html, body {
 }
 
 .govuk-phase-banner__content__tag {
-    margin-left: 5px
+    margin-top: 5px;
+    margin-right: 5px
 }
 
 .govuk-phase-banner__text {

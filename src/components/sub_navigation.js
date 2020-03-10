@@ -10,7 +10,7 @@ const SubNavigation = (props) => {
     { name: "Security", href: "/about/security/" }
   ];
   return (<>
-      <div>
+      <div style={{marginBottom: '30px'}}>
         <nav>
           <ol>
             {navItems.map((value, index) => {

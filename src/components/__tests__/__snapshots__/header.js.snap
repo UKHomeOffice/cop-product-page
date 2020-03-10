@@ -21,12 +21,12 @@ exports[`Header renders correctly 1`] = `
         >
           Central Operations Platform
         </span>
+        <strong
+          className="govuk-tag govuk-phase-banner__content__tag"
+        >
+          beta
+        </strong>
       </a>
-      <strong
-        className="govuk-tag govuk-phase-banner__content__tag"
-      >
-        beta
-      </strong>
     </div>
     <div
       className="govuk-header__content"
