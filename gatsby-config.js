@@ -46,8 +46,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-matomo',
       options: {
-        siteId: '4',
-        matomoUrl: 'https://matomo.cop.homeoffice.gov.uk/',
+        siteId: '1',
+        matomoUrl: 'https://matomo.dev.cop.homeoffice.gov.uk/',
         siteUrl: 'https://d1sbsc8gpwdy90.cloudfront.net/'
       }
     }
