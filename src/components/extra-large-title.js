@@ -3,7 +3,7 @@ import React from "react";
 const ExtraLargeTitle = (props) => {
   if (props.isPanel) {
     return (
-        <h1 style={{ color: "white" }} className="govuk-heading-xl">
+        <h1 style={{ color: "white" }} className="govuk-heading-xl panel-heading">
           {props.text}
         </h1>
     );
