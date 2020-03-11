@@ -1,9 +1,9 @@
 import React from "react";
 
 const LargeTitle = (props) => (
-    <div className="govuk-heading-l">
+    <h2 className="govuk-heading-l">
       {props.text}
-  </div>
+  </h2>
 );
 
 export default LargeTitle;
