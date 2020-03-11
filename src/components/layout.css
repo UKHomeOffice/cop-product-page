@@ -11,7 +11,7 @@ html, body {
 
 @font-face {
     font-family: "GDS Transport";
-    src: url("/fonts/light-94a07e06a1-v2.woff2") format("woff2"), url("/fonts/light-f591b13f7d-v2.woff") format("woff");
+    src: url("/fonts/light-94a07e06a1-v2.woff2") format("woff2"), url("/fonts/light-fc591b13f7d-v2.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: fallback
@@ -18050,3 +18050,18 @@ details .arrow {
     margin-right: 6px;
 }
 
+.youtube-responsive-container {
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+}
+
+.youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
