@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 
 const Panel = (props) => (
   <div className="govuk-panel">
-    <div className="govuk-width-container" style={{ marginTop: "20px" }}>
+    <div className="govuk-width-container" style={{ marginTop: "30px" }}>
       <div className="govuk-grid-row">
         <div className="govuk-grid-column-two-thirds">
           <ExtraLargeTitle isPanel={true} text={props.title}/>
