@@ -6,6 +6,7 @@ import BreakLine from "../../components/Break-line"
 import "../../components/layout.css";
 import SubNavigation from "../../components/sub_navigation";
 import MediumTitle from "../../components/MediumTitle"
+import BulletList from "../../components/bullet-list"
 
 <div className="govuk-width-container">
 
@@ -28,20 +29,29 @@ import MediumTitle from "../../components/MediumTitle"
 
 <p className="govuk-body">The outcomes of the roadmap will not change during the year, though the actions we prioritise may alter as we go through the coming months.</p>
 
-<MediumTitle text={'Outcomes for the next 12 months'}/>
+<h4 className="govuk-heading-s">Outcome 1: Make life easier for frontline staff</h4>
 
-<BreakLine pixels={'50px'}/>
+<p className="govuk-body">We will analyse whether we’re meeting this outcome by looking at the:</p>
 
-<h3 className="govuk-heading-m">What we've recently completed</h3>
+<BulletList list={['Number of people that use COP','User satisfaction','Number of forms and reports submitted','Services on the platform']}/>
 
-<BreakLine pixels={'50px'}/>
 
-<MediumTitle text={'What we’re working on now'}/>
 
-<BreakLine pixels={'50px'}/>
 
-<MediumTitle text={'What we’ll do later'}/>
+
+<h4 className="govuk-heading-s">Outcome 2: Enable Border Force to make data-driven decisions</h4>
+
+<p className="govuk-body">We will analyse whether we’re meeting this outcome by looking at the:</p>
+
+<BulletList list={['Availability of data','Speed of data']}/>
+
+<h4 className="govuk-heading-s">Outcome 3: Make the platform resilient and flexible</h4>
+
+<p className="govuk-body">We will analyse whether we’re meeting this outcome by looking at the:</p>
+
+<BulletList list={['Services on the platform', 'Speed in which new services are added', 'Uptime']}/>
 
 </div>
 </div>
 </div>
+
