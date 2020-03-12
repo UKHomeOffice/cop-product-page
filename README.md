@@ -55,16 +55,6 @@ Link to each component to get an idea of how they are written in JSX
 Please feel free to create new components if needed in the future.
 
 
-## Frontend Dependencies
-
-[Gatsby.js](), [React](), [Matomo]() are included using [NPM] and bundled in
-on build. You can include more [NPM] modules easily by installing them as a
-dependency and including paths to them. 
-
-Running `npm install` will install these packages as they are states within the package.json.
-
-[GOV.UK Frontend asset files]() has been imported manually.
-
 ## Running Example Locally
 
 If you wish to run the example in your own browser, you'll need to run the
@@ -76,6 +66,15 @@ following commands from the root of this project: (Note: npm must be installed)
 - `gatsby build` - to build the static site
 - `gatsby serve` - to start the server and view the static site (localhost:9000)
 
+## Frontend Dependencies
+
+[Gatsby.js](), [React](), [Matomo]() are included using [NPM] and bundled in
+on build. You can include more [NPM] modules easily by installing them as a
+dependency and including paths to them. 
+
+Running `npm install` will install these packages as they are stated within the package.json.
+
+[GOV.UK Frontend asset files]() has been imported manually.
 
 ### Matomo plugin
 Matomo plugin is used in this site. By looking at the [gatsby-config.js]() file you will be able to change the config data within the matomo plugin.
