@@ -39,9 +39,6 @@ const Header = () => {
                         <Logo source={"/images/logo.png"}/>
                         </span>
               <span className="govuk-header__product-name">Central Operations Platform</span>
-              <strong className="govuk-tag govuk-phase-banner__content__tag">
-                beta
-              </strong>
             </Link>
           </div>
           <div className="govuk-header__content">
