@@ -8042,7 +8042,7 @@ li code, td code, p code {
 }
 
 .main-height {
-    min-height: 400px;
+    min-height: 60vh;
 }
 
 .govuk-header__logotype-text {
