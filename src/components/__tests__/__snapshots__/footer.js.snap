@@ -14,65 +14,93 @@ exports[`Footer renders correctly 1`] = `
     className="govuk-width-container "
   >
     <div
+      className="govuk-footer__navigation"
+    >
+      <div
+        className="govuk-footer__section"
+      >
+        <ul
+          className="govuk-footer__list govuk-footer__list--columns-2"
+        >
+          <li
+            className="govuk-footer__list-item"
+          >
+            <a
+              className="govuk-footer__link"
+              href="https://cop.statuspage.io/"
+              target="_blank"
+            >
+              System Status
+            </a>
+          </li>
+          <li
+            className="govuk-footer__list-item"
+          >
+            <a
+              className="govuk-footer__link"
+              href="/support/"
+            >
+              Support
+            </a>
+          </li>
+          <li
+            className="govuk-footer__list-item"
+          >
+            <a
+              className="govuk-footer__link"
+              href="http://www.refdata.gov.uk/"
+              target="_blank"
+            >
+              Refdata
+            </a>
+          </li>
+          <li
+            className="govuk-footer__list-item"
+          >
+            <a
+              className="govuk-footer__link"
+              href="https://training.cop.homeoffice.gov.uk/#cop"
+            >
+              Resources
+            </a>
+          </li>
+          <li
+            className="govuk-footer__list-item"
+          >
+            <a
+              className="govuk-footer__link"
+              href=""
+            >
+              Accessibility
+            </a>
+          </li>
+          <li
+            className="govuk-footer__list-item"
+          >
+            <a
+              className="govuk-footer__link"
+              href=""
+            >
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr
+      className="govuk-footer__section-break"
+    />
+    <div
       className="govuk-footer__meta"
     >
       <div
         className="govuk-footer__meta-item govuk-footer__meta-item--grow"
       >
-        <h2
-          className="govuk-visually-hidden"
-        >
-          Support links
-        </h2>
-        <ul
-          className="govuk-footer__inline-list"
-        >
-          <li
-            className="govuk-footer__inline-list-item"
-          >
-            <a
-              className="govuk-footer__link"
-              href="#1"
-            >
-              Help
-            </a>
-          </li>
-          <li
-            className="govuk-footer__inline-list-item"
-          >
-            <a
-              className="govuk-footer__link"
-              href="#2"
-            >
-              Cookies
-            </a>
-          </li>
-          <li
-            className="govuk-footer__inline-list-item"
-          >
-            <a
-              className="govuk-footer__link"
-              href="#3"
-            >
-              Contact
-            </a>
-          </li>
-          <li
-            className="govuk-footer__inline-list-item"
-          >
-            <a
-              className="govuk-footer__link"
-              href="#4"
-            >
-              Terms and conditions
-            </a>
-          </li>
-        </ul>
         <svg
+          aria-hidden="true"
           className="govuk-footer__licence-logo"
           focusable="false"
           height="17"
-          role="presentation"
           viewBox="0 0 483.2 195.7"
           width="41"
           xmlns="http://www.w3.org/2000/svg"
