@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create paragraph renders correctly 1`] = `
+<p
+  className="govuk-body"
+/>
+`;
