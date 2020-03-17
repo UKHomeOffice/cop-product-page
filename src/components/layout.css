@@ -18056,7 +18056,7 @@ details .arrow {
     margin-right: 6px;
 }
 
-.youtube-responsive-container {
+.responsive-video {
     position:relative;
     padding-bottom:56.25%;
     padding-top:30px;
@@ -18064,7 +18064,7 @@ details .arrow {
     overflow:hidden;
 }
 
-.youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
+.responsive-video video {
     position:absolute;
     top:0;
     left:0;
