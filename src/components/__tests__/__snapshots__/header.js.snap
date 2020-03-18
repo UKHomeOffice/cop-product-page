@@ -68,6 +68,16 @@ exports[`Header renders correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
+              href="/"
+            >
+              COP
+            </a>
+          </li>
+          <li
+            className="govuk-header__navigation-item"
+          >
+            <a
+              className="govuk-header__link header-nav-items"
               href="/about/"
             >
               About
