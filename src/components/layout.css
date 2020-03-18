@@ -18071,3 +18071,25 @@ details .arrow {
     width:100%;
     height:100%;
 }
+
+a.boxclose{
+    float: right;
+    cursor: pointer;
+    color: #000;
+    font-size: 36px;
+    line-height: 0.2;
+    padding: 11px 2px;
+}
+
+.boxclose:before {
+    content: "×";
+}
+
+.boxclose:focus {
+    outline: 3px solid transparent;
+    color: #0b0c0c;
+    background-color: #fd0;
+    -webkit-box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+    box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+    text-decoration: none
+}
