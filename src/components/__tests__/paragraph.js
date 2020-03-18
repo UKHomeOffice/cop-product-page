@@ -3,7 +3,6 @@ import renderer from "react-test-renderer";
 import Paragraph from "../paragraph";
 import LargeParagraph from "../large-paragraph";
 
-
 describe("create paragraph", () => {
   it("renders correctly", () => {
     const tree = renderer
@@ -40,10 +39,20 @@ describe("create paragraph", () => {
     expect(testInstance.props.text).not.toBe("");
   });
 
-  it("Returns the correct styling of the paragraph 'text' prop passed in", () => {
+  it("Returns style prop with color white when isPanel is true", () => {
     const tree = renderer
-      .create(<LargeParagraph isPanel={true} text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
+      .create(<LargeParagraph style={{ color: "white" }} isPanel={true} text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
     const testInstance = tree.root;
-    expect(testInstance).toHaveStyleRule('color', expect.stringContaining('white'))
+    let style = testInstance.props.style;
+    expect(testInstance.props).toHaveProperty('style');
+    expect(style).toHaveProperty('color', 'white');
+  });
+
+  it("Returns no style prop when isPanel is false", () => {
+    const tree = renderer
+      .create(<LargeParagraph isPanel={false} text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
+    const testInstance = tree.root;
+    let style = testInstance.props.style;
+    expect(testInstance.props).not.toHaveProperty('style');
   });
 });
