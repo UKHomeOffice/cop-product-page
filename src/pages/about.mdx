@@ -9,6 +9,7 @@ import HyperLink from "../components/hyperlink"
 import BreakLine from "../components/Break-line"
 import BulletList from "../components/bullet-list"
 import SubNavigation from "../components/sub_navigation";
+import Image from '../components/image'
 
 <div className="govuk-width-container main-height">
 
@@ -24,14 +25,19 @@ import SubNavigation from "../components/sub_navigation";
 <div className="column-five-eighths">
 
 <LargeTitle text={'About COP'}/>
+<Paragraph text={'The Central Operations Platform (COP) turns traditional manual systems into accessible digital services.'}/>
 
-<Paragraph text={'The Central Operations Platform (COP) allows you to fill in forms and reports online, turning traditional systems into accessible digital services.'}/>
+<Paragraph text={'It allows you to easily input information on a mobile-friendly platform. This data is easily accessible, helping better inform your work and that of your organisation.'}/>
 
-<Paragraph text={'COP aims to reduce Border Force’s dependence on old applications, particularly those based on Microsoft Excel and Access.'}/>
+<BreakLine pixels={'30px'}/>
 
-<Paragraph text={'It captures and shares information consistently, quickly and more accurately on a mobile-friendly platform.'}/>
+<Image source={'/images/about/group-4.png'} alt={'transform'}/>
 
-<p className="govuk-body">Watch to <a class="govuk-link" href="https://training.cop.homeoffice.gov.uk/videos/video_02.mp4">find out more</a> about how COP is transforming the way Border Force collects and shares data
+<BreakLine pixels={'30px'}/>
+
+<Paragraph text={'COP aims to reduce Border Force’s dependence on old applications, particularly those based on Microsoft Excel and Access, capturing and sharing information consistently, quickly and more accurately.'}/>
+
+<p className="govuk-body"><a class="govuk-link" href="https://training.cop.homeoffice.gov.uk/videos/video_02.mp4">Watch to find out more</a> about how COP is transforming the way Border Force collects and shares data
 </p>
 
 <BreakLine pixels={'30px'}/>
@@ -50,9 +56,3 @@ import SubNavigation from "../components/sub_navigation";
 </div>
 </div>
 </div>
-
-
-
-
-
-
