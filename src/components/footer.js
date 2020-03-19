@@ -24,7 +24,7 @@ const Footer = () => (
             </li>
             <li className="govuk-footer__list-item">
               <a className="govuk-footer__link" href="https://training.cop.homeoffice.gov.uk/#cop">
-                Resources
+                Help
               </a>
             </li>
             <li className="govuk-footer__list-item">
