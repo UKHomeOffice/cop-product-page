@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`image renders correctly 1`] = `
+<img
+  style={
+    Object {
+      "maxWidth": "100%",
+    }
+  }
+/>
+`;

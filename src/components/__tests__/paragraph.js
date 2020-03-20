@@ -52,7 +52,6 @@ describe("create paragraph", () => {
     const tree = renderer
       .create(<LargeParagraph isPanel={false} text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
     const testInstance = tree.root;
-    let style = testInstance.props.style;
     expect(testInstance.props).not.toHaveProperty('style');
   });
 });

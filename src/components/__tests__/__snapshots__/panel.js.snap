@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+Array [
+  <div
+    className="govuk-panel"
+  >
+    <div
+      className="govuk-width-container"
+      style={
+        Object {
+          "marginTop": "30px",
+        }
+      }
+    >
+      <div
+        className="govuk-grid-row"
+      >
+        <div
+          className="govuk-grid-column-two-thirds"
+        >
+          <h1
+            className="govuk-heading-xl panel-heading"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          />
+          <p
+            className="govuk-body govuk-!-font-size-24"
+            style={
+              Object {
+                "color": "white",
+              }
+            }
+          />
+          <div
+            className="button-container"
+            style={
+              Object {
+                "marginBottom": "20px",
+              }
+            }
+          >
+            <a
+              className="govuk-button product-page-button button-container__button govuk-!-margin-right-3"
+              draggable="false"
+              href="/about/"
+              role="button"
+            >
+              Find out more
+            </a>
+            or  
+            <a
+              className="govuk-link"
+              href="https://www.cop.homeoffice.gov.uk/"
+              style={
+                Object {
+                  "color": "white",
+                }
+              }
+            >
+              sign in to COP if you want to use it
+            </a>
+          </div>
+        </div>
+        <div
+          className="govuk-grid-column-one-third"
+        >
+          <img
+            style={
+              Object {
+                "maxWidth": "100%",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="govuk-panel"
+    id="sub-panel"
+    style={
+      Object {
+        "background": "#bbd4fe",
+        "margin": "0 auto",
+        "paddingTop": "10px",
+      }
+    }
+  >
+    <div
+      className="govuk-width-container"
+    >
+      <a
+        className="boxclose govuk-link"
+        id="boxclose"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+      />
+      <div
+        className="govuk-grid-row"
+      >
+        <div
+          className="govuk-grid-column-two-thirds"
+        >
+          <p
+            className="govuk-body-m"
+            style={
+              Object {
+                "marginBottom": "0px",
+              }
+            }
+          >
+            Are you here to fill in your 
+            <span
+              className="govuk-!-font-weight-bold"
+            >
+              Mandatory Declarations (Man Dec)?
+            </span>
+            <br />
+            <a
+              className="govuk-link govuk-!-font-weight-bold"
+              href="https://www.cop.homeoffice.gov.uk/"
+            >
+              Sign-in
+            </a>
+             to COP to fill the form, or 
+            <a
+              className="govuk-link govuk-!-font-weight-bold"
+              href=""
+            >
+              find out more about the Man Dec.
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
