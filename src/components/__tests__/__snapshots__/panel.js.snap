@@ -113,11 +113,16 @@ Array [
               }
             }
           >
-            Are you here to fill in your 
             <span
               className="govuk-!-font-weight-bold"
             >
-              Mandatory Declarations (Man Dec)?
+              Mandatory Declarations (Man Dec)
+            </span>
+             submission deadline is 
+            <span
+              className="govuk-!-font-weight-bold"
+            >
+              31 March 2020
             </span>
             <br />
             <a
