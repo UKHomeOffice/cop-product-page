@@ -22,11 +22,20 @@ More information about mdx files can be found [here.](https://mdxjs.com/getting-
 As an example, in this repository, you will be able to see an imported 'Paragraph' depending on what you are trying to achieve. 
 e.g. Reusing the GDS paragraph component and adding in text as a prop.  
 
-`<Paragraph text={'Hello world'}/>` 
+```html
+<Paragraph text={'Hello world'}/>
+```
 
 Or, adding in different inline custom styling and hyperlinks within a paragraph. 
 
-`<p class="body-text">click <a class="link" href="[link]">here</a></p>`
+```html
+<p class="body-text">
+     click 
+        <a class="link" href="[link]">
+            here
+        </a>
+</p>
+```
 
 ## Styling
 Styling has been imported from the GDS frontend tool kit which leads to the [AlphaGov] repository. In this repository, images, css was imported from the 'dist' files.
