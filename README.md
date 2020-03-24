@@ -6,17 +6,17 @@ Notify] and [GOV.UK Registers].
 
 ![Screenshot of COP product page](screenshot.png)
 
-This site is built in [Gatsby.js] under the react framework which uses 'Hooks' to render each component that allows developers to inject them in to 'mdx' files.
-MDX files are used for content. Developers may change content by changing text, inline styling, adding and removing components imported in to the mdx files.
+This site is built in [Gatsby.js] under the react framework, which uses 'Hooks' to render each component and allows developers to inject them in to the 'mdx' files.
+MDX files are used for content; developers may change text, inline styling, adding and removing components imported in to those files.
 
 A minimum of Javascript/ React knowledge is required to develop and maintain this site for creating new components.
-Changing content within the MDX content files only requires knowledge to import, remove components to have an understanding of 'props' and how some components may need text, images, list and any other types of content data injecting in to a component as a 'prop.' This allows each component to be reused in many areas of the site.
+Changing content within the MDX content files only requires knowledge to import, remove components and to have an understanding of how some components may need text, images, list and any other types of content data injecting in to a component as a 'prop.' This allows each component to be reused in many areas of the site.
 
 Information of React and JSX can be found [here.](https://reactjs.org/docs/introducing-jsx.html)
 
 ## What are mdx files?
 
-MDX files is a superset of Markdown files (.md) that allows developers to use JSX and HTML. This allows developers to add styling, logic and jsx written components in to the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
+MDX files (.mdx) is a superset of Markdown files (.md) that enables developers to use JSX and HTML. This allows developers to add styling, logic and jsx written components in to the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
 More information about mdx files can be found [here.](https://mdxjs.com/getting-started)
 
 As an example, in this repository, you will be able to see an imported 'Paragraph' depending on what you are trying to achieve. 
