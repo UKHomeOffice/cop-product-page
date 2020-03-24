@@ -8,13 +8,13 @@ const StatContent = (props) => {
   const stats = props.stats;
   return (
     <div>
-      <MediumTitle text={props.title}/>
-      <BreakLine pixels={'50px'}/>
+      <MediumTitle id="title" text={props.title}/>
+      <BreakLine pixels={'50'}/>
       <div className="govuk-grid-row">
         {stats.map((value, index) => {
           return <div key={index} className="govuk-grid-column-one-third">
-            <ExtraLargeTitle text={value.number}/>
-            <Paragraph text={value.description}/>
+            <ExtraLargeTitle id={`valueNum${index}`} text={value.number}/>
+            <Paragraph id={`valueText${index}`} text={value.description}/>
           </div>;
         })}
       </div>
