@@ -1,22 +1,22 @@
 # Central Operations Platform (COP) product page
 
 This repository contains a number of [components](#components) that renders GDS web elements.
-They can be used to build/ maintain/ improve the COP product page which in result will render GOV.UK themed pages. Similar to [GOV.UK Pay], [GOV.UK
+They can be used to build, maintain and improve the COP product page which in result will render GOV.UK themed pages. Similar to [GOV.UK Pay], [GOV.UK
 Notify] and [GOV.UK Registers].
 
 ![Screenshot of COP product page](screenshot.png)
 
-This site is built in [Gatsby.js] under the react framework which uses 'Hooks' to render each component that allows developers to inject components in to 'mdx' files.
-MDX files are used for content. Developers may alter content by changing text, inline styling, adding and removing components imported in to the mdx files.
+This site is built in [Gatsby.js] under the react framework which uses 'Hooks' to render each component that allows developers to inject them in to 'mdx' files.
+MDX files are used for content. Developers may change content by changing text, inline styling, adding and removing components imported in to the mdx files.
 
 A minimum of Javascript/ React knowledge is required to develop and maintain this site for creating new components.
-Changing content within the MDX content files only requires knowledge to import, remove components from mdx files and to have an understanding of 'props' and how some components may need text, images, list of any other types of content data injecting in to a component as a 'prop.' This allows each component to be reused in many areas of the site.
+Changing content within the MDX content files only requires knowledge to import, remove components to have an understanding of 'props' and how some components may need text, images, list and any other types of content data injecting in to a component as a 'prop.' This allows each component to be reused in many areas of the site.
 
 Information of React and JSX can be found [here.](https://reactjs.org/docs/introducing-jsx.html)
 
 ## What are mdx files?
 
-MDX files is a superset of Markdown files (.md) that allows developers to use jsx and html. This is an enhancement of markdown files which adds styling, logic and jsx written components in to the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
+MDX files is a superset of Markdown files (.md) that allows developers to use JSX and HTML. This allows developers to add styling, logic and jsx written components in to the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
 More information about mdx files can be found [here.](https://mdxjs.com/getting-started)
 
 As an example, in this repository, you will be able to see an imported 'Paragraph' depending on what you are trying to achieve. 
@@ -26,7 +26,7 @@ Or, adding in different inline custom styling and hyperlinks within a paragraph.
 
 ## Styling
 Styling has been imported from the GDS frontend tool kit which leads to the [AlphaGov] repository. In this repository, images, css was imported from the 'dist' files.
-New styling classes added in for specific layout purposes but does affect the styling of GDS components.
+New styling classes have also been added in for specific layout purposes but does affect the styling of GDS components.
 
 CSS Styling classes can be found in [layout.css.](src/components/layout.css)
 
@@ -60,7 +60,7 @@ Please feel free to create new components if needed in the future.
 
 ## Layout
 
-[Layout](src/components/layout.js) component displays the top herachy structure of the gastby static app.
+[Layout](src/components/layout.js) component displays the top hierarchy structure of the Gastby static app.
 Below you will see a [Head](src/components/head.js) component which includes the traditional head metadata, favicon and style and script links.
 
 [Header](src/components/header.js) component displays the banner with navigational links.
@@ -101,6 +101,18 @@ Running `npm install` will install these packages as they are stated within the 
 
 [GOV.UK Frontend] asset files has been imported manually.
 
+### MDX plugin
+MDX plugin is used in this site. By looking at the [gatsby-config.js](gatsby-config.js) file you will be able to see where the default mdx layout is outputted.
+
+```javascript
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+      },
+    },
+```
+
 ### Matomo plugin
 Matomo plugin is used in this site. By looking at the [gatsby-config.js](gatsby-config.js) file you will be able to change the config data within the matomo plugin.
 
@@ -127,6 +139,9 @@ To run the test after changing html code, run `npm install -- -u` to update the 
 
 [Nightwatch] - used for end to end testing. Page objects, variables and test specs can be found in the `Nightwatch` folder within the `root.`
 This can be found [here.](nightwatch)
+
+Run `npm run nightwatch /nightwatch/tests/[testfile.js]` to run an end to end nightwatch test on a specific file.
+Run `npm run nightwatch /nightwatch/tests/` to run the end to end nightwatch tests suite.
 
 [GOV.UK Pay]: https://www.payments.service.gov.uk/
 [GOV.UK Notify]: https://www.notifications.service.gov.uk/
