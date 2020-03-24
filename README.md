@@ -61,7 +61,10 @@ Please feel free to create new components if needed in the future.
 ## Layout
 
 [Layout](src/components/layout.js) component displays the top hierarchy structure of the Gastby static app.
-Below you will see a [Head](src/components/head.js) component which includes the traditional head metadata, favicon and style and script links.
+
+Below you will see a:
+ 
+[Head](src/components/head.js) component which includes the traditional head metadata, favicon and style and script links.
 
 [Header](src/components/header.js) component displays the banner with navigational links.
 
@@ -130,7 +133,8 @@ Matomo plugin is used in this site. By looking at the [gatsby-config.js](gatsby-
 Any changes made in this file would require you to run `gatsby develop` or `gatsby build & gatsby serve`
 
 ### Testing
-[Jest] -  used for unit testing
+[Jest] -  used for unit testing.
+
 Run `npm test` to run the unit tests. All component spec files are in the `__test__` folder within the `component folder.`
 This can be found [here.](src/components/__tests__)
 
@@ -140,7 +144,9 @@ To run the test after changing html code, run `npm install -- -u` to update the 
 [Nightwatch] - used for end to end testing. Page objects, variables and test specs can be found in the `Nightwatch` folder within the `root.`
 This can be found [here.](nightwatch)
 
+
 Run `npm run nightwatch /nightwatch/tests/[testfile.js]` to run an end to end nightwatch test on a specific file.
+
 Run `npm run nightwatch /nightwatch/tests/` to run the end to end nightwatch tests suite.
 
 [GOV.UK Pay]: https://www.payments.service.gov.uk/
