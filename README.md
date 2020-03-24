@@ -1,4 +1,4 @@
-# Central Operations Platform (COP) product page
+# Central Operations Platform (COP) Product Page
 
 This repository contains a number of [components](#components) that renders GDS web elements.
 They can be used to build, maintain and improve the COP product page which in result will render GOV.UK themed pages. Similar to [GOV.UK Pay], [GOV.UK
@@ -104,7 +104,7 @@ Note: [NPM] must be installed
 on build. You can include more [NPM] modules easily by installing them as a
 dependency and including paths to them. 
 
-Running `npm install` will install these packages as they are stated within the package.json.
+Running `npm install` will install these packages as they are stated within the [package.json.](package.json)
 
 [GOV.UK Frontend] asset files has been imported manually.
 
