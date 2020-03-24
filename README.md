@@ -20,9 +20,13 @@ MDX files (.mdx) is a superset of Markdown files (.md) that enables developers t
 More information about mdx files can be found [here.](https://mdxjs.com/getting-started)
 
 As an example, in this repository, you will be able to see an imported 'Paragraph' depending on what you are trying to achieve. 
-e.g. Reusing the the GDS paragraph component and adding in text as a prop  `<Paragraph text={'Hello world'}/>` 
+e.g. Reusing the the GDS paragraph component and adding in text as a prop.  
 
-Or, adding in different inline custom styling and hyperlinks within a paragraph. `<p class="body-text">click <a class="link" href="[link]">here</a></p>`
+`<Paragraph text={'Hello world'}/>` 
+
+Or, adding in different inline custom styling and hyperlinks within a paragraph. 
+
+`<p class="body-text">click <a class="link" href="[link]">here</a></p>`
 
 ## Styling
 Styling has been imported from the GDS frontend tool kit which leads to the [AlphaGov] repository. In this repository, images, css was imported from the 'dist' files.
@@ -139,7 +143,9 @@ Run `npm test` to run the unit tests. All component spec files are in the `__tes
 This can be found [here.](src/components/__tests__)
 
 To run the test, simply run `npm test` command.
-To run the test after changing html code, run `npm install -- -u` to update the snapshots.
+To run the test after changing html code, 
+
+run `npm install -- -u` to update the snapshots.
 
 [Nightwatch] - used for end to end testing. Page objects, variables and test specs can be found in the `Nightwatch` folder within the `root.`
 This can be found [here.](nightwatch)
