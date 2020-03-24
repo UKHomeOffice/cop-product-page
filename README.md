@@ -30,7 +30,7 @@ Or, adding in different inline custom styling and hyperlinks within a paragraph.
 
 ```html
 <p class="body-text">
-     click 
+     <span style={color: 'red'}>click</span>
         <a class="link" href="[link]">
             here
         </a>
