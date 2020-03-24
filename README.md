@@ -16,11 +16,11 @@ Information of React and JSX can be found [here.](https://reactjs.org/docs/intro
 
 ## What are mdx files?
 
-MDX files (.mdx) is a superset of Markdown files (.md) that enables developers to use JSX and HTML. This allows developers to add styling, logic and jsx written components in to the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
+MDX files (.mdx) is a superset of Markdown files (.md) that enables developers to use JSX and HTML. This allows developers to add styling, logic and jsx written components into the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
 More information about mdx files can be found [here.](https://mdxjs.com/getting-started)
 
 As an example, in this repository, you will be able to see an imported 'Paragraph' depending on what you are trying to achieve. 
-e.g. Reusing the the GDS paragraph component and adding in text as a prop.  
+e.g. Reusing the GDS paragraph component and adding in text as a prop.  
 
 `<Paragraph text={'Hello world'}/>` 
 
