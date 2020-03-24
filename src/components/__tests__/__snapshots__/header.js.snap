@@ -70,7 +70,7 @@ exports[`Header renders correctly 1`] = `
               className="govuk-header__link header-nav-items"
               href="/"
             >
-              COP
+              Home
             </a>
           </li>
           <li

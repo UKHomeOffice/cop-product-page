@@ -10,6 +10,7 @@ import BreakLine from "../components/Break-line"
 import BulletList from "../components/bullet-list"
 import SubNavigation from "../components/sub_navigation";
 import Image from '../components/image'
+import Video from "../components/video"
 
 <div className="govuk-width-container main-height">
 
@@ -37,11 +38,11 @@ import Image from '../components/image'
 
 <Paragraph text={'COP aims to reduce Border Force’s dependence on old applications, particularly those based on Microsoft Excel and Access, capturing and sharing information consistently, quickly and more accurately.'}/>
 
-<p className="govuk-body"><a class="govuk-link" href="https://training.cop.homeoffice.gov.uk/videos/video_02.mp4">Watch to find out more</a> about how COP is transforming the way Border Force collects and shares data
-</p>
+<Paragraph text={'Watch to find out more about how COP is transforming the way Border Force collects and shares data.'}/>
+
+<Video source={'https://training.cop.homeoffice.gov.uk/videos/video_02.mp4'} width={487} height={64}/>
 
 <BreakLine pixels={'30'}/>
-
 
 <h3 id="services" className="govuk-heading-m">Services on COP</h3>
 
