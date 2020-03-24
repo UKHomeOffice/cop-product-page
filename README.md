@@ -100,7 +100,7 @@ Running `npm install` will install these packages as they are stated within the 
 [GOV.UK Frontend] asset files has been imported manually.
 
 ### Matomo plugin
-Matomo plugin is used in this site. By looking at the [gatsby-config.js](#gatsby-config.js) file you will be able to change the config data within the matomo plugin.
+Matomo plugin is used in this site. By looking at the [gatsby-config.js](gatsby-config.js) file you will be able to change the config data within the matomo plugin.
 
 ```javascript
     {
@@ -121,7 +121,7 @@ Run `npm test` to run the unit tests. All component spec files are in the `__tes
 This can be found [here.](src/components/__tests__)
 
 [Nightwatch] - used for end to end testing. Page objects, variables and test specs can be found in the `Nightwatch` folder within the `root.`
-This can be found [here.](#nightwatch)
+This can be found [here.](nightwatch)
 
 [GOV.UK Pay]: https://www.payments.service.gov.uk/
 [GOV.UK Notify]: https://www.notifications.service.gov.uk/
