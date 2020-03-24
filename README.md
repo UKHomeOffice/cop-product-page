@@ -58,7 +58,7 @@ Link to each component to get an idea of how they are written in JSX
 
 Please feel free to create new components if needed in the future.
 
-##Layout
+## Layout
 
 [Layout](src/components/layout.js) component displays the top herachy structure of the gastby static app.
 Below you will see a [Head](src/components/head.js) component which includes the traditional head metadata, favicon and style and script links.
@@ -68,7 +68,7 @@ Below you will see a [Head](src/components/head.js) component which includes the
 '{children}' is the mdx page output which displays above the [footer](src/components/footer.js) component.
 
 ```javascript
-    const Layout = ({ path, children }) => (
+    const Layout = ({ children }) => (
       <>
         <Head/>
         <Header/>
@@ -81,7 +81,9 @@ Below you will see a [Head](src/components/head.js) component which includes the
 ## Running Example Locally
 
 If you wish to run the example in your own browser, you'll need to run the
-following commands from the root of this project: (Note: npm must be installed)
+following commands from the root of this project: 
+
+Note: [NPM] must be installed
 
 - `npm install -g gatsby-cli` to install Gatsby command line interface
 - `npm install` to install react, gatsby and Matomo and the frontend dependencies
@@ -120,13 +122,16 @@ Any changes made in this file would require you to run `gatsby develop` or `gats
 Run `npm test` to run the unit tests. All component spec files are in the `__test__` folder within the `component folder.`
 This can be found [here.](src/components/__tests__)
 
+To run the test, simply run `npm test` command.
+To run the test after changing html code, run `npm install -- -u` to update the snapshots.
+
 [Nightwatch] - used for end to end testing. Page objects, variables and test specs can be found in the `Nightwatch` folder within the `root.`
 This can be found [here.](nightwatch)
 
 [GOV.UK Pay]: https://www.payments.service.gov.uk/
 [GOV.UK Notify]: https://www.notifications.service.gov.uk/
 [GOV.UK Registers]: https://registers.cloudapps.digital/
-[GOV.UK Frontend]: https://github.com/alphagov/govuk-frontend/dist
+[GOV.UK Frontend]: https://github.com/alphagov/govuk-frontend/tree/master/dist
 [NPM]: https://npmjs.com
 [Jest]: https://jestjs.io/docs/en/getting-started
 [Nightwatch]: https://nightwatchjs.org/gettingstarted
