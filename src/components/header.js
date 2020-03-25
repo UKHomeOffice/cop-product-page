@@ -5,7 +5,7 @@ import Image from "./image";
 import Logo from "./logo";
 
 const NavItems = [
-  { name: "COP", href: "/" },
+  { name: "Home", href: "/" },
   { name: "About", href: "/about/" },
   { name: "Help", href: "https://training.cop.homeoffice.gov.uk/" },
   { name: "Support", href: "/support/" },
