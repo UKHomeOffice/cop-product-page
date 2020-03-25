@@ -27,6 +27,27 @@ Array [
               }
             }
           />
+          <div
+            className="banner-image-mobile"
+          >
+            <div
+              style={
+                Object {
+                  "maxWidth": "180px",
+                  "paddingLeft": "15%",
+                  "paddingRight": "15%",
+                }
+              }
+            >
+              <img
+                style={
+                  Object {
+                    "maxWidth": "100%",
+                  }
+                }
+              />
+            </div>
+          </div>
           <p
             className="govuk-body govuk-!-font-size-24"
             style={
@@ -68,13 +89,17 @@ Array [
         <div
           className="govuk-grid-column-one-third"
         >
-          <img
-            style={
-              Object {
-                "maxWidth": "100%",
+          <div
+            className="banner-image"
+          >
+            <img
+              style={
+                Object {
+                  "maxWidth": "100%",
+                }
               }
-            }
-          />
+            />
+          </div>
         </div>
       </div>
     </div>
