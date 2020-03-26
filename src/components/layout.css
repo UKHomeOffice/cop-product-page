@@ -18121,5 +18121,5 @@ a.boxclose {
     height: auto;
     padding-right: 10px;
     margin-bottom: -3.5px;
-    content: url(http://localhost:8000/images/home/sign-in-arrow.png);
+    content: url(/images/home/sign-in-arrow.png);
 }
