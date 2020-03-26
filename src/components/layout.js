@@ -4,7 +4,7 @@ import "./layout.css";
 import Footer from "./footer";
 import Head from "./head";
 
-const Layout = ({ path, children }) => (
+const Layout = ({ children }) => (
   <>
     <Head/>
     <Header/>

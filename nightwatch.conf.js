@@ -24,7 +24,8 @@ module.exports = {
   test_settings: {
     default: {
       disable_error_log: false,
-      launch_url: 'http://localhost:9000',
+      launch_local_url: 'http://localhost:9000',
+      launch_dev_url: 'https://d1sbsc8gpwdy90.cloudfront.net/',
 
       screenshots: {
         enabled: false,
