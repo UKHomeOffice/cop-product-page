@@ -22,13 +22,12 @@ const Panel = (props) => (
               <div style={bannerImageMobile}><Image source={props.imageSource} alt={props.imageAlt}/></div>
             </div>
             <LargeParagraph isPanel={true} text={props.paragraphText}/>
-            <div className="button-container" style={{ marginBottom: "20px" }}>
-              <Link to="/about/" role="button" draggable="false"
+            <div className="button-container " style={{ marginBottom: "20px" }}>
+              <a href="https://www.cop.homeoffice.gov.uk/" role="button" draggable="false"
                     className="govuk-button product-page-button button-container__button govuk-!-margin-right-3">
-                Find out more
-              </Link>
-              or &nbsp;<a style={{ color: "white" }} className="govuk-link" href="https://www.cop.homeoffice.gov.uk/">sign
-              in to COP if you want to use it</a>
+                <div style={{paddingLeft: '20px'}}>Sign-in <i className="sign-in-arrow"/></div>
+              </a>
+              or &nbsp;<Link style={{ color: "white" }} className="govuk-link" to="/about/">find out more about COP</Link>
             </div>
           </div>
           <div className="govuk-grid-column-one-third">

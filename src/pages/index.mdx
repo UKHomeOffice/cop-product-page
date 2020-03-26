@@ -13,7 +13,7 @@ import StatContent from "../components/stats-content"
 import "../components/layout.css";
 import BulletList from "../components/bullet-list"
 
-<Panel title={'Easily capture data, make better decisions'} imageSource={'/images/home/banner.png'} imageAlt={'transform'} paragraphText={'The Central Operations Platform (COP) helps you log information easily and turns it into insightful data that informs decision making.'} sub-panel/>
+<Panel title={'Easily capture data, make better decisions'} imageSource={'/images/home/banner.png'} imageAlt={'transform'} paragraphText={'Use the Central Operations Platform (COP) to capture information easily and produce data that informs decision making.'} sub-panel/>
 
 <div className="govuk-width-container">
 
@@ -36,11 +36,11 @@ import BulletList from "../components/bullet-list"
 
 <div className="govuk-grid-row homepage-content-margin">
   <div className="govuk-grid-column-one-half">
-    <MediumTitle text={'How COP helps you input, track and analyse information'}/>
+    <MediumTitle text={'How COP helps frontline staff'}/>
   </div>
 </div>
 
-<div style={{marginLeft: '20px'}} className="govuk-grid-row homepage-content-margin">
+<div style={{marginLeft: '5px'}} className="govuk-grid-row homepage-content-margin">
   <div className="govuk-grid-column-two-thirds">
     <Image source={'/images/home/group-5.png'} alt={'transform'}/>
   </div>
@@ -48,13 +48,22 @@ import BulletList from "../components/bullet-list"
 
 <div className="govuk-grid-row homepage-content-margin">
   <div className="govuk-grid-column-one-half">
-    <p className="govuk-body">COP provides analytics and trends that allow your organisation to make data-driven decisions. Find out how the information fed into COP <Link to="/about/benefits/" class="govuk-link">helps your work</Link></p>
+    <p className="govuk-body">Learn more about <Link class="govuk-link" to="/about/benefits/">how COP helps the work of Border Force</Link></p>
   </div>
 </div>
 
 <Hr inContent={true}/>
 
-<StatContent title={'Used and trusted by Border Force teams'} stats={[{number: '8000', description: 'Border Force users'}, {number: '7,500+', description: 'forms and reports submitted per month '}, {number: '300+', description: 'COP visits per day '}]}/>
+<div className="govuk-grid-row homepage-content-margin">
+  <div className="govuk-grid-column-one-half">
+    <MediumTitle text={'How to get support'}/>
+        <p className="govuk-body">Find out <a class="govuk-link" href="https://training.cop.homeoffice.gov.uk">how to use COP</a> and its services, or <Link class="govuk-link" to="/help/">get in touch</Link> if you have any questions or feedback. </p>
+  </div>
+</div>
+
+<Hr inContent={true}/>
+
+<StatContent title={'Used and trusted by Border Force teams'} stats={[{number: '8000', description: 'Border Force users'}, {number: '7500+', description: 'forms and reports submitted per month '}, {number: '300+', description: 'COP visits per day '}]}/>
 
 <div className="govuk-grid-row">
  <div className="govuk-grid-column-one-half">
