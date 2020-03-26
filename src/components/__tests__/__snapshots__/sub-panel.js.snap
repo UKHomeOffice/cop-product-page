@@ -44,7 +44,7 @@ exports[`Header renders correctly 1`] = `
           <span
             className="govuk-!-font-weight-bold"
           >
-            31 March 2020
+            31 April 2020
           </span>
           <br />
           <a
