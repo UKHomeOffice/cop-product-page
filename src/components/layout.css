@@ -839,6 +839,27 @@ html, body {
     }
 }
 
+.banner-image-mobile {
+    padding-bottom: 30px;
+    display: block;
+}
+
+@media (min-width: 40.0625em) {
+    .banner-image-mobile {
+        display: none;
+    }
+}
+
+.banner-image {
+    display: none;
+}
+
+@media (min-width: 40.0625em) {
+    .banner-image {
+        display: block;
+    }
+}
+
 .govuk-grid-column-one-half {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -10647,7 +10668,6 @@ table caption {
     }
 }
 
-
 .govuk-header__menu-button {
     font-family: nta, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -18057,22 +18077,22 @@ details .arrow {
 }
 
 .responsive-video {
-    position:relative;
-    padding-bottom:56.25%;
-    padding-top:30px;
-    height:0;
-    overflow:hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
 }
 
 .responsive-video video {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-a.boxclose{
+a.boxclose {
     float: right;
     cursor: pointer;
     color: #000;

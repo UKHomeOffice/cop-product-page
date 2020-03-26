@@ -5,6 +5,12 @@ import LargeParagraph from "./large-paragraph";
 import { Link } from "gatsby";
 import SubPanel from "./sub-panel";
 
+const bannerImageMobile = {
+  maxWidth: '180px',
+  paddingRight: '15%',
+  paddingLeft: '15%'
+};
+
 const Panel = (props) => (
   <>
     <div className="govuk-panel">
@@ -12,6 +18,9 @@ const Panel = (props) => (
         <div className="govuk-grid-row">
           <div className="govuk-grid-column-two-thirds">
             <ExtraLargeTitle isPanel={true} text={props.title}/>
+            <div className="banner-image-mobile">
+              <div style={bannerImageMobile}><Image source={props.imageSource} alt={props.imageAlt}/></div>
+            </div>
             <LargeParagraph isPanel={true} text={props.paragraphText}/>
             <div className="button-container " style={{ marginBottom: "20px" }}>
               <a href="https://www.cop.homeoffice.gov.uk/" role="button" draggable="false"
@@ -22,7 +31,7 @@ const Panel = (props) => (
             </div>
           </div>
           <div className="govuk-grid-column-one-third">
-            <Image source={props.imageSource} alt={props.imageAlt}/>
+            <div className="banner-image"><Image source={props.imageSource} alt={props.imageAlt}/></div>
           </div>
         </div>
       </div>

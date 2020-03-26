@@ -4,7 +4,7 @@ const homepageTitleText = 'Welcome to COP!';
 module.exports = {
   'Launch website' : function (browser) {
     browser
-      .url(browser.launchUrl)
+      .url(browser.launch_dev_url)
       .useXpath()
       .waitForElementVisible(homePageObject.title)
       .assert.containsText(homePageObject.title, homepageTitleText)
