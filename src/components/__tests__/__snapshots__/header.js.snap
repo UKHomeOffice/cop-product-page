@@ -88,19 +88,9 @@ exports[`Header renders correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="https://training.cop.homeoffice.gov.uk/"
+              href="/help/"
             >
               Help
-            </a>
-          </li>
-          <li
-            className="govuk-header__navigation-item"
-          >
-            <a
-              className="govuk-header__link header-nav-items"
-              href="/support/"
-            >
-              Support
             </a>
           </li>
           <li

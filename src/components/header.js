@@ -7,8 +7,7 @@ import Logo from "./logo";
 const NavItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about/" },
-  { name: "Help", href: "https://training.cop.homeoffice.gov.uk/" },
-  { name: "Support", href: "/support/" },
+  { name: "Help", href: "/help/" },
   { name: "Sign-in", href: "https://www.cop.homeoffice.gov.uk/" }
 ];
 
@@ -56,7 +55,7 @@ const Header = () => {
               <ul id="navigation" className="govuk-header__navigation govuk-header__navigation--end"
                   aria-label="Top Level Navigation">
                 {NavItems.map((value, index) => {
-                  if (value.name === "Help" || value.name === "Sign-in") {
+                  if (value.name === "Sign-in") {
                     return <li className="govuk-header__navigation-item"
                                key={index}>
                       <a href={value.href} className="govuk-header__link header-nav-items">
