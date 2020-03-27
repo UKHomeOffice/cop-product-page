@@ -48,7 +48,7 @@ module.exports = {
       options: {
         siteId: '1',
         matomoUrl: 'https://matomo.dev.cop.homeoffice.gov.uk/',
-        siteUrl: 'https://d1sbsc8gpwdy90.cloudfront.net/'
+        siteUrl: 'https://product.dev.cop.homeoffice.gov.uk/'
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
