@@ -24,8 +24,8 @@ module.exports = {
   test_settings: {
     default: {
       disable_error_log: false,
-      launch_local_url: 'http://localhost:9000',
-      launch_dev_url: 'https://d1sbsc8gpwdy90.cloudfront.net/',
+      launch_url: 'https://product.dev.cop.homeoffice.gov.uk/',
+      // launch_url: 'https://product.cop.homeoffice.gov.uk/',
 
       screenshots: {
         enabled: false,
