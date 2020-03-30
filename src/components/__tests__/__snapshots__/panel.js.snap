@@ -85,7 +85,7 @@ Array [
             </a>
             or  
             <a
-              className="govuk-link"
+              className="govuk-link govuk-!-font-weight-bold"
               href="/about/"
               style={
                 Object {
@@ -145,6 +145,7 @@ Array [
             className="govuk-body-m"
             style={
               Object {
+                "lineHeight": "1.4",
                 "marginBottom": "0px",
               }
             }

@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const Logo = (props) => (
-  <img style={{marginBottom: '-4px'}} src={props.source} height={"30px"} width={"49px"} alt={props.alt}/>
+  <img className="cop-logo"  src={props.source}  alt={'logo'}/>
 );
 export default Logo
 

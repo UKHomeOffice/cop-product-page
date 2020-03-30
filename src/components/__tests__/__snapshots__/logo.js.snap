@@ -2,12 +2,7 @@
 
 exports[`Logo renders correctly 1`] = `
 <img
-  height="30px"
-  style={
-    Object {
-      "marginBottom": "-4px",
-    }
-  }
-  width="49px"
+  alt="logo"
+  className="cop-logo"
 />
 `;

@@ -17,24 +17,22 @@ exports[`Header renders correctly 1`] = `
         href="/"
       >
         <span
-          className="cop-logo"
+          style={
+            Object {
+              "marginRight": "6px",
+            }
+          }
         >
           <img
-            height="30px"
+            alt="logo"
+            className="cop-logo"
             src="/images/logo.png"
-            style={
-              Object {
-                "marginBottom": "-4px",
-              }
-            }
-            width="49px"
           />
         </span>
         <span
-          className="govuk-header__product-name"
-        >
-          Central Operations Platform
-        </span>
+          className="govuk-header__product-name service-name"
+          id="service-name"
+        />
         <strong
           className="govuk-tag govuk-phase-banner__content__tag"
         >
