@@ -10,6 +10,6 @@ module.exports = {
     security_title: "Security",
   },
   help: {
-    title: "help"
+    title: "Help"
   }
 };
