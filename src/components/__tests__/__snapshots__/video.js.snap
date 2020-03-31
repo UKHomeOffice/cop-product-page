@@ -6,6 +6,7 @@ exports[`video renders correctly 1`] = `
 >
   <video
     controls={true}
+    playsInline={true}
   >
     <source
       type="video/mp4"

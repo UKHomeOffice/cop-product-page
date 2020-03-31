@@ -31,6 +31,7 @@ exports[`Header renders correctly 1`] = `
           className="govuk-body-m"
           style={
             Object {
+              "lineHeight": "1.4",
               "marginBottom": "0px",
             }
           }
