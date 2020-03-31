@@ -6,9 +6,8 @@ import { Link } from "gatsby";
 import SubPanel from "./sub-panel";
 
 const bannerImageMobile = {
-  maxWidth: '180px',
-  paddingRight: '15%',
-  paddingLeft: '15%'
+  maxWidth: "180px",
+  margin: "0 auto"
 };
 
 const Panel = (props) => (
@@ -24,10 +23,11 @@ const Panel = (props) => (
             <LargeParagraph isPanel={true} text={props.paragraphText}/>
             <div className="button-container " style={{ marginBottom: "20px" }}>
               <a href="https://www.cop.homeoffice.gov.uk/" role="button" draggable="false"
-                    className="govuk-button product-page-button button-container__button govuk-!-margin-right-3">
-                <div style={{paddingLeft: '20px'}}>Sign-in <i className="sign-in-arrow"/></div>
+                 className="govuk-button product-page-button button-container__button govuk-!-margin-right-3">
+                <div style={{ paddingLeft: "20px" }}>Sign-in <i className="sign-in-arrow"/></div>
               </a>
-              or &nbsp;<Link style={{ color: "white" }} className="govuk-link" to="/about/">find out more about COP</Link>
+              or &nbsp;<Link style={{ color: "white" }} className="govuk-link" to="/about/">find out more about
+              COP</Link>
             </div>
           </div>
           <div className="govuk-grid-column-one-third">
