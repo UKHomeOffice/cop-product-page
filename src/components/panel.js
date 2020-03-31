@@ -27,7 +27,7 @@ const Panel = (props) => (
                     className="govuk-button product-page-button button-container__button govuk-!-margin-right-3">
                 <div style={{paddingLeft: '20px'}}>Sign-in <i className="sign-in-arrow"/></div>
               </a>
-              or &nbsp;<Link style={{ color: "white" }} className="govuk-link" to="/about/">find out more about COP</Link>
+              or &nbsp;<Link style={{ color: "white" }} className="govuk-link govuk-!-font-weight-bold" to="/about/">find out more about COP</Link>
             </div>
           </div>
           <div className="govuk-grid-column-one-third">

@@ -17,4 +17,11 @@ describe("image", () => {
     expect(testInstance.props).toHaveProperty("alt", "description");
     expect(testInstance.props).toHaveProperty("source", "http://test.com");
   });
+
+  it("Returns the correct class properties", () => {
+    const tree = renderer
+      .create(<Image noImage={true} alt={"description"} source={"http://test.com"}/>);
+    const testInstance = tree.root;
+    expect(testInstance.props).toHaveProperty("noImage", true);
+  });
 });
