@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  className="govuk-panel"
+  id="sub-panel"
+  style={
+    Object {
+      "background": "#bbd4fe",
+      "margin": "0 auto",
+      "paddingTop": "10px",
+    }
+  }
+>
+  <div
+    className="govuk-width-container"
+  >
+    <a
+      className="boxclose govuk-link"
+      id="boxclose"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+    />
+    <div
+      className="govuk-grid-row"
+    >
+      <div
+        className="govuk-grid-column-two-thirds"
+      >
+        <p
+          className="govuk-body-m"
+          style={
+            Object {
+              "lineHeight": "1.4",
+              "marginBottom": "0px",
+            }
+          }
+        >
+          <span
+            className="govuk-!-font-weight-bold"
+          >
+            Mandatory Declarations (Man Dec)
+          </span>
+           submission deadline is 
+          <span
+            className="govuk-!-font-weight-bold"
+          >
+            31 April 2020
+          </span>
+          <br />
+          <a
+            className="govuk-link govuk-!-font-weight-bold"
+            href="https://www.cop.homeoffice.gov.uk/"
+          >
+            Sign-in
+          </a>
+           to COP to fill the form, or 
+          <a
+            className="govuk-link govuk-!-font-weight-bold"
+            href="https://training.cop.homeoffice.gov.uk/mandec.html#mandatory-declarations-man-dec"
+          >
+            find out more about the Man Dec.
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

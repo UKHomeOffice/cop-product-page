@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stat-content renders correctly 1`] = `
+<div>
+  <h3
+    className="govuk-heading-m"
+  >
+    Used and trusted by Border Force teams
+  </h3>
+  <div
+    style={
+      Object {
+        "marginTop": "50px",
+      }
+    }
+  />
+  <div
+    className="govuk-grid-row"
+  >
+    <div
+      className="govuk-grid-column-one-third"
+    >
+      <h1
+        className="govuk-heading-xl"
+      >
+        6,652
+      </h1>
+      <p
+        className="govuk-body"
+      >
+        Border Force users
+      </p>
+    </div>
+    <div
+      className="govuk-grid-column-one-third"
+    >
+      <h1
+        className="govuk-heading-xl"
+      >
+        7,500+
+      </h1>
+      <p
+        className="govuk-body"
+      >
+        forms and reports submitted per month
+      </p>
+    </div>
+    <div
+      className="govuk-grid-column-one-third"
+    >
+      <h1
+        className="govuk-heading-xl"
+      >
+        300+
+      </h1>
+      <p
+        className="govuk-body"
+      >
+        COP visits per day
+      </p>
+    </div>
+  </div>
+</div>
+`;

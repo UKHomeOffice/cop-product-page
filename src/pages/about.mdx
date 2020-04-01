@@ -1,0 +1,53 @@
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
+import "../components/layout.css";
+import SEO from '../components/seo'
+import LargeTitle from "../components/large-title"
+import MediumTitle from "../components/MediumTitle"
+import Paragraph from "../components/paragraph"
+import HyperLink from "../components/hyperlink"
+import BreakLine from "../components/Break-line"
+import BulletList from "../components/bullet-list"
+import SubNavigation from "../components/sub_navigation";
+import Image from '../components/image'
+import Video from "../components/video"
+
+<div className="govuk-width-container main-height">
+
+<BreakLine pixels={'40'}/>
+
+<div className="grid-row">
+
+<div className="column-one-quarter">
+<SubNavigation currentPage={props.path}/>
+</div>
+
+
+<div className="column-five-eighths">
+
+<LargeTitle text={'About COP'}/>
+
+<Paragraph text={'The Central Operations Platform (COP) turns traditional manual systems into accessible digital services.'}/>
+
+<Paragraph text={'It allows you to easily input information on a mobile-friendly platform. This data is easily accessible, helping better inform your work and that of your organisation.'}/>
+
+<Paragraph text={'COP aims to reduce Border Force’s dependence on old applications, particularly those based on Microsoft Excel and Access, capturing and sharing information consistently, quickly and more accurately.'}/>
+
+<Paragraph text={'Watch to find out more about how COP is transforming the way Border Force collects and shares data.'}/>
+
+<Video source={'https://training.cop.homeoffice.gov.uk/videos/video_02.mp4'} width={487} height={64}/>
+
+<BreakLine pixels={'30'}/>
+
+<h3 id="services" className="govuk-heading-m">Services on COP</h3>
+
+<Paragraph text={'Old paper and manual-based reports and forms already benefitting from COP include:'}/>
+
+<BulletList list={['Cash Detection', 'National Security (CT) referral', 'Immediate Event Notification (IEN)', 'Mandatory Declarations (Man Dec)', 'Operational Activity Reporting (OAR)', 'Use of Force']}/>
+
+<p className="govuk-body"><a class="govuk-link" href="https://training.cop.homeoffice.gov.uk">Find out more</a> about these services and how to access them.</p>
+<p className="govuk-body">You can also see how COP will develop and evolve in the <Link class="govuk-link" to="/about/roadmap/">coming months</Link></p>
+
+</div>
+</div>
+</div>

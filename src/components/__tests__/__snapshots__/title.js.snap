@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`title renders extra large title correctly 1`] = `
+<h1
+  className="govuk-heading-xl"
+/>
+`;
+
+exports[`title renders large title correctly 1`] = `
+<h2
+  className="govuk-heading-l"
+/>
+`;
+
+exports[`title renders medium title correctly 1`] = `
+<h3
+  className="govuk-heading-m"
+/>
+`;

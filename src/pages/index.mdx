@@ -1,0 +1,77 @@
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
+import Image from '../components/image'
+import SEO from '../components/seo'
+<SEO title="Home" keywords={['gatsby', 'application', 'react']} />
+import ExtraLargeTitle from "../components/extra-large-title"
+import Panel from "../components/panel"
+import LargeTitle from "../components/large-title"
+import MediumTitle from "../components/MediumTitle"
+import Hr from "../components/hr"
+import BreakLine from "../components/Break-line"
+import StatContent from "../components/stats-content"
+import "../components/layout.css";
+import BulletList from "../components/bullet-list"
+
+<Panel title={'Easily capture data, make better decisions'} imageSource={'/images/home/banner.png'} imageAlt={'transform'} paragraphText={'Use the Central Operations Platform (COP) to capture information easily and produce data that informs decision making.'} sub-panel/>
+
+<div className="govuk-width-container">
+
+<BreakLine pixels={'50'}/>
+
+<div className="govuk-grid-row">
+  <div className="govuk-grid-column-one-half">
+    <MediumTitle text={'Get data in and out easily'}/>
+    <p className="govuk-body">COP helps you capture information digitally, whether it be through forms, reports, images or biometrics. It translates the information into data that you can track, analyse and share to help wider Border Force make better decisions.</p>
+    <p className="govuk-body">The services currently on COP include:</p>
+    <BulletList list={['Cash Detection', 'National Security (CT) referral', 'Immediate Event Notification (IEN)', 'Mandatory Declarations (Man Dec)', 'Operational Activity Reporting (OAR)', 'Use of Force']}/>
+    <p className="govuk-body">If you want to find out more about these services, or how to use them, go to our <a href="https://training.cop.homeoffice.gov.uk/#cop" class="govuk-link">help section.</a></p>
+  </div>
+  <div className="govuk-grid-column-one-half">
+    <Image noMobile={true}  source={'/images/home/group-20.png'} alt={'transform'}/>
+  </div>
+</div>
+
+<Hr inContent={true}/>
+
+<div className="govuk-grid-row homepage-content-margin">
+  <div className="govuk-grid-column-one-half">
+    <MediumTitle text={'How COP helps frontline staff'}/>
+  </div>
+</div>
+
+<div style={{marginLeft: '5px'}} className="govuk-grid-row homepage-content-margin">
+  <div className="govuk-grid-column-two-thirds">
+    <Image source={'/images/home/group-5.png'} alt={'transform'}/>
+  </div>
+</div>
+
+<div className="govuk-grid-row homepage-content-margin">
+  <div className="govuk-grid-column-one-half">
+    <p className="govuk-body">Learn more about <Link class="govuk-link" to="/about/benefits/">how COP helps the work of Border Force</Link></p>
+  </div>
+</div>
+
+<Hr inContent={true}/>
+
+<div className="govuk-grid-row homepage-content-margin">
+  <div className="govuk-grid-column-one-half">
+    <MediumTitle text={'How to get support'}/>
+        <p className="govuk-body">Find out <a class="govuk-link" href="https://training.cop.homeoffice.gov.uk">how to use COP</a> and its services, or <Link class="govuk-link" to="/help/">get in touch</Link> if you have any questions or feedback. </p>
+  </div>
+</div>
+
+<Hr inContent={true}/>
+
+<StatContent title={'Used and trusted by Border Force teams'} stats={[{number: '8000', description: 'Border Force users'}, {number: '7500+', description: 'forms and reports submitted per month '}, {number: '300+', description: 'COP visits per day '}]}/>
+
+<div className="govuk-grid-row">
+ <div className="govuk-grid-column-one-half">
+  <p className="govuk-body">Learn <Link to="/about/" class="govuk-link">how COP is reducing work</Link> and capturing information faster and better. And watch how COP has made the <a href="https://training.dev.cop.homeoffice.gov.uk/videos/COP_Transforming.mp4" target="_blank" class="govuk-link">work of Border Force staff easier.</a></p>
+ </div>
+</div>
+
+<BreakLine pixels={'50'}/>
+
+</div>
+

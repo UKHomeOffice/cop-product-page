@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo renders correctly 1`] = `
+<img
+  alt="logo"
+  className="cop-logo"
+/>
+`;

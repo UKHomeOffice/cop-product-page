@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "marginBottom": "30px",
+    }
+  }
+>
+  <nav>
+    <ol>
+      <li
+        className="sub-navigation__item"
+      >
+        <a
+          className="govuk-link subnav"
+          href="/about/"
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          <span>
+            About COP
+          </span>
+        </a>
+      </li>
+      <li
+        className="sub-navigation__item"
+      >
+        <a
+          className="govuk-link subnav"
+          href="/about/benefits/"
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          <span>
+            How COP helps you
+          </span>
+        </a>
+      </li>
+      <li
+        className="sub-navigation__item"
+      >
+        <a
+          className="govuk-link subnav"
+          href="/about/accessing/"
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          <span>
+            Use COP
+          </span>
+        </a>
+      </li>
+      <li
+        className="sub-navigation__item"
+      >
+        <a
+          className="govuk-link subnav"
+          href="/about/roadmap/"
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          <span>
+            Roadmap
+          </span>
+        </a>
+      </li>
+      <li
+        className="sub-navigation__item"
+      >
+        <a
+          className="govuk-link subnav"
+          href="/about/security/"
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          <span>
+            Security
+          </span>
+        </a>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
