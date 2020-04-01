@@ -6,9 +6,9 @@ const Button = (props) => {
     console.log(blah)
   }
   return (
-      <button onClick={event => handler(event, "is clicked")} className="govuk-button" data-module="govuk-button">
-        {props.text}
-      </button>
+    <button onClick={event => handler(event, "is clicked")} className="govuk-button" data-module="govuk-button">
+      {props.text}
+    </button>
   )
 }
 

@@ -28,12 +28,12 @@ const Footer = () => (
               </a>
             </li>
             <li className="govuk-footer__list-item">
-              <a className="govuk-footer__link" href="">
+              <a className="govuk-footer__link" href="https://www.cop.homeoffice.gov.uk/accessibility-statement">
                 Accessibility
               </a>
             </li>
             <li className="govuk-footer__list-item">
-              <a className="govuk-footer__link" href="">
+              <a className="govuk-footer__link" href="https://www.cop.homeoffice.gov.uk/privacy-policy">
                 Privacy Policy
               </a>
             </li>
