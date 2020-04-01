@@ -20,6 +20,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
+    - run: npm audit --audit-level=moderate
     - run: npm test
-    - run: npm audit --audit-level=low
     - run: npm run build:dev
