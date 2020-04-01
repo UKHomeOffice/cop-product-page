@@ -1,5 +1,8 @@
 const path = require('path')
 
+const activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || "PROD";
+console.log(`Using environment config: '${activeEnv}'`);
+
 module.exports = {
   siteMetadata: {
     title: 'Homeoffice - COP',
@@ -46,9 +49,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-matomo',
       options: {
-        siteId: '1',
-        matomoUrl: 'https://matomo.dev.cop.homeoffice.gov.uk/',
-        siteUrl: 'https://product.dev.cop.homeoffice.gov.uk/'
+        siteId: activeEnv === 'PROD' ? '4' : '1',
+        matomoUrl: activeEnv === 'PROD' ? 'https://matomo.cop.homeoffice.gov.uk/' : 'https://matomo.dev.cop.homeoffice.gov.uk/',
+        siteUrl: activeEnv === 'PROD' ? 'https://product.cop.homeoffice.gov.uk/' : 'https://product.dev.cop.homeoffice.gov.uk/'
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
