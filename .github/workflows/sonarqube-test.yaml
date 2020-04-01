@@ -20,8 +20,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: npm test
-    - run: npm run build
+    - run: npm run build:dev
 
     # Run sonarqube
-#    - name: Sonarqube
-#    - uses: docker://quay.io/ukhomeofficedigital/sonar-scanner-node@latest
+    - name: Sonarqube
+      uses: docker://quay.io/ukhomeofficedigital/sonar-scanner-node
