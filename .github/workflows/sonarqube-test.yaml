@@ -1,5 +1,4 @@
-name: Product Page deploy
-
+name: Test sonar
 on:
   push:
     branches: [ CP-130 ]
