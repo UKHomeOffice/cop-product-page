@@ -42,5 +42,5 @@ jobs:
         DISTRIBUTION: ${{ secrets.DISTRIBUTION_PROD }}
         PATHS: '/*'
         AWS_REGION: 'eu-west-2'
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_PROS }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_PROD }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_PROD }}
