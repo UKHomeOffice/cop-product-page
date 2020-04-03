@@ -1,9 +1,12 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import Button from "../button";
-import { shallow } from 'enzyme';
+import { Button, testables } from "../button";
+import Enzyme, { shallow, render, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
+Enzyme.configure({ adapter: new Adapter() });
 describe("button", () => {
+
   it("renders correctly", () => {
     const tree = renderer
       .create(<Button/>)
@@ -18,11 +21,20 @@ describe("button", () => {
     expect(testInstance.props.text).toBe("submit");
   });
 
-  it('should call mock function when button is clicked', () => {
-    const tree = shallow(
-      <Button text={"submit"} handler={mockFn} />
-    );
-    tree.simulate('click');
-    expect(mockFn).toHaveBeenCalled();
+  it("should handle the click function", () => {
+    const {handler} = testables;
+    const consoleSpy = jest.spyOn(console, 'log');
+    handler('event');
+
+    expect(consoleSpy).toHaveBeenCalledWith('event');
+    expect(consoleSpy).not.toHaveBeenCalledWith('no event');
+  });
+
+  it('Test click event', () => {
+    const mockCallBack = jest.fn();
+    const button = shallow(<Button id={"button"} onClick={mockCallBack}/>);
+    button.find('button').simulate('click');
+    console.log(button);
+    expect(mockCallBack.mock.calls.length).toEqual(1);
   });
 });

@@ -11,24 +11,24 @@ const NavItems = [
   { name: "Sign-in", href: "https://www.cop.homeoffice.gov.uk/" }
 ];
 
-const Header = () => {
-  const showMobileButton = () => {
-    let menuButton = document.getElementById("menuButton");
-    let navigation = document.getElementById("navigation");
+const showMobileButton = () => {
+  let menuButton = document.getElementById("menuButton");
+  let navigation = document.getElementById("navigation");
 
-    if (!menuButton.classList.contains("govuk-header__menu-button--open")) {
-      menuButton.classList.add("govuk-header__menu-button--open");
-      navigation.classList.add("govuk-header__navigation--open");
-      menuButton.setAttribute("aria-expanded", "true");
-      navigation.setAttribute("aria-hidden", "false");
-    } else {
-      menuButton.classList.remove("govuk-header__menu-button--open");
-      navigation.classList.remove("govuk-header__navigation--open");
-      menuButton.setAttribute("aria-expanded", "false");
-      navigation.setAttribute("aria-hidden", "true");
-    }
-  };
-  return (
+  if (!menuButton.classList.contains("govuk-header__menu-button--open")) {
+    menuButton.classList.add("govuk-header__menu-button--open");
+    navigation.classList.add("govuk-header__navigation--open");
+    menuButton.setAttribute("aria-expanded", "true");
+    navigation.setAttribute("aria-hidden", "false");
+  } else {
+    menuButton.classList.remove("govuk-header__menu-button--open");
+    navigation.classList.remove("govuk-header__navigation--open");
+    menuButton.setAttribute("aria-expanded", "false");
+    navigation.setAttribute("aria-hidden", "true");
+  }
+};
+
+const Header = () => (
     <>
       <header className="govuk-header " role="banner" data-module="header">
         <div className="govuk-header__container govuk-width-container">
@@ -89,6 +89,9 @@ const Header = () => {
       </header>
     </>
   );
-};
 
 export default Header;
+
+export const testables = {
+  showMobileButton:showMobileButton
+};

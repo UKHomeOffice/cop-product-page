@@ -60,6 +60,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               className="govuk-footer__link"
               href="https://training.cop.homeoffice.gov.uk/#cop"
+              target="_blank"
             >
               How-to guide
             </a>
@@ -70,6 +71,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               className="govuk-footer__link"
               href="https://www.cop.homeoffice.gov.uk/accessibility-statement"
+              target="_blank"
             >
               Accessibility
             </a>
@@ -80,6 +82,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               className="govuk-footer__link"
               href="https://www.cop.homeoffice.gov.uk/privacy-policy"
+              target="_blank"
             >
               Privacy Policy
             </a>
