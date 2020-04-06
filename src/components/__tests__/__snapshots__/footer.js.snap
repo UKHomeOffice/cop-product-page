@@ -38,7 +38,7 @@ exports[`Footer renders correctly 1`] = `
           >
             <a
               className="govuk-footer__link"
-              href="/help/"
+              href="/support/"
             >
               Help
             </a>
@@ -60,6 +60,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               className="govuk-footer__link"
               href="https://training.cop.homeoffice.gov.uk/#cop"
+              target="_blank"
             >
               How-to guide
             </a>
@@ -69,7 +70,7 @@ exports[`Footer renders correctly 1`] = `
           >
             <a
               className="govuk-footer__link"
-              href=""
+              href="/accessibility/"
             >
               Accessibility
             </a>

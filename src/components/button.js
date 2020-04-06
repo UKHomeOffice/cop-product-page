@@ -1,15 +1,17 @@
 import React from "react"
 
-const Button = (props) => {
-  const handler = (e, blah) => {
-    e.preventDefault()
-    console.log(blah)
-  }
-  return (
-      <button onClick={event => handler(event, "is clicked")} className="govuk-button" data-module="govuk-button">
-        {props.text}
-      </button>
-  )
-}
+const handler = (message) => {
+  console.log(message);
+};
 
-export default Button
+export const Button = (props) => {
+  return (
+    <button id={'a'} onClick={event => handler("is clicked")} className="govuk-button" data-module="govuk-button">
+      {props.text}
+    </button>
+  )
+};
+
+export const testables = {
+  handler:handler
+};

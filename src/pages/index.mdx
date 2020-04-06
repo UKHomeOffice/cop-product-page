@@ -23,12 +23,12 @@ import Paragraph from "../components/paragraph"
 <div className="govuk-grid-row">
   <div className="govuk-grid-column-one-half">
     <MediumTitle text={'Get data in and out easily'}/>
-    <p className="govuk-body">COP helps you log information — whether it be forms, reports, images or biometrics — on laptops and mobile devices. It translates the information into data that you can track, analyse and share to help Border Force make better decisions.</p>
-    <p className="govuk-body">The services currently on COP include:</p>
+    <Paragraph text={'COP helps you log information — whether it be forms, reports, images or biometrics — on laptops and mobile devices. It translates the information into data that you can track, analyse and share to help Border Force make better decisions.'}/>
+    <Paragraph text={'The services currently on COP include:'}/>
     <BulletList list={['Immediate Event Notification (IEN)', 'National Security (NS) Referral', 'Cash Detection', 'Operational Activity Reporting (OAR)', 'Mandatory Declarations (Man Dec)', 'Use of Force']}/>
     <p className="govuk-body">Find out <a href="https://training.cop.homeoffice.gov.uk/#cop" class="govuk-link">more about these services.</a></p>
-
   </div>
+
   <div className="govuk-grid-column-one-half">
     <Image noMobile={true}  source={'/images/home/group-20.png'} alt={'transform'}/>
   </div>

@@ -8,7 +8,7 @@ const StatContent = (props) => {
   const stats = props.stats;
   return (
     <div>
-      <MediumTitle id="title" text={props.title}/>
+      <MediumTitle id={"title"} text={props.title}/>
       <BreakLine pixels={'50'}/>
       <div className="govuk-grid-row">
         {stats.map((value, index) => {
