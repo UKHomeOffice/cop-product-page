@@ -33,7 +33,7 @@ const Footer = () => (
               </Link>
             </li>
             <li className="govuk-footer__list-item">
-              <Link className="govuk-footer__link" to="/privacy_policy/">
+              <Link className="govuk-footer__link" to="/privacy-policy/">
                 Privacy Policy
               </Link>
             </li>
