@@ -1,0 +1,23 @@
+pipeline:
+
+##### Build project #####
+
+  build:
+    image: node:alpine-12
+    environment:
+      - DOCKER_HOST=tcp://172.17.0.1:2375
+    commands:
+      - npm install
+      - npm audit --audit-level=moderate
+      - npm test
+      - npm run build:dev
+    when:
+      branch: CP-130
+
+
+##### Run SonarQube scan on pull / merge requests #####
+
+  pr_sonarqube_scan:
+    image: quay.io/ukhomeofficedigital/sonar-scanner-node:latest
+    when:
+      branch: CP-130
