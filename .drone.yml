@@ -12,8 +12,6 @@ pipeline:
       - npm test
       - npm run build:dev
     when:
-      branch:
-        excludes: master
       event: pull_request
 
 ##### Run SonarQube scan on pull / merge requests #####
@@ -21,6 +19,4 @@ pipeline:
   pr_sonarqube_scan:
     image: quay.io/ukhomeofficedigital/sonar-scanner-node:latest
     when:
-      branch:
-        excludes: master
       event: pull_request
