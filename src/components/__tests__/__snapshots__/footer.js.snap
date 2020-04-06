@@ -80,7 +80,7 @@ exports[`Footer renders correctly 1`] = `
           >
             <a
               className="govuk-footer__link"
-              href="/privacy_policy/"
+              href="/privacy-policy/"
             >
               Privacy Policy
             </a>
