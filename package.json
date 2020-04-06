@@ -36,7 +36,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "jest",
+    "test": "jest --coverage",
     "nightwatch": "./node_modules/.bin/nightwatch"
   },
   "devDependencies": {
