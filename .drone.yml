@@ -3,7 +3,7 @@ pipeline:
 ##### Build project #####
 
   build:
-    image: node:alpine-12
+    image: quay.io/ukhomeofficedigital/node-10:b43109ed7afbce9bd949fde0fa2db89d8ce31438
     environment:
       - DOCKER_HOST=tcp://172.17.0.1:2375
     commands:
