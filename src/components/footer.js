@@ -14,7 +14,7 @@ const Footer = () => (
             </li>
             <li className="govuk-footer__list-item">
               <Link className="govuk-footer__link" to="/support/">
-                Help
+                Support
               </Link>
             </li>
             <li className="govuk-footer__list-item">
