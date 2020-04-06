@@ -4,6 +4,7 @@ exports[`button renders correctly 1`] = `
 <button
   className="govuk-button"
   data-module="govuk-button"
+  id="a"
   onClick={[Function]}
 />
 `;
