@@ -12,6 +12,7 @@ import BreakLine from "../components/Break-line"
 import StatContent from "../components/stats-content"
 import "../components/layout.css";
 import BulletList from "../components/bullet-list"
+import Paragraph from "../components/paragraph"
 
 <Panel title={'Easily capture data, make better decisions'} imageSource={'/images/home/banner.png'} imageAlt={'transform'} paragraphText={'Use the Central Operations Platform (COP) to capture information easily and produce data that informs decision making.'} sub-panel/>
 
@@ -22,11 +23,12 @@ import BulletList from "../components/bullet-list"
 <div className="govuk-grid-row">
   <div className="govuk-grid-column-one-half">
     <MediumTitle text={'Get data in and out easily'}/>
-    <p className="govuk-body">COP helps you capture information digitally, whether it be through forms, reports, images or biometrics. It translates the information into data that you can track, analyse and share to help wider Border Force make better decisions.</p>
-    <p className="govuk-body">The services currently on COP include:</p>
-    <BulletList list={['Cash Detection', 'National Security (CT) referral', 'Immediate Event Notification (IEN)', 'Mandatory Declarations (Man Dec)', 'Operational Activity Reporting (OAR)', 'Use of Force']}/>
-    <p className="govuk-body">If you want to find out more about these services, or how to use them, go to our <a href="https://training.cop.homeoffice.gov.uk/#cop" class="govuk-link">help section.</a></p>
+    <Paragraph text={'COP helps you log information — whether it be forms, reports, images or biometrics — on laptops and mobile devices. It translates the information into data that you can track, analyse and share to help Border Force make better decisions.'}/>
+    <Paragraph text={'The services currently on COP include:'}/>
+    <BulletList list={['Immediate Event Notification (IEN)', 'National Security (NS) Referral', 'Cash Detection', 'Operational Activity Reporting (OAR)', 'Mandatory Declarations (Man Dec)', 'Use of Force']}/>
+    <p className="govuk-body">Find out <a href="https://training.cop.homeoffice.gov.uk/#cop" class="govuk-link">more about these services.</a></p>
   </div>
+
   <div className="govuk-grid-column-one-half">
     <Image noMobile={true}  source={'/images/home/group-20.png'} alt={'transform'}/>
   </div>
@@ -48,7 +50,7 @@ import BulletList from "../components/bullet-list"
 
 <div className="govuk-grid-row homepage-content-margin">
   <div className="govuk-grid-column-one-half">
-    <p className="govuk-body">Learn more about <Link class="govuk-link" to="/about/benefits/">how COP helps the work of Border Force</Link></p>
+    <p className="govuk-body">Learn more about <Link class="govuk-link" to="/about/benefits/">how COP helps the work of Border Force.</Link></p>
   </div>
 </div>
 
@@ -57,7 +59,7 @@ import BulletList from "../components/bullet-list"
 <div className="govuk-grid-row homepage-content-margin">
   <div className="govuk-grid-column-one-half">
     <MediumTitle text={'How to get support'}/>
-        <p className="govuk-body">Find out <a class="govuk-link" href="https://training.cop.homeoffice.gov.uk">how to use COP</a> and its services, or <Link class="govuk-link" to="/help/">get in touch</Link> if you have any questions or feedback. </p>
+        <p className="govuk-body">Find out <a class="govuk-link" href="https://training.cop.homeoffice.gov.uk">how to use COP</a> and its services, or <Link class="govuk-link" to="/support/">check the support section</Link> if you need any other help or assistance.</p>
   </div>
 </div>
 
@@ -67,7 +69,7 @@ import BulletList from "../components/bullet-list"
 
 <div className="govuk-grid-row">
  <div className="govuk-grid-column-one-half">
-  <p className="govuk-body">Learn <Link to="/about/" class="govuk-link">how COP is reducing work</Link> and capturing information faster and better. And watch how COP has made the <a href="https://training.dev.cop.homeoffice.gov.uk/videos/COP_Transforming.mp4" target="_blank" class="govuk-link">work of Border Force staff easier.</a></p>
+  <p className="govuk-body">Learn <Link to="/about/" class="govuk-link">how COP is reducing work</Link> and capturing information faster and better. And find out how it is <Link to="/about/benefits/" class="govuk-link">making the work of Border Force staff easier.</Link></p>
  </div>
 </div>
 

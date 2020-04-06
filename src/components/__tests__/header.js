@@ -1,6 +1,11 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import Header from "../header";
+import { testables } from "../header";
+import Enzyme, { shallow, render, mount } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+Enzyme.configure({ adapter: new Adapter() });
 
 describe("Header", () => {
   it("renders correctly", () => {

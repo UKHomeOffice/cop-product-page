@@ -13,8 +13,8 @@ const Footer = () => (
               </a>
             </li>
             <li className="govuk-footer__list-item">
-              <Link className="govuk-footer__link" to="/help/">
-                Help
+              <Link className="govuk-footer__link" to="/support/">
+                Support
               </Link>
             </li>
             <li className="govuk-footer__list-item">
@@ -23,19 +23,19 @@ const Footer = () => (
               </a>
             </li>
             <li className="govuk-footer__list-item">
-              <a className="govuk-footer__link" href="https://training.cop.homeoffice.gov.uk/#cop">
+              <a className="govuk-footer__link" href="https://training.cop.homeoffice.gov.uk/#cop" target="_blank">
                 How-to guide
               </a>
             </li>
             <li className="govuk-footer__list-item">
-              <a className="govuk-footer__link" href="">
+              <Link className="govuk-footer__link" to="/accessibility/">
                 Accessibility
-              </a>
+              </Link>
             </li>
             <li className="govuk-footer__list-item">
-              <a className="govuk-footer__link" href="">
+              <Link className="govuk-footer__link" to="/privacy-policy/">
                 Privacy Policy
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
