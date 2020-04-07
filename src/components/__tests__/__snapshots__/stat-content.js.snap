@@ -28,6 +28,12 @@ exports[`stat-content renders correctly 1`] = `
       </h1>
       <p
         className="govuk-body"
+        id="valueText0"
+        style={
+          Object {
+            "maxWidth": "75%",
+          }
+        }
       >
         Border Force users
       </p>
@@ -42,6 +48,12 @@ exports[`stat-content renders correctly 1`] = `
       </h1>
       <p
         className="govuk-body"
+        id="valueText1"
+        style={
+          Object {
+            "maxWidth": "75%",
+          }
+        }
       >
         forms and reports submitted per month
       </p>
@@ -56,6 +68,12 @@ exports[`stat-content renders correctly 1`] = `
       </h1>
       <p
         className="govuk-body"
+        id="valueText2"
+        style={
+          Object {
+            "maxWidth": "75%",
+          }
+        }
       >
         COP visits per day
       </p>

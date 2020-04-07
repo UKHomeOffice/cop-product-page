@@ -13,7 +13,7 @@ const StatContent = (props) => {
         {stats.map((value, index) => {
           return <div key={index} className="govuk-grid-column-one-third">
             <ExtraLargeTitle id={`valueNum${index}`} text={value.number}/>
-            <p style={{maxWidth: '75%'}} className={'govuk-body'}>{value.description}</p>
+            <p id={`valueText${index}`} style={{maxWidth: '75%'}} className={'govuk-body'}>{value.description}</p>
           </div>;
         })}
       </div>

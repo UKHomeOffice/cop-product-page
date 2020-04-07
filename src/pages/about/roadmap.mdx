@@ -1,12 +1,13 @@
 import { Link } from 'gatsby'
 import Layout from '../../components/layout'
-import SEO from '../../components/seo'
 import LargeTitle from "../../components/large-title"
 import BreakLine from "../../components/Break-line"
 import "../../components/layout.css";
 import SubNavigation from "../../components/sub_navigation";
 import MediumTitle from "../../components/MediumTitle"
 import BulletList from "../../components/bullet-list"
+import SmallTitle from "../../components/SmallTitle"
+import Paragraph from "../../components/paragraph"
 
 <div className="govuk-width-container main-height">
 
@@ -24,25 +25,25 @@ import BulletList from "../../components/bullet-list"
 
 <LargeTitle text={'Roadmap'}/>
 
-<p className="govuk-body">The COP roadmap shows what we want to achieve in the next 12 months.</p>
+<Paragraph text={'The COP roadmap shows what we want to achieve in the next 12 months.'}/>
 
-<p className="govuk-body">The outcomes of the roadmap will not change during the year, though the actions we prioritise may alter as we go through the coming months.</p>
+<Paragraph text={'The outcomes of the roadmap will not change during the year, though the actions we prioritise may alter as we go through the coming months.'}/>
 
-<h4 className="govuk-heading-s">Outcome 1: Make life easier for frontline staff</h4>
+<SmallTitle text={'Outcome 1: Make life easier for frontline staff'}/>
 
-<p className="govuk-body">We will analyse whether we’re meeting this outcome by looking at the:</p>
+<Paragraph text={'We will analyse whether we’re meeting this outcome by looking at the:'}/>
 
 <BulletList list={['Number of people that use COP','User satisfaction','Number of forms and reports submitted','Services on the platform']}/>
 
-<h4 className="govuk-heading-s">Outcome 2: Enable Border Force to make data-driven decisions</h4>
+<SmallTitle text={'Outcome 2: Enable Border Force to make data-driven decisions'}/>
 
-<p className="govuk-body">We will analyse whether we’re meeting this outcome by looking at the:</p>
+<Paragraph text={'We will analyse whether we’re meeting this outcome by looking at the:'}/>
 
 <BulletList list={['Availability of data','Speed of data']}/>
 
-<h4 className="govuk-heading-s">Outcome 3: Make the platform resilient and flexible</h4>
+<SmallTitle text={'Outcome 3: Make the platform resilient and flexible'}/>
 
-<p className="govuk-body">We will analyse whether we’re meeting this outcome by looking at the:</p>
+<Paragraph text={'We will analyse whether we’re meeting this outcome by looking at the:'}/>
 
 <BulletList list={['Services on the platform', 'Speed in which new services are added', 'Uptime']}/>
 

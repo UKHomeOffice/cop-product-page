@@ -36,7 +36,6 @@ const Panel = (props) => (
         </div>
       </div>
     </div>
-    <SubPanel/>
   </>
 );
 
