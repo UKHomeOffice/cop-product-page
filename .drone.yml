@@ -1,0 +1,22 @@
+pipeline:
+
+##### Build project #####
+
+  build:
+    image: quay.io/ukhomeofficedigital/node-10:b43109ed7afbce9bd949fde0fa2db89d8ce31438
+    environment:
+      - DOCKER_HOST=tcp://172.17.0.1:2375
+    commands:
+      - npm install
+      - npm audit --audit-level=moderate
+      - npm test
+      - npm run build:dev
+    when:
+      event: pull_request
+
+##### Run SonarQube scan on pull / merge requests #####
+
+  pr_sonarqube_scan:
+    image: quay.io/ukhomeofficedigital/sonar-scanner-node:latest
+    when:
+      event: pull_request
