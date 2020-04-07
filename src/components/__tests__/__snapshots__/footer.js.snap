@@ -48,7 +48,7 @@ exports[`Footer renders correctly 1`] = `
           >
             <a
               className="govuk-footer__link"
-              href="http://www.refdata.gov.uk/"
+              href="https://www.refdata.homeoffice.gov.uk/"
               target="_blank"
             >
               Refdata

@@ -1,106 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders correctly 1`] = `
-Array [
+<div
+  className="govuk-panel"
+>
   <div
-    className="govuk-panel"
+    className="govuk-width-container"
+    style={
+      Object {
+        "marginTop": "30px",
+      }
+    }
   >
     <div
-      className="govuk-width-container"
-      style={
-        Object {
-          "marginTop": "30px",
-        }
-      }
+      className="govuk-grid-row"
     >
       <div
-        className="govuk-grid-row"
+        className="govuk-grid-column-two-thirds"
       >
+        <h1
+          className="govuk-heading-xl panel-heading"
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+        />
         <div
-          className="govuk-grid-column-two-thirds"
-        >
-          <h1
-            className="govuk-heading-xl panel-heading"
-            style={
-              Object {
-                "color": "white",
-              }
-            }
-          />
-          <div
-            className="banner-image-mobile"
-          >
-            <div
-              style={
-                Object {
-                  "margin": "0 auto",
-                  "maxWidth": "180px",
-                }
-              }
-            >
-              <img
-                style={
-                  Object {
-                    "maxWidth": "100%",
-                  }
-                }
-              />
-            </div>
-          </div>
-          <p
-            className="govuk-body govuk-!-font-size-24"
-            style={
-              Object {
-                "color": "white",
-              }
-            }
-          />
-          <div
-            className="button-container "
-            style={
-              Object {
-                "marginBottom": "20px",
-              }
-            }
-          >
-            <a
-              className="govuk-button product-page-button button-container__button govuk-!-margin-right-3"
-              draggable="false"
-              href="https://www.cop.homeoffice.gov.uk/"
-              role="button"
-            >
-              <div
-                style={
-                  Object {
-                    "paddingLeft": "20px",
-                  }
-                }
-              >
-                Sign-in 
-                <i
-                  className="sign-in-arrow"
-                />
-              </div>
-            </a>
-            or  
-            <a
-              className="govuk-link govuk-!-font-weight-bold"
-              href="/about/"
-              style={
-                Object {
-                  "color": "white",
-                }
-              }
-            >
-              find out more about COP
-            </a>
-          </div>
-        </div>
-        <div
-          className="govuk-grid-column-one-third"
+          className="banner-image-mobile"
         >
           <div
-            className="banner-image"
+            style={
+              Object {
+                "margin": "0 auto",
+                "maxWidth": "180px",
+              }
+            }
           >
             <img
               style={
@@ -111,73 +46,71 @@ Array [
             />
           </div>
         </div>
-      </div>
-    </div>
-  </div>,
-  <div
-    className="govuk-panel"
-    id="sub-panel"
-    style={
-      Object {
-        "background": "#bbd4fe",
-        "margin": "0 auto",
-        "paddingTop": "10px",
-      }
-    }
-  >
-    <div
-      className="govuk-width-container"
-    >
-      <a
-        className="boxclose govuk-link"
-        id="boxclose"
-        onClick={[Function]}
-        onKeyPress={[Function]}
-      />
-      <div
-        className="govuk-grid-row"
-      >
+        <p
+          className="govuk-body govuk-!-font-size-24"
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+        />
         <div
-          className="govuk-grid-column-two-thirds"
+          className="button-container "
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
         >
-          <p
-            className="govuk-body-m"
+          <a
+            className="govuk-button product-page-button button-container__button govuk-!-margin-right-3"
+            draggable="false"
+            href="https://www.cop.homeoffice.gov.uk/"
+            role="button"
+          >
+            <div
+              style={
+                Object {
+                  "paddingLeft": "20px",
+                }
+              }
+            >
+              Sign-in 
+              <i
+                className="sign-in-arrow"
+              />
+            </div>
+          </a>
+          or  
+          <a
+            className="govuk-link govuk-!-font-weight-bold"
+            href="/about/"
             style={
               Object {
-                "lineHeight": "1.4",
-                "marginBottom": "0px",
+                "color": "white",
               }
             }
           >
-            <span
-              className="govuk-!-font-weight-bold"
-            >
-              Mandatory Declarations (Man Dec)
-            </span>
-             submission deadline is 
-            <span
-              className="govuk-!-font-weight-bold"
-            >
-              30 April 2020
-            </span>
-            <br />
-            <a
-              className="govuk-link govuk-!-font-weight-bold"
-              href="https://www.cop.homeoffice.gov.uk/"
-            >
-              Sign-in
-            </a>
-             to COP to fill in the form, or 
-            <a
-              className="govuk-link govuk-!-font-weight-bold"
-              href="https://training.cop.homeoffice.gov.uk/mandec.html#mandatory-declarations-man-dec"
-            >
-              find out more about the Man Dec.
-            </a>
-          </p>
+            find out more about COP
+          </a>
+        </div>
+      </div>
+      <div
+        className="govuk-grid-column-one-third"
+      >
+        <div
+          className="banner-image"
+        >
+          <img
+            style={
+              Object {
+                "maxWidth": "100%",
+              }
+            }
+          />
         </div>
       </div>
     </div>
-  </div>,
-]
+  </div>
+</div>
 `;

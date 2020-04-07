@@ -70,14 +70,14 @@ const getPageTimeout = PageTimeout.config.STEPTIMEOUT;
         .assert.containsText(pageObjects.about.titles.security_title, pageAssertions.about.security_title)
     },
 
-    "Open Help": function(browser) {
+    "Open Support": function(browser) {
       browser
         .useXpath()
-        .waitForElementVisible(pageObjects.help.help_nav_button, getPageTimeout)
-        .click(pageObjects.help.help_nav_button)
-        .waitForElementVisible(pageObjects.help.title, getPageTimeout)
+        .waitForElementVisible(pageObjects.support.support_nav_button, getPageTimeout)
+        .click(pageObjects.support.support_nav_button)
+        .waitForElementVisible(pageObjects.support.title, getPageTimeout)
         .pause(2500)
-        .assert.containsText(pageObjects.help.title, pageAssertions.help.title)
+        .assert.containsText(pageObjects.support.title, pageAssertions.support.title)
         .end();
     }
 };

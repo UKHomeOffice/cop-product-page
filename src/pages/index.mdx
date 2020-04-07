@@ -2,7 +2,6 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
-<SEO title="Home" keywords={['gatsby', 'application', 'react']} />
 import ExtraLargeTitle from "../components/extra-large-title"
 import Panel from "../components/panel"
 import LargeTitle from "../components/large-title"
@@ -13,8 +12,13 @@ import StatContent from "../components/stats-content"
 import "../components/layout.css";
 import BulletList from "../components/bullet-list"
 import Paragraph from "../components/paragraph"
+import SubPanel from "../components/sub-panel"
 
-<Panel title={'Easily capture data, make better decisions'} imageSource={'/images/home/banner.png'} imageAlt={'transform'} paragraphText={'Use the Central Operations Platform (COP) to capture information easily and produce data that informs decision making.'} sub-panel/>
+<Panel title={'Easily capture data, make better decisions'}
+ imageSource={'/images/home/banner.png'} imageAlt={'transform'}
+ paragraphText={'Use the Central Operations Platform (COP) to capture information easily and produce data that informs decision making.'}/>
+
+<SubPanel/>
 
 <div className="govuk-width-container">
 
@@ -26,7 +30,7 @@ import Paragraph from "../components/paragraph"
     <Paragraph text={'COP helps you log information — whether it be forms, reports, images or biometrics — on laptops and mobile devices. It translates the information into data that you can track, analyse and share to help Border Force make better decisions.'}/>
     <Paragraph text={'The services currently on COP include:'}/>
     <BulletList list={['Immediate Event Notification (IEN)', 'National Security (NS) Referral', 'Cash Detection', 'Operational Activity Reporting (OAR)', 'Mandatory Declarations (Man Dec)', 'Use of Force']}/>
-    <p className="govuk-body">Find out <a href="https://training.cop.homeoffice.gov.uk/#cop" class="govuk-link">more about these services.</a></p>
+    <p className="govuk-body">Find out <a href="https://training.cop.homeoffice.gov.uk/#cop" class="govuk-link" target="_blank">more about these services.</a></p>
   </div>
 
   <div className="govuk-grid-column-one-half">
@@ -59,13 +63,16 @@ import Paragraph from "../components/paragraph"
 <div className="govuk-grid-row homepage-content-margin">
   <div className="govuk-grid-column-one-half">
     <MediumTitle text={'How to get support'}/>
-        <p className="govuk-body">Find out <a class="govuk-link" href="https://training.cop.homeoffice.gov.uk">how to use COP</a> and its services, or <Link class="govuk-link" to="/support/">check the support section</Link> if you need any other help or assistance.</p>
+        <p className="govuk-body">Find out <a class="govuk-link" href="https://training.cop.homeoffice.gov.uk" target="_blank">how to use COP</a> and its services, or <Link class="govuk-link" to="/support/">check the support section</Link> if you need any other help or assistance.</p>
   </div>
 </div>
 
 <Hr inContent={true}/>
 
-<StatContent title={'Used and trusted by Border Force teams'} stats={[{number: '8000', description: 'Border Force users'}, {number: '7500+', description: 'forms and reports submitted per month '}, {number: '300+', description: 'COP visits per day '}]}/>
+<StatContent title={'Used and trusted by Border Force teams'}
+stats={[{number: '8000', description: 'Border Force users'},
+{number: '7500+', description: 'forms and reports submitted per month'},
+{number: '300+', description: 'COP visits per day '}]}/>
 
 <div className="govuk-grid-row">
  <div className="govuk-grid-column-one-half">
@@ -76,4 +83,3 @@ import Paragraph from "../components/paragraph"
 <BreakLine pixels={'50'}/>
 
 </div>
-

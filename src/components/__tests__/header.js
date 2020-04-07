@@ -21,4 +21,16 @@ describe("Header", () => {
     const testInstance = tree.root;
     expect(testInstance.findByProps({ id: "logo-image" })._fiber.memoizedProps.source).toEqual("/images/logo.png");
   });
+
+//   it("test function", () => {
+//     const tree = renderer
+//       .create(<Header/>);
+//     const testInstance = tree.root;
+// // const func = testables.showMobileButton();
+//     testables.showMobileButton();
+//     const tree2 = renderer
+//       .create(<Header/>);
+//     const testInstance2 = tree2.root;
+//     expect(testInstance2.findByProps({ className: "govuk-header__menu-button--open" })).toBeTruthy();
+//   });
 });

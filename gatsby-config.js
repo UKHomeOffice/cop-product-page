@@ -49,7 +49,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-matomo',
       options: {
-        siteId: activeEnv === 'PROD' ? '4' : '1',
+        siteId: activeEnv === 'PROD' ? '6' : '1',
         matomoUrl: activeEnv === 'PROD' ? 'https://matomo.cop.homeoffice.gov.uk/' : 'https://matomo.dev.cop.homeoffice.gov.uk/',
         siteUrl: activeEnv === 'PROD' ? 'https://product.cop.homeoffice.gov.uk/' : 'https://product.dev.cop.homeoffice.gov.uk/'
       }

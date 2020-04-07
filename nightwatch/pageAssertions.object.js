@@ -5,11 +5,11 @@ module.exports = {
   about: {
     about_Cop_title: "About COP",
     benefits_title: "How COP helps you",
-    use_Cop_title: "Use COP",
+    use_Cop_title: "Get started",
     roadmap_title: "Roadmap",
     security_title: "Security",
   },
-  help: {
-    title: "Help"
+  support: {
+    title: "Support"
   }
 };

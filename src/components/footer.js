@@ -18,7 +18,7 @@ const Footer = () => (
               </Link>
             </li>
             <li className="govuk-footer__list-item">
-              <a className="govuk-footer__link" href="http://www.refdata.gov.uk/" target="_blank">
+              <a className="govuk-footer__link" href="https://www.refdata.homeoffice.gov.uk/" target="_blank">
                 Refdata
               </a>
             </li>
