@@ -3,7 +3,6 @@ import ExtraLargeTitle from "./extra-large-title";
 import Image from "./image";
 import LargeParagraph from "./large-paragraph";
 import { Link } from "gatsby";
-import SubPanel from "./sub-panel";
 
 const bannerImageMobile = {
   maxWidth: "180px",
