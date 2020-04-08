@@ -21,14 +21,17 @@ describe("stat-content", () => {
                              { number: "7,500+", description: "forms and reports submitted per month" },
                              { number: "300+", description: "COP visits per day" }]}/>);
     const testInstance = tree.root;
-    const getProp = (key) => {
+    const getStatProp = (key) => {
       return testInstance.findByProps({ id: key })._fiber.memoizedProps.text;
     };
-    expect(getProp("valueText0")).toEqual("Border Force users");
-    expect(getProp("valueText1")).toEqual("forms and reports submitted per month");
-    expect(getProp("valueText2")).toEqual("COP visits per day");
-    expect(getProp("valueNum0")).toEqual("6,652");
-    expect(getProp("valueNum1")).toEqual("7,500+");
-    expect(getProp("valueNum2")).toEqual("300+");
+    const getDescriptionProp = (key) => {
+      return testInstance.findByProps({ id: key })._fiber.memoizedProps.children;
+    };
+    expect(getDescriptionProp("valueText0")).toEqual("Border Force users");
+    expect(getDescriptionProp("valueText1")).toEqual("forms and reports submitted per month");
+    expect(getDescriptionProp("valueText2")).toEqual("COP visits per day");
+    expect(getStatProp("valueNum0")).toEqual("6,652");
+    expect(getStatProp("valueNum1")).toEqual("7,500+");
+    expect(getStatProp("valueNum2")).toEqual("300+");
   });
 });

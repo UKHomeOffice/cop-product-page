@@ -6,9 +6,12 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.1.5",
     "@mdx-js/react": "^1.1.5",
+    "dotenv": "^8.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.8",
-    "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-matomo": "^0.8.1",
     "gatsby-plugin-mdx": "^1.0.0",
     "gatsby-plugin-offline": "^2.2.4",
@@ -33,7 +36,7 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
-    "test": "jest",
+    "test": "jest --coverage",
     "nightwatch": "./node_modules/.bin/nightwatch"
   },
   "devDependencies": {

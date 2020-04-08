@@ -1,7 +1,7 @@
 import React from "react";
 
 const MediumTitle = (props) => (
-    <h3 className="govuk-heading-m">
+    <h3 id={props.id} className="govuk-heading-m">
       {props.text}
   </h3>
 );

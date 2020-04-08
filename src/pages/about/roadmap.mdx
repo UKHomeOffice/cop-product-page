@@ -1,15 +1,13 @@
 import { Link } from 'gatsby'
 import Layout from '../../components/layout'
-import SEO from '../../components/seo'
 import LargeTitle from "../../components/large-title"
 import BreakLine from "../../components/Break-line"
 import "../../components/layout.css";
-import HyperLink from "../../components/hyperlink"
 import SubNavigation from "../../components/sub_navigation";
 import MediumTitle from "../../components/MediumTitle"
 import BulletList from "../../components/bullet-list"
-import Image from '../../components/image'
-import ImageNewWindow from '../../components/image-new-window'
+import SmallTitle from "../../components/SmallTitle"
+import Paragraph from "../../components/paragraph"
 
 <div className="govuk-width-container main-height">
 
@@ -23,14 +21,31 @@ import ImageNewWindow from '../../components/image-new-window'
 
 </div>
 
-
-<div className="column-three-quarters">
+<div className="column-five-eighths">
 
 <LargeTitle text={'Roadmap'}/>
 
-<Image source={'/images/roadmap/roadmap.png'} alt={'roadmap'}/>
+<Paragraph text={'The COP roadmap shows what we want to achieve in the next 12 months.'}/>
 
-<ImageNewWindow source={'/images/roadmap/roadmap.png'} text={'Open in a new window'} alt={'roadmap'}/>
+<Paragraph text={'The outcomes of the roadmap will not change during the year, though the actions we prioritise may alter as we go through the coming months.'}/>
+
+<SmallTitle text={'Outcome 1: Make life easier for frontline staff'}/>
+
+<Paragraph text={'We will analyse whether we’re meeting this outcome by looking at the:'}/>
+
+<BulletList list={['Number of people that use COP','User satisfaction','Number of forms and reports submitted','Services on the platform']}/>
+
+<SmallTitle text={'Outcome 2: Enable Border Force to make data-driven decisions'}/>
+
+<Paragraph text={'We will analyse whether we’re meeting this outcome by looking at the:'}/>
+
+<BulletList list={['Availability of data','Speed of data']}/>
+
+<SmallTitle text={'Outcome 3: Make the platform resilient and flexible'}/>
+
+<Paragraph text={'We will analyse whether we’re meeting this outcome by looking at the:'}/>
+
+<BulletList list={['Services on the platform', 'Speed in which new services are added', 'Uptime']}/>
 
 </div>
 </div>
