@@ -20,13 +20,4 @@ describe("button", () => {
     const testInstance = tree.root;
     expect(testInstance.props.text).toBe("submit");
   });
-
-  it("should handle the click function", () => {
-    const {handler} = testables;
-    const consoleSpy = jest.spyOn(console, 'log');
-    handler('event');
-
-    expect(consoleSpy).toHaveBeenCalledWith('event');
-    expect(consoleSpy).not.toHaveBeenCalledWith('no event');
-  });
 });
