@@ -6,9 +6,6 @@ Notify] and [GOV.UK Registers].
 
 ![Screenshot of COP product page](screenshot.png) 
 
-
-![Screenshot of COP product page Mobile](screenshot-mobile.png) 
-
 This site is built in [Gatsby.js] under the react framework, which uses 'Hooks' to render each component and allows developers to inject them in to the 'mdx' files.
 MDX files are used for content; developers may change text, inline styling, adding and removing components imported in to those files.
 
