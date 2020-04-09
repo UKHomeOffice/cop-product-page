@@ -9,3 +9,14 @@ exports[`image renders correctly 1`] = `
   }
 />
 `;
+
+exports[`image renders correctly when not on mobile 1`] = `
+<img
+  className="noMobile-image"
+  style={
+    Object {
+      "maxWidth": "100%",
+    }
+  }
+/>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hr renders correctly 1`] = `
+<div
+  className="gov-hr"
+/>
+`;
+
+exports[`Hr renders correctly in content 1`] = `
+<div
+  className="gov-hr govuk-width-container"
+/>
+`;

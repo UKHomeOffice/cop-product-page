@@ -4,7 +4,7 @@ This repository contains a number of [components](#components) that renders GDS 
 They can be used to build, maintain and improve the COP product page which in result will render GOV.UK themed pages. Similar to [GOV.UK Pay], [GOV.UK
 Notify] and [GOV.UK Registers].
 
-![Screenshot of COP product page](screenshot.png)
+![Screenshot of COP product page](screenshot.png) 
 
 This site is built in [Gatsby.js] under the react framework, which uses 'Hooks' to render each component and allows developers to inject them in to the 'mdx' files.
 MDX files are used for content; developers may change text, inline styling, adding and removing components imported in to those files.

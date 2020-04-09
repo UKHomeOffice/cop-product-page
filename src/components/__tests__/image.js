@@ -10,6 +10,13 @@ describe("image", () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it("renders correctly when not on mobile", () => {
+  const tree = renderer
+    .create(<Image noMobile={true}/>)
+    .toJSON();
+  expect(tree).toMatchSnapshot();
+});
+
   it("Returns the correct source and alt with its correct values given", () => {
     const tree = renderer
       .create(<Image alt={"description"} source={"http://test.com"}/>);
