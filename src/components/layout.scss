@@ -1,5 +1,9 @@
-@import "../../node_modules/govuk-frontend/govuk/all";
 $govuk-assets-path: "/" !default;
+$govuk-images-path: "#{$govuk-assets-path}images/" !default;
+$govuk-fonts-path: "#{$govuk-assets-path}fonts/" !default;
+
+@import "../../node_modules/govuk-frontend/govuk/all";
+@import "../../node_modules/govuk-frontend/govuk/settings/assets";
 
 html, body {
   margin: 0px;

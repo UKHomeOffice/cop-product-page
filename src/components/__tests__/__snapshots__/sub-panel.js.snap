@@ -9,6 +9,7 @@ exports[`Header Render correctly 1`] = `
       "background": "#bbd4fe",
       "margin": "0 auto",
       "paddingTop": "10px",
+      "textAlign": "left",
     }
   }
 >
@@ -77,6 +78,7 @@ exports[`Header button onclick render correctly 1`] = `
       "background": "#bbd4fe",
       "margin": "0 auto",
       "paddingTop": "10px",
+      "textAlign": "left",
     }
   }
 >

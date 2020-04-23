@@ -25,7 +25,6 @@ const Head = () => (
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
     <link rel="manifest" href="/images/manifest.json"/>
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png"/>
-
     <body className="js-enabled govuk-template__body govuk-main-wrapper--auto-spacing "/>
   </Helmet>
 );

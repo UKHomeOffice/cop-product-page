@@ -9,6 +9,7 @@ module.exports = {
     description: 'COP Product page',
     author: 'Zaizi',
   },
+
   plugins: [
     {
       resolve: `gatsby-plugin-mdx`,
