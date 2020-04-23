@@ -9,6 +9,7 @@ exports[`Header renders correctly 1`] = `
     style={
       Object {
         "marginTop": "30px",
+        "textAlign": "left",
       }
     }
   >
@@ -23,6 +24,7 @@ exports[`Header renders correctly 1`] = `
           style={
             Object {
               "color": "white",
+              "marginBottom": "20px",
             }
           }
         />
@@ -67,6 +69,11 @@ exports[`Header renders correctly 1`] = `
             draggable="false"
             href="https://www.cop.homeoffice.gov.uk/"
             role="button"
+            style={
+              Object {
+                "marginBottom": "0px",
+              }
+            }
           >
             <div
               style={
