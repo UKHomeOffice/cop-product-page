@@ -526,6 +526,25 @@ ol ol .sub-navigation__item {
   }
 }
 
+.govuk-footer__copyright-logo {
+    display: inline-block;
+    min-width: 125px;
+    padding-top: 112px;
+    background-image: url("../../static/images/govuk-crest.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 125px 102px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+    .govuk-footer__copyright-logo {
+        background-image: url("../../static/images/govuk-crest-2x.png")
+    }
+}
+
 //.column-half, .column-one-half {
 //  padding: 0 15px;
 //  -webkit-box-sizing: border-box;
