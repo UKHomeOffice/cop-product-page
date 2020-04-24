@@ -12,7 +12,7 @@ const bannerImageMobile = {
 const Panel = (props) => (
   <>
     <div className="govuk-panel">
-      <div className="govuk-width-container" style={{ marginTop: "30px" }}>
+      <div className="govuk-width-container" style={{ marginTop: "30px", textAlign: 'left' }}>
         <div className="govuk-grid-row">
           <div className="govuk-grid-column-two-thirds">
             <ExtraLargeTitle isPanel={true} text={props.title}/>
@@ -21,7 +21,7 @@ const Panel = (props) => (
             </div>
             <LargeParagraph isPanel={true} text={props.paragraphText}/>
             <div className="button-container " style={{ marginBottom: "20px" }}>
-              <a href="https://www.cop.homeoffice.gov.uk/" role="button" draggable="false"
+              <a href="https://www.cop.homeoffice.gov.uk/" role="button" draggable="false" style={{marginBottom: '0px'}}
                  className="govuk-button product-page-button button-container__button govuk-!-margin-right-3">
                 <div style={{ paddingLeft: "20px" }}>Sign-in <i className="sign-in-arrow"/></div>
               </a>

@@ -9,6 +9,7 @@ module.exports = {
     description: 'COP Product page',
     author: 'Zaizi',
   },
+
   plugins: [
     {
       resolve: `gatsby-plugin-mdx`,
@@ -31,6 +32,7 @@ module.exports = {
         path: `${__dirname}/src/pages`
       }
     },
+    `gatsby-plugin-sass`,
     // 'gatsby-transformer-sharp',
     // 'gatsby-plugin-sharp',
     // `gatsby-plugin-remove-trailing-slashes`,
@@ -53,7 +55,7 @@ module.exports = {
         matomoUrl: activeEnv === 'PROD' ? 'https://matomo.cop.homeoffice.gov.uk/' : 'https://matomo.dev.cop.homeoffice.gov.uk/',
         siteUrl: activeEnv === 'PROD' ? 'https://product.cop.homeoffice.gov.uk/' : 'https://product.dev.cop.homeoffice.gov.uk/'
       }
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',

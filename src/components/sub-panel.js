@@ -3,7 +3,8 @@ import React from "react";
 const panelAdditionalStyle = {
   background: '#bbd4fe',
   margin: '0 auto',
-  paddingTop: '10px'
+  paddingTop: '10px',
+  textAlign: 'left'
 };
 
 const panelContentAdditionalStyleOverrides = {
