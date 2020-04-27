@@ -10,6 +10,51 @@ html, body {
   padding: 0px;
 }
 
+main {
+  font-family: "GDS Transport", Arial, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  font-size: 16px;
+  line-height: 1.25;
+  -webkit-font-smoothing: antialiased
+}
+
+@media (min-width: 641px) {
+  main {
+    font-size: 19px;
+    line-height: 1.31579
+  }
+}
+
+a, abbr, acronym, address, article, aside, b, big, blockquote, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, i, img, ins, kbd, label, legend, li, mark, menu, nav, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var {
+  border: none;
+  margin: 0;
+  padding: 0
+}
+
+p {
+  color: #0b0c0c;
+  font-family: 'GDS Transport', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+strong {
+  font-weight: 700 !important;
+}
+
+@media (min-width: 40.0625em) {
+  p {
+    margin-bottom: 20px;
+    font-size: 19px !important;
+    line-height: 1.31579;
+  }
+}
+
 .service-name:after {
   content: 'COP';
 }
@@ -806,26 +851,4 @@ a.boxclose {
   outline: 3px solid #ffbf47;
   outline-offset: 0;
   background-color: #ffbf47
-}
-
-main {
-  font-family: "GDS Transport", Arial, sans-serif;
-  font-weight: 400;
-  text-transform: none;
-  font-size: 16px;
-  line-height: 1.25;
-  -webkit-font-smoothing: antialiased
-}
-
-@media (min-width: 641px) {
-  main {
-    font-size: 19px;
-    line-height: 1.31579
-  }
-}
-
-a, abbr, acronym, address, article, aside, b, big, blockquote, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, i, img, ins, kbd, label, legend, li, mark, menu, nav, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var {
-  border: none;
-  margin: 0;
-  padding: 0
 }
