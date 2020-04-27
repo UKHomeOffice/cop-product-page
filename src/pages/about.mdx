@@ -18,7 +18,9 @@ import Video from "../components/video"
 <div className="grid-row">
 
 <div className="column-one-quarter">
-<SubNavigation currentPage={props.path}/>
+
+<SubNavigation navItems={[{ name: "About COP", href: "/about/" }, { name: "How COP helps you", href: "/about/benefits/" }, { name: "Get started", href: "/about/get_started/" }, { name: "Roadmap", href: "/about/roadmap/" }, { name: "Security", href: "/about/security/" }]}/>
+
 </div>
 
 <div className="column-five-eighths">
