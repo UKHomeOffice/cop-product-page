@@ -19,29 +19,18 @@ Information of React and JSX can be found [here.](https://reactjs.org/docs/intro
 MDX files (.mdx) is a superset of Markdown files (.md) that enables developers to use JSX and HTML. This allows developers to add styling, logic and jsx written components into the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
 More information about mdx files can be found [here.](https://mdxjs.com/getting-started)
 
-As an example, in this repository, you will be able to see an imported 'Paragraph' depending on what you are trying to achieve. 
+As an example, in this repository, you will be able to see an imported 'Bullet point list.'
 e.g. Reusing the GDS paragraph component and adding in text as a prop.  
 
 ```html
-<Paragraph text={'Hello world'}/>
-```
-
-Or, adding in different inline custom styling and hyperlinks within a paragraph. 
-
-```html
-<p class="body-text">
-     <span style={color: 'red'}>click</span>
-        <a class="link" href="[link]">
-            here
-        </a>
-</p>
+<BulletList list={['List 1', 'list 2']}/>
 ```
 
 ## Styling
-Styling has been imported from the GDS frontend tool kit which leads to the [AlphaGov] repository. In this repository, images, css was imported from the 'dist' files.
-New styling classes have also been added in for specific layout purposes but does affect the styling of GDS components.
+Styling has been imported from the GDS frontend tool kit which leads to the [AlphaGov] repository.
+New styling classes have also been added in for specific layout purposes or for new elements.
 
-CSS Styling classes can be found in [layout.css.](src/components/layout.css)
+Styling classes can be found in [layout.scss.](src/components/layout.scss)
 
 ## Components
 
@@ -70,6 +59,7 @@ Link to each component to get an idea of how they are written in JSX
 - [Video](src/components/video.js)
 
 Please feel free to create new components if needed in the future.
+Not all components need to be used as the current mdx files will display 'govuk-body' paragraphs by simple text.
 
 ## Layout
 
