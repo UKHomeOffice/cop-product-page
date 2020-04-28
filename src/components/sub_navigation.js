@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 const SubNavigation = (props) => (
-      <div style={{marginBottom: '30px'}}>
+      <div className="sub-navigation-custom">
         <nav>
           <ol>
             {props.navItems.map((value, index) => {
