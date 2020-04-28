@@ -26,6 +26,8 @@ e.g. Reusing the GDS paragraph component and adding in text as a prop.
 <BulletList list={['List 1', 'list 2']}/>
 ```
 
+![Screenshot of GDS List](list.png)
+
 ## Styling
 Styling has been imported from the GDS frontend tool kit which leads to the [AlphaGov] repository.
 New styling classes have also been added in for specific layout purposes or for new elements.
