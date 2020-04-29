@@ -537,3 +537,13 @@ a.boxclose {
   outline-offset: 0;
   background-color: #ffbf47
 }
+
+.sub-navigation-custom-help {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 40.0625em) {
+  .sub-navigation-custom-help {
+    margin-bottom: 30px;
+  }
+}
