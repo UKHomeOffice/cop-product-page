@@ -5,7 +5,7 @@ import Logo from "./logo";
 const NavItems = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about/" },
-  { name: "Help", href: "/help/" },
+  { name: "Help", href: "/help/oar/overview/" },
   { name: "Support", href: "/support/" },
   { name: "Sign-in", href: "https://www.cop.homeoffice.gov.uk/" }
 ];
@@ -62,7 +62,7 @@ const Header = () => (
                       {value.name}
                     </a>
                   </li>;
-                } else if (value.name === "About") {
+                } else if (value.name === "About" || value.name === "Help") {
                   return <li className="govuk-header__navigation-item"
                              key={index}>
                     <Link to={value.href} partiallyActive={true} activeStyle={{ color: "#1d8feb" }}
