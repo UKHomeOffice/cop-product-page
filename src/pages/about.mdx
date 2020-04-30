@@ -10,6 +10,7 @@ import BulletList from "../components/bullet-list"
 import SubNavigation from "../components/sub_navigation";
 import Image from '../components/image'
 import Video from "../components/video"
+import { navItems } from "../navItems/about-nav-items"
 
 <div className="govuk-width-container main-height">
 
@@ -19,7 +20,7 @@ import Video from "../components/video"
 
 <div className="column-one-quarter">
 
-<SubNavigation navItems={[{ name: "About COP", href: "/about/" }, { name: "How COP helps you", href: "/about/benefits/" }, { name: "Get started", href: "/about/get_started/" }, { name: "Roadmap", href: "/about/roadmap/" }, { name: "Security", href: "/about/security/" }]}/>
+<SubNavigation navItems={navItems}/>
 
 </div>
 

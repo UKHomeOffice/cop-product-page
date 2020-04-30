@@ -1,10 +1,20 @@
 import React from "react";
 import { Link } from "gatsby";
 
+let a;
+let gIndex;
+const displaySubNav = (value, index) => {
+  const location = window.location;
+  console.log(value.href, "href");
+  console.log(location.pathname, "pathname");
+  a = location.pathname && location.pathname.includes(value.href);
+  gIndex = index;
+  console.log(a, 'includes');
+};
+
 const SubNavigation = (props) => {
   if (props.isHelp) {
     const location = window.location;
-    console.log(location.pathname);
     return (
       <div className="sub-navigation-custom-help sub-nav-sticky">
         <nav>
@@ -13,21 +23,21 @@ const SubNavigation = (props) => {
               return <div key={index}>
                 <li className="sub-navigation__item">
                   <Link partiallyActive={true} activeClassName="sub-navigation__item--active" style={{ color: "black" }}
-                        className="govuk-link subnav" to={value.href}>
+                        className="govuk-link subnav" to={value.href} onClick={() => displaySubNav(value, index)}>
                     <span>{value.name}</span>
                   </Link>
                 </li>
-                {value.href && value.href.includes(`${location.pathname}`)
-                  ? value.subItems.map((v, index) => {
+                {value.subItems.map((v, i) => {
+                  if (a && gIndex === index) {
                   return <li
                     className="sub-navigation__item"
-                    key={index} style={{ paddingLeft: '30px' }}>
+                    key={i} style={{ paddingLeft: "30px" }}>
                     <Link activeClassName="sub-navigation__item--active"
                           className="govuk-link subnav" to={v.href}>
                       <span style={{ color: "#005ea5" }}>{v.name}</span>
                     </Link>
                   </li>;
-                }) : console.log(value.href, 'ffff')}
+                } else { return <div key={i}/> }}) }
               </div>;
             })}
           </ol>
@@ -37,21 +47,22 @@ const SubNavigation = (props) => {
   } else {
     return (
       <div className="sub-navigation-custom">
-      <nav>
-        <ol>
-          {props.navItems.map((value, index) => {
-            return <li
-              className="sub-navigation__item"
-              key={index}>
-              <Link activeClassName="sub-navigation__item--active" style={{ color: "black" }} className="govuk-link subnav" to={value.href}>
-                <span>{value.name}</span>
-              </Link>
-            </li>;
-          })}
-        </ol>
-      </nav>
-    </div>
-    )
+        <nav>
+          <ol>
+            {props.navItems.map((value, index) => {
+              return <li
+                className="sub-navigation__item"
+                key={index}>
+                <Link activeClassName="sub-navigation__item--active" style={{ color: "black" }}
+                      className="govuk-link subnav" to={value.href}>
+                  <span>{value.name}</span>
+                </Link>
+              </li>;
+            })}
+          </ol>
+        </nav>
+      </div>
+    );
   }
 };
 export default SubNavigation;

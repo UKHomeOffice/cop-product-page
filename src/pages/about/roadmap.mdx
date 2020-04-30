@@ -8,6 +8,7 @@ import MediumTitle from "../../components/MediumTitle"
 import BulletList from "../../components/bullet-list"
 import SmallTitle from "../../components/SmallTitle"
 import Paragraph from "../../components/paragraph"
+import { navItems } from "../../navItems/about-nav-items"
 
 <div className="govuk-width-container main-height">
 
@@ -17,7 +18,7 @@ import Paragraph from "../../components/paragraph"
 
 <div className="column-one-quarter">
 
-<SubNavigation navItems={[{ name: "About COP", href: "/about/" }, { name: "How COP helps you", href: "/about/benefits/" }, { name: "Get started", href: "/about/get_started/" }, { name: "Roadmap", href: "/about/roadmap/" }, { name: "Security", href: "/about/security/" }]}/>
+<SubNavigation navItems={navItems}/>
 
 </div>
 
