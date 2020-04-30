@@ -3,9 +3,6 @@ import { Link } from "gatsby";
 
 let gIndex;
 const displaySubNav = (value, index) => {
-
-
-  gIndex = null;
   gIndex = index;
 };
 
@@ -31,9 +28,9 @@ const SubNavigation = (props) => {
                     return <li
                       className="sub-navigation__item"
                       key={i} style={{ paddingLeft: "30px" }}>
-                      <Link partiallyActive={true} activeClassName="sub-navigation__item--active"
+                      <Link style={{color: "#005ea5"}} activeClassName="sub-navigation__item--active sub-nav-active"
                             className="govuk-link subnav" to={v.href}>
-                        <span style={{ color: "#005ea5" }}>{v.name}</span>
+                        <span>{v.name}</span>
                       </Link>
                     </li>;
                   }
