@@ -1,13 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import Logo from "./logo";
-
-const NavItems = [
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about/" },
-  { name: "Support", href: "/support/" },
-  { name: "Sign-in", href: "https://www.cop.homeoffice.gov.uk/" }
-];
+import {navItems} from "../navItems/header-nav-items";
 
 const showMobileButton = () => {
   let menuButton = document.getElementById("menuButton");
@@ -53,7 +47,7 @@ const Header = () => (
           <nav>
             <ul id="navigation" className="govuk-header__navigation govuk-header__navigation--end"
                 aria-label="Top Level Navigation">
-              {NavItems.map((value, index) => {
+              {navItems.map((value, index) => {
                 if (value.name === "Sign-in") {
                   return <li className="govuk-header__navigation-item"
                              key={index}>
@@ -61,7 +55,7 @@ const Header = () => (
                       {value.name}
                     </a>
                   </li>;
-                } else if (value.name === "About") {
+                } else if (value.name === "About" || value.name === "Help") {
                   return <li className="govuk-header__navigation-item"
                              key={index}>
                     <Link to={value.href} partiallyActive={true} activeStyle={{ color: "#1d8feb" }}

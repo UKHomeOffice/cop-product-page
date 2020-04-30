@@ -86,6 +86,16 @@ exports[`Header button onclick render correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
+              href="/help/"
+            >
+              Help
+            </a>
+          </li>
+          <li
+            className="govuk-header__navigation-item"
+          >
+            <a
+              className="govuk-header__link header-nav-items"
               href="/support/"
             >
               Support
@@ -187,6 +197,16 @@ exports[`Header renders correctly 1`] = `
               href="/about/"
             >
               About
+            </a>
+          </li>
+          <li
+            className="govuk-header__navigation-item"
+          >
+            <a
+              className="govuk-header__link header-nav-items"
+              href="/help/"
+            >
+              Help
             </a>
           </li>
           <li
