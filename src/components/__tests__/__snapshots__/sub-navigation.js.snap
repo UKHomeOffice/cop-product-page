@@ -2,11 +2,7 @@
 
 exports[`Header renders correctly 1`] = `
 <div
-  style={
-    Object {
-      "marginBottom": "30px",
-    }
-  }
+  className="sub-navigation-custom"
 >
   <nav>
     <ol>

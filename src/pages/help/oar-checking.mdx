@@ -1,0 +1,55 @@
+import { Link } from 'gatsby'
+import Layout from '../../components/layout'
+import "../../components/layout.scss";
+import LargeTitle from "../../components/large-title"
+import MediumTitle from "../../components/MediumTitle"
+import Paragraph from "../../components/paragraph"
+import HyperLink from "../../components/hyperlink"
+import BreakLine from "../../components/Break-line"
+import BulletList from "../../components/bullet-list"
+import SubNavigation from "../../components/sub_navigation";
+import Image from '../../components/image'
+import Video from "../../components/video"
+import {navItems} from "../../navItems/help-nav-items"
+
+<div className="govuk-width-container main-height">
+
+<BreakLine pixels={'40'}/>
+
+<div className="grid-row">
+
+<div className="column-one-quarter">
+
+<SubNavigation navItems={navItems} isHelp={true}/>
+
+</div>
+
+
+<div className="column-five-eighths">
+
+<LargeTitle text={'Checking your OAR submission'} id="OARoverview"/>
+
+<p><span class="big-number">1.</span>  You can check to see if your OAR has been submitted successfully </p>
+
+   On your dashboard select ‘Reports’
+
+<div style={{marginBottom: "20px"}}>
+    <Image source={'/images/help/CheckSubmission/1.png'} alt={'OAR_Dashboard'}/>
+</div>
+
+<p> <span class="big-number">2.</span> Select ‘Operational activity report’ by clicking <strong>view</strong></p>
+
+<div style={{marginBottom: "20px"}}>
+    <Image source={'/images/help/CheckSubmission/2.png'} alt={'OAR_Report'}/>
+</div>
+
+<p> <span class="big-number">3.</span>  Choose how to view your report by either team or command in a particular month </p>
+
+<div style={{marginBottom: "20px"}}>
+    <Image source={'/images/help/CheckSubmission/3.png'} alt={'OAR_Submit'}/>
+</div>
+
+
+</div>
+</div>
+</div>

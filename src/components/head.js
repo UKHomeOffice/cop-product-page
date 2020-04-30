@@ -9,7 +9,7 @@ const Head = () => (
     <meta name="theme-color" content="blue"/>
 
     <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
-
+    <link rel="stylesheet" type="text/x-scss" href="/stylesheets/layout.scss" />
     <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png"/>
     <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png"/>
     <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png"/>
@@ -25,7 +25,7 @@ const Head = () => (
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
     <link rel="manifest" href="/images/manifest.json"/>
     <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png"/>
-    <body className="js-enabled govuk-template__body govuk-main-wrapper--auto-spacing "/>
+    <body style={{overflow: "visible"}} className="js-enabled govuk-template__body govuk-main-wrapper--auto-spacing "/>
   </Helmet>
 );
 
