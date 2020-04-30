@@ -1,0 +1,34 @@
+import { Link } from 'gatsby'
+import Layout from '../../../components/layout'
+import "../../../components/layout.scss";
+import LargeTitle from "../../../components/large-title"
+import MediumTitle from "../../../components/MediumTitle"
+import Paragraph from "../../../components/paragraph"
+import HyperLink from "../../../components/hyperlink"
+import BreakLine from "../../../components/Break-line"
+import BulletList from "../../../components/bullet-list"
+import SubNavigation from "../../../components/sub_navigation";
+import Image from '../../../components/image'
+import Video from "../../../components/video"
+import {navItems} from "../../../navItems/help-nav-items"
+
+<div className="govuk-width-container main-height">
+
+<BreakLine pixels={'40'}/>
+
+<div className="grid-row">
+
+<div className="column-one-quarter">
+
+<SubNavigation navItems={navItems} isHelp={true}/>
+
+</div>
+
+<div className="column-five-eighths">
+
+<LargeTitle text={'Page 3'}/>
+
+
+</div>
+</div>
+</div>
