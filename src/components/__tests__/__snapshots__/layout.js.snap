@@ -87,6 +87,16 @@ Array [
             >
               <a
                 className="govuk-header__link header-nav-items"
+                href="/help/"
+              >
+                Help
+              </a>
+            </li>
+            <li
+              className="govuk-header__navigation-item"
+            >
+              <a
+                className="govuk-header__link header-nav-items"
                 href="/support/"
               >
                 Support

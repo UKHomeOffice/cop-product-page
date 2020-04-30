@@ -17,7 +17,7 @@ const SubNavigation = (props) => {
               return <div key={index}>
                 <li className="sub-navigation__item">
                   <Link partiallyActive={true} activeClassName="sub-navigation__item--active" style={{ color: "black" }}
-                        className="govuk-link subnav" to={value.href} onClick={() => displaySubNav(value, index)}>
+                        className="govuk-link subnav" to={value.href} onClick={displaySubNav(value, index)}>
                     <span>{value.name}</span>
                   </Link>
                 </li>
