@@ -8,11 +8,11 @@ export const navItems = [
   {
     name: "Accessing your services", href: "/help/accessing-services-create-your-cop-account/",
     subItems: [{ name: "Create your COP account", href: "/help/accessing-services-create-your-cop-account/" }]
+  },
+  {
+    name: "Immediate Event Notifications", href: "/help/immediate-event-management/",
+    subItems: [{ name: "Overview", href: "/help/immediate-event-management/" },
+      { name: "Page 2", href: "/help/immediate-event-management-page-2/" },
+      { name: "Page 3", href: "/help/immediate-event-management-page-3/" }]
   }
-  // {
-  //   name: "Immediate Event Notifications", href: "/help/immediate-event-management/",
-  //   subItems: [{ name: "Overview", href: "/help/immediate-event-management/" },
-  //     { name: "Page 2", href: "/help/immediate-event-management-page-2/" },
-  //     { name: "Page 3", href: "/help/immediate-event-management-page-3/" }]
-  // }
 ];
