@@ -8,17 +8,6 @@ const displaySubNav = (index) => {
 };
 
 const isPartiallyActive = ({ isPartiallyCurrent, location }) => {
-// if (location.pathname === '/help/') {
-//   console.log('c');
-//     return { className: "sub-navigation__item--active" };
-// } else if (isPartiallyCurrent && location.pathname !== '/help/' ) {
-//   console.log('d');
-//   return { className: "sub-navigation__item--active" }
-// } else {
-//   console.log('e');
-//   return {};
-// }
-
   return isPartiallyCurrent
     ? { className: "sub-navigation__item--active" }
     : {};
@@ -39,14 +28,13 @@ const SubNavigation = (props) => {
                 <li className="sub-navigation__item">
                   <Link style={{ color: "black" }}
                         className="govuk-link subnav" to={value.href} onClick={() => displaySubNav(index)}
-                        getProps={isPartiallyActive}>
+                        getProps={isPartiallyActive} state={{ index: index }}>
                     <span>{value.name}</span>
                   </Link>
                 </li>
 
 
                 {value.subItems.map((v, i) => {
-                  console.log(gIndex, index, "indexes");
                   if (gIndex === index) {
                     return <li
                       className="sub-navigation__item"
