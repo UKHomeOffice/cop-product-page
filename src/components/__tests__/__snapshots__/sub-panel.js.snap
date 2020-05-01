@@ -27,42 +27,20 @@ exports[`Header Render correctly 1`] = `
       <div
         className="govuk-grid-column-two-thirds"
       >
-        <p
-          className="govuk-body-m"
+        <div
+          className="govuk-body"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": undefined,
+            }
+          }
           style={
             Object {
               "lineHeight": "1.4",
               "marginBottom": "0px",
             }
           }
-        >
-          <span
-            className="govuk-!-font-weight-bold"
-          >
-            Mandatory Declarations (Man Dec)
-          </span>
-           submission deadline is 
-          <span
-            className="govuk-!-font-weight-bold"
-          >
-            30 April 2020
-          </span>
-          <br />
-          <a
-            className="govuk-link govuk-!-font-weight-bold"
-            href="https://www.cop.homeoffice.gov.uk/"
-          >
-            Sign-in
-          </a>
-           to COP to fill in the form, or 
-          <a
-            className="govuk-link govuk-!-font-weight-bold"
-            href="https://training.cop.homeoffice.gov.uk/mandec.html#mandatory-declarations-man-dec"
-            target="_blank"
-          >
-            find out more about the Man Dec.
-          </a>
-        </p>
+        />
       </div>
     </div>
   </div>
@@ -96,42 +74,20 @@ exports[`Header button onclick render correctly 1`] = `
       <div
         className="govuk-grid-column-two-thirds"
       >
-        <p
-          className="govuk-body-m"
+        <div
+          className="govuk-body"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": undefined,
+            }
+          }
           style={
             Object {
               "lineHeight": "1.4",
               "marginBottom": "0px",
             }
           }
-        >
-          <span
-            className="govuk-!-font-weight-bold"
-          >
-            Mandatory Declarations (Man Dec)
-          </span>
-           submission deadline is 
-          <span
-            className="govuk-!-font-weight-bold"
-          >
-            30 April 2020
-          </span>
-          <br />
-          <a
-            className="govuk-link govuk-!-font-weight-bold"
-            href="https://www.cop.homeoffice.gov.uk/"
-          >
-            Sign-in
-          </a>
-           to COP to fill in the form, or 
-          <a
-            className="govuk-link govuk-!-font-weight-bold"
-            href="https://training.cop.homeoffice.gov.uk/mandec.html#mandatory-declarations-man-dec"
-            target="_blank"
-          >
-            find out more about the Man Dec.
-          </a>
-        </p>
+        />
       </div>
     </div>
   </div>
