@@ -1,21 +1,20 @@
 import React, { useEffect } from "react";
 import { Link } from "gatsby";
 
-
-let gIndex = 0;
-const displaySubNav = (index) => {
-  gIndex = index;
-};
-
 const isPartiallyActive = ({ isPartiallyCurrent, location }) => {
   return isPartiallyCurrent
     ? { className: "sub-navigation__item--active" }
     : {};
 };
 
+const isActive = ({ isCurrent }) => {
+  return isCurrent ? { className: "sub-navigation__item--active sub-nav-active" } : {}
+};
+
 const SubNavigation = (props) => {
+  let isBrowser = typeof window !== `undefined`;
   useEffect(() => {
-    gIndex = 0;
+    isBrowser = typeof window !== `undefined`;
   });
 
   if (props.isHelp) {
@@ -27,24 +26,26 @@ const SubNavigation = (props) => {
               return <div key={index}>
                 <li className="sub-navigation__item">
                   <Link style={{ color: "black" }}
-                        className="govuk-link subnav" to={value.href} onClick={() => displaySubNav(index)}
-                        getProps={isPartiallyActive} state={{ index: index }}>
+                        className="govuk-link subnav" to={value.href}
+                        getProps={isPartiallyActive}>
                     <span>{value.name}</span>
                   </Link>
                 </li>
 
 
                 {value.subItems.map((v, i) => {
-                  if (gIndex === index) {
+                  if (isBrowser) {
+                  if (window.location.pathname.includes(value.href)) {
                     return <li
                       className="sub-navigation__item"
                       key={i} style={{ paddingLeft: "30px" }}>
-                      <Link style={{ color: "#005ea5" }} activeClassName="sub-navigation__item--active sub-nav-active"
-                            className="govuk-link subnav" to={v.href} onClick={() => displaySubNav(index)}>
+                      <Link style={{ color: "#005ea5" }} getProps={isActive}
+                            className="govuk-link subnav" to={v.href}>
                         <span>{v.name}</span>
                       </Link>
                     </li>;
                   }
+                }
                 })}
 
 
