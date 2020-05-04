@@ -565,3 +565,13 @@ a.boxclose {
   font-size: 24px;
   font-weight: bold;
 }
+
+.sub-nav-sticky-container {
+  min-height: 100vh;
+}
+
+.sub-nav-sticky {
+  position: -webkit-sticky;  // required for Safari
+  position: sticky;
+  top: 0; // required as well.
+}
