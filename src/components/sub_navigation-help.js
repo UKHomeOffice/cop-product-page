@@ -1,14 +1,14 @@
 import React, { useEffect } from "react";
 import { Link } from "gatsby";
 
-const isPartiallyActive = ({ isPartiallyCurrent, location }) => {
+const isPartiallyActive = ({ isPartiallyCurrent }) => {
   return isPartiallyCurrent
     ? { className: "sub-navigation__item--active" }
     : {};
 };
 
 const isActive = ({ isCurrent }) => {
-  return isCurrent ? { className: "sub-navigation__item--active sub-nav-active" } : {}
+  return isCurrent ? { className: "sub-navigation__item--active sub-nav-active" } : {};
 };
 
 const SubNavigation = (props) => {
@@ -16,8 +16,9 @@ const SubNavigation = (props) => {
   useEffect(() => {
     isBrowser = typeof window !== `undefined`;
   });
-    return (
-      <div className="sub-navigation-custom-help sub-nav-sticky">
+  return (
+    <div className="column-one-quarter">
+      <div className="sub-navigation-custom-help">
         <nav>
           <ol>
             {props.navItems.map((value, index) => {
@@ -29,28 +30,27 @@ const SubNavigation = (props) => {
                     <span>{value.name}</span>
                   </Link>
                 </li>
-
-
-                {value.subItems.map((v, i) => {
+                {value.subItems && value.subItems.length > 0 && value.subItems.map((v, i) => {
                   if (isBrowser) {
-                  if (window.location.pathname.includes(value.href)) {
-                    return <li
-                      className="sub-navigation__item"
-                      key={i} style={{ paddingLeft: "30px" }}>
-                      <Link style={{ color: "#005ea5" }} getProps={isActive}
-                            className="govuk-link subnav" to={v.href}>
-                        <span>{v.name}</span>
-                      </Link>
-                    </li>;
+                    if (window.location.pathname.includes(value.href)) {
+                      return <li
+                        className="sub-navigation__item"
+                        key={i} style={{ paddingLeft: "30px" }}>
+                        <Link style={{ color: "#005ea5" }} getProps={isActive}
+                              className="govuk-link subnav" to={v.href}>
+                          <span>{v.name}</span>
+                        </Link>
+                      </li>;
+                    }
                   }
-                }
                 })}
               </div>;
             })}
           </ol>
         </nav>
       </div>
-    );
+    </div>
+  );
 };
 export default SubNavigation;
 
