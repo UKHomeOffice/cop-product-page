@@ -8,7 +8,11 @@ import MediumTitle from "../../components/MediumTitle"
 import BulletList from "../../components/bullet-list"
 import SmallTitle from "../../components/SmallTitle"
 import Paragraph from "../../components/paragraph"
+import LargeParagraph from "../../components/large-paragraph"
 import { navItems } from "../../navItems/about-nav-items"
+import RoadMapBlockContainer from "../../components/RoadMapBlockContainer"
+import BoxIcon from "../../components/box-icon"
+import RoadMapLabel from "../../components/roadmap-labels"
 
 <div className="govuk-width-container main-height">
 
@@ -30,36 +34,121 @@ The COP roadmap shows what we want to achieve in the next 12 months.
 
 The outcomes of the roadmap will not change during the year, though the actions we prioritise may alter as we go through the coming months.
 
-<SmallTitle text={'Outcome 1'}/>
+<LargeParagraph text={'COP 12-month roadmap'} />
 
-**Streamline:** Less time on paperwork to focus on more valuable work
+<RoadMapLabel text={'OUTCOMES'} />
 
-We will analyse whether we’re meeting this outcome by looking at the:
+<div class="grid-row">
 
-<BulletList list={['Number of forms submitted','Number of services live on COP','Daily and monthly users']}/>
+<div class="govuk-grid-column-one-third">
 
-Some of the activities we're planning to undertake over the next 12 months include Declare Integrity Risks (Mandatory Declarations), Intel Referrals, Events at the Border, Intel Workflow service RefData and a task management solution for Operations and Intel.
+**Streamline** <BoxIcon colour={'#28afb0'} />
 
-<SmallTitle text={'Outcome 2'}/>
+Less time on paperwork to focus on more valuable work
 
-**Inform:** Accurate and timely data that enables evidence-based decisions
+</div>
 
-We will analyse whether we’re meeting this outcome by looking at the:
 
-<BulletList list={['The time it takes to enter data','Analysts using the data', 'Number of interventions']}/>
+<div class="govuk-grid-column-one-third">
 
-Some of the activities we’re planning to undertake over the next 12 months include sGMR, building out Extract/Transform/Load tools for reporting, embedding PowerBI into COP for reporting, and meeting the needs of Analysts to use the data.
+**Inform** <BoxIcon colour={'#f18f01'} />
 
-<SmallTitle text={'Outcome 3'}/>
+Accurate and timely data that enables evidence-based decisions
 
-**Trusted:** Our processes and technologies work when and where needed
+</div>
 
-We will analyse whether we’re meeting this outcome by looking at the:
 
-<BulletList list={['Reliability/ resilience/ uptime', 'Number of legacy systems retired', 'Number of support tickets received']}/>
+<div class="govuk-grid-column-one-third">
 
-Some of the activities we're planning to undertake over the next 12 months include improving our end user documentation, improving support arrangements, adding to the collaboration tools and new ways of capturing data on smartphones.
+**Trusted** <BoxIcon colour={'#a23b72'} />
 
+Our processes and technologies work when and where needed
+
+</div>
+
+</div>
+
+<RoadMapLabel text={'MEASURE'} />
+
+<div class="grid-row">
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['# of forms submitted', 'Daily and monthly users', '% of users on mobile', '# of referrals ']} bannerColour={'#28afb0'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['# of events to Hub', 'Speed of event to HUB', '# reports held in databricks', '# analysts using data']} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Availability', '# grey IT systems removed', 'Licence cost savings', 'Resilience', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+
+<BreakLine pixels={'25'}/>
+
+<RoadMapLabel text={'NOW'} />
+
+<div class="grid-row">
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Intel Referral', 'Events at the border', 'Intel workflow', 'sGMR', 'Firmstep Migration*']} bannerColour={'#28afb0'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['BI Integration', 'Intel reporting', 'Intel', 'Op Harku']} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Image Capture (Smartphone)', 'Workflow collaboration Tool (Cawemo)', 'Uptime', 'Resilience', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+
+<BreakLine pixels={'25'}/>
+
+<RoadMapLabel text={'NEXT'} />
+
+<div class="grid-row">
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['NCC Task Management', 'Capacity Planning (OAR)', 'RefDataV2', 'Integrity Checks', 'Cerberus Task Management*']} bannerColour={'#28afb0'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Shift Debrief', 'Sit Rep View', 'Mandatory Declarations Viewer', 'Embedded BI dashboards in COP']} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['eDcoument read & verify', 'Workflow Engine Upgrade 7.13', 'Optimise Tool', 'User Documentation V2', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+
+<BreakLine pixels={'25'}/>
+
+<RoadMapLabel text={'LATER'} />
+
+<div class="grid-row">
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Record Refusal for entry (IS81)', 'OAR Enhance', 'Man DecV2', 'Ops Planning Tools']} bannerColour={'#28afb0'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Service Perf Dashboard', 'Ops Dashboard', 'Intel Dashboard']} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Fingerprint capture', 'Workflow Engine Upgrade 7.14', 'Release Comms', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+</div>
+
+</div>
 </div>
 </div>
 </div>
