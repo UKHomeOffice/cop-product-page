@@ -8,6 +8,7 @@ import MediumTitle from "../../components/MediumTitle"
 import BulletList from "../../components/bullet-list"
 import SmallTitle from "../../components/SmallTitle"
 import Paragraph from "../../components/paragraph"
+import LargeParagraph from "../../components/large-paragraph"
 import { navItems } from "../../navItems/about-nav-items"
 import RoadMapBlockContainer from "../../components/RoadMapBlockContainer"
 
@@ -27,41 +28,120 @@ import RoadMapBlockContainer from "../../components/RoadMapBlockContainer"
 
 <LargeTitle text={'Roadmap'}/>
 
+The COP roadmap shows what we want to achieve in the next 12 months.
+
+The outcomes of the roadmap will not change during the year, though the actions we prioritise may alter as we go through the coming months.
+
+<LargeParagraph text={'COP 12-month roadmap'} />
+
+<Paragraph text={'OUTCOMES'} />
+
 <div class="grid-row">
 
+<div class="govuk-grid-column-one-third">
+
+**Streamline**
+
+Less time on paperwork to focus on more valuable work
+
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+
+**Inform**
+
+Accurate and timely data that enables evidence-based decisions
+
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+
+**Trusted**
+
+Our processes and technologies work when and where needed
+
+</div>
+
+</div>
+
+<div class="grid-row">
+
+<Paragraph text={'MEASURE'} />
 <div class="govuk-grid-column-one-third">
 <RoadMapBlockContainer content={['# of forms submitted', 'Daily and monthly users', '% of users on mobile', '# of referrals ']} bannerColour={'#28afb0'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
-
-
-<RoadMapBlockContainer content={['hello', 'world']} bannerColour={'#28afb0'} />
-
-<RoadMapBlockContainer content={['hello', 'world']} bannerColour={'#f18f01'} />
-
-<RoadMapBlockContainer content={['hello', 'world']} bannerColour={'#a23b72'} />
-
+<RoadMapBlockContainer content={['# of events to Hub', 'Speed of event to HUB', '# reports held in databricks', '# analysts using data']} bannerColour={'#f18f01'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Availability', '# grey IT systems removed', 'Licence cost savings', 'Resilience', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+
+<div class="grid-row">
+
+<Paragraph text={'NOW'} />
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Intel Referral', 'Events at the border', 'Intel workflow', 'sGMR', 'Firmstep Migration*']} bannerColour={'#28afb0'} />
+</div>
 
 
-<RoadMapBlockContainer content={['hello', 'world']} bannerColour={'#28afb0'} />
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['BI Integration', 'Intel reporting', 'Intel', 'Op Harku']} bannerColour={'#f18f01'} />
+</div>
 
-<RoadMapBlockContainer content={['hello', 'world']} bannerColour={'#f18f01'} />
 
-<RoadMapBlockContainer content={['hello', 'world']} bannerColour={'#a23b72'} />
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Image Capture (Smartphone)', 'Workflow collaboration Tool (Cawemo)', 'Uptime', 'Resilience', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+
+<div class="grid-row">
+
+<Paragraph text={'NEXT'} />
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['NCC Task Management', 'Capacity Planning (OAR)', 'RefDataV2', 'Integrity Checks', 'Cerberus Task Management*']} bannerColour={'#28afb0'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Shift Debrief', 'Sit Rep View', 'Mandatory Declarations Viewer', 'Embedded BI dashboards in COP']} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['eDcoument read & verify', 'Workflow Engine Upgrade 7.13', 'Optimise Tool', 'User Documentation V2', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+</div>
 
 </div>
 
 
+<div class="grid-row">
 
-
+<Paragraph text={'LATER'} />
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Record Refusal for entry (IS81)', 'OAR Enhance', 'Man DecV2', 'Ops Planning Tools']} bannerColour={'#28afb0'} />
 </div>
 
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Service Perf Dashboard', 'Ops Dashboard', 'Intel Dashboard']} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={['Fingerprint capture', 'Workflow Engine Upgrade 7.14', 'Release Comms', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+</div>
+
+</div>
 </div>
 </div>
 </div>
