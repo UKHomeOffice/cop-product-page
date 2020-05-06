@@ -38,6 +38,7 @@ p {
   margin-top: 0;
   margin-bottom: 15px;
 }
+
 strong {
   font-weight: 700 !important;
 }
@@ -571,7 +572,33 @@ a.boxclose {
 }
 
 .sub-nav-sticky {
-  position: -webkit-sticky;  // required for Safari
+  position: -webkit-sticky; // required for Safari
   position: sticky;
   top: 0; // required as well.
+}
+
+.rectangle {
+  width: 170px;
+  min-height: 37px;
+  position: relative;
+  height: auto;
+  border-radius: 2px;
+  border-right: solid 1px #979797;
+  border-top: solid 1px #979797;
+  border-bottom: solid 1px #979797;
+  word-wrap: break-word;
+  margin: 10px;
+}
+
+.roadmap-block-text {
+  font-family: "GDS Transport", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: black;
+  margin: 9px;
+  text-align: center;
 }
