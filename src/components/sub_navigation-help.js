@@ -1,5 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
+import $ from 'jquery';
+
 
 const isPartiallyActive = ({ isPartiallyCurrent }) => {
   return isPartiallyCurrent
@@ -11,14 +13,60 @@ const isActive = ({ isCurrent }) => {
   return isCurrent ? { className: "sub-navigation__item--active sub-nav-active" } : {};
 };
 
+const updateHashUrlOnViewPoint = (url) => {
+  let hash = `#${url.split('#')[1]}`;
+console.log(hash);
+  // $(window).scroll(function() {
+  //   let hT = $(hash).offset().top,
+  //     hH = $(hash).outerHeight(),
+  //     wH = $(window).height(),
+  //     wS = $(this).scrollTop();
+  //   if (wS > (hT+hH-wH) && (hT > wS) && (wS+wH > hT+hH)){
+  //     window.location.hash = hash;
+  //   }
+  // });
+  $(hash).on('inview', function (event, visible) {
+    if (visible === true) {
+      // element is now visible in the viewport
+      console.log('blah');
+    } else {
+      // element has gone out of viewport
+      console.log('no blah');
+    }
+  });
+
+
+};
+
+
 const SubNavigation = (props) => {
+
   let isBrowser = typeof window !== `undefined`;
+
   useEffect(() => {
     isBrowser = typeof window !== `undefined`;
+    if (props.isSticky) {
+      const subNavContainer = document.getElementById("subNavContainer");
+      if (!subNavContainer.classList.contains("sub-nav-sticky-container")) {
+        subNavContainer.classList.add("sub-nav-sticky-container");
+        document.getElementById("subNav").classList.add("sub-nav-sticky");
+      }
+    }
   });
+
+  useEffect(() => {
+    for (let i = 0; i < props.navItems.length; i++) {
+      for (let j of props.navItems[i].subItems) {
+        if (j.href.includes('#')) {
+          updateHashUrlOnViewPoint(j.href);
+        }
+      }
+    }
+  }, []);
+
   return (
-    <div className="column-one-quarter">
-      <div className="sub-navigation-custom-help">
+    <div className= "column-one-quarter" id="subNavContainer">
+      <div className="sub-navigation-custom-help" id="subNav">
         <nav>
           <ol>
             {props.navItems.map((value, index) => {
