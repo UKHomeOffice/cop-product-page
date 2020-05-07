@@ -13,6 +13,8 @@ import { navItems } from "../../navItems/about-nav-items"
 import RoadMapBlockContainer from "../../components/RoadMapBlockContainer"
 import BoxIcon from "../../components/box-icon"
 import RoadMapLabel from "../../components/roadmap-labels"
+import Accordion from "../../components/accordion"
+import { roadmapItems } from "../../navItems/roadmapItems-mobile"
 
 <div className="govuk-width-container main-height">
 
@@ -37,6 +39,8 @@ The outcomes of the roadmap will not change during the year, though the actions 
 <LargeParagraph text={'COP 12-month roadmap'} />
 
 <RoadMapLabel text={'OUTCOMES'} />
+
+<div class="roadmap-desktop">
 
 <div class="grid-row">
 
@@ -82,7 +86,7 @@ Our processes and technologies work when and where needed
 
 
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['Availability', '# grey IT systems removed', 'Licence cost savings', 'Resilience', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+<RoadMapBlockContainer content={['Availability', '# grey IT systems removed', 'Licence cost savings', 'Resilience']} bannerColour={'#a23b72'} />
 </div>
 
 </div>
@@ -146,6 +150,18 @@ Our processes and technologies work when and where needed
 
 <div class="govuk-grid-column-one-third">
 <RoadMapBlockContainer content={['Fingerprint capture', 'Workflow Engine Upgrade 7.14', 'Release Comms', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+</div>
+
+<div class="roadmap-mobile">
+<div class="govuk-grid-column-full">
+
+<Accordion content={roadmapItems}/>
+
+
+
 </div>
 
 </div>
