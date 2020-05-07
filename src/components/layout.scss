@@ -677,7 +677,8 @@ $font-color: #black;
 
 .content {
   display: block;
-  margin: 0 auto;
+  margin: 10px auto !important;
+  width: fit-content;
   max-height: 0;
   overflow: hidden;
   background-color: #fff;
