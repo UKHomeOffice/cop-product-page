@@ -636,7 +636,7 @@ $font-color: #black;
 
 
 .accordion {
-  max-width: 340px
+  max-width: 100%
 }
 
 .toggle {
@@ -645,7 +645,6 @@ $font-color: #black;
 
 .option {
   position: relative;
-  margin-bottom: 1em;
 }
 
 .title,

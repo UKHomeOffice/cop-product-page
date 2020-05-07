@@ -14,7 +14,7 @@ import RoadMapBlockContainer from "../../components/RoadMapBlockContainer"
 import BoxIcon from "../../components/box-icon"
 import RoadMapLabel from "../../components/roadmap-labels"
 import Accordion from "../../components/accordion"
-import { roadmapItems } from "../../navItems/roadmapItems-mobile"
+import { roadMapMobile, roadMapItem } from "../../navItems/roadmapItems-mobile"
 
 <div className="govuk-width-container main-height">
 
@@ -40,7 +40,7 @@ The outcomes of the roadmap will not change during the year, though the actions 
 
 <RoadMapLabel text={'OUTCOMES'} />
 
-<div class="roadmap-desktop">
+
 
 <div class="grid-row">
 
@@ -52,6 +52,9 @@ Less time on paperwork to focus on more valuable work
 
 </div>
 
+<div class="roadmap-mobile"><Accordion content={roadMapMobile.streamLine}/></div>
+
+
 
 <div class="govuk-grid-column-one-third">
 
@@ -60,6 +63,8 @@ Less time on paperwork to focus on more valuable work
 Accurate and timely data that enables evidence-based decisions
 
 </div>
+
+<div class="roadmap-mobile"><Accordion  content={roadMapMobile.inform}/></div>
 
 
 <div class="govuk-grid-column-one-third">
@@ -70,23 +75,27 @@ Our processes and technologies work when and where needed
 
 </div>
 
+<div class="roadmap-mobile"><Accordion content={roadMapMobile.trusted}/></div>
+
 </div>
+
+<div class="roadmap-desktop">
 
 <RoadMapLabel text={'MEASURE'} />
 
 <div class="grid-row">
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['# of forms submitted', 'Daily and monthly users', '% of users on mobile', '# of referrals ']} bannerColour={'#28afb0'} />
+<RoadMapBlockContainer content={roadMapItem.streamLine.measure} bannerColour={'#28afb0'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['# of events to Hub', 'Speed of event to HUB', '# reports held in databricks', '# analysts using data']} bannerColour={'#f18f01'} />
+<RoadMapBlockContainer content={roadMapItem.inform.measure} bannerColour={'#f18f01'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['Availability', '# grey IT systems removed', 'Licence cost savings', 'Resilience']} bannerColour={'#a23b72'} />
+<RoadMapBlockContainer content={roadMapItem.trusted.measure} bannerColour={'#a23b72'} />
 </div>
 
 </div>
@@ -97,17 +106,17 @@ Our processes and technologies work when and where needed
 
 <div class="grid-row">
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['Intel Referral', 'Events at the border', 'Intel workflow', 'sGMR', 'Firmstep Migration*']} bannerColour={'#28afb0'} />
+<RoadMapBlockContainer content={roadMapItem.streamLine.now} bannerColour={'#28afb0'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['BI Integration', 'Intel reporting', 'Intel', 'Op Harku']} bannerColour={'#f18f01'} />
+<RoadMapBlockContainer content={roadMapItem.inform.now} bannerColour={'#f18f01'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['Image Capture (Smartphone)', 'Workflow collaboration Tool (Cawemo)', 'Uptime', 'Resilience', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+<RoadMapBlockContainer content={roadMapItem.trusted.now} bannerColour={'#a23b72'} />
 </div>
 
 </div>
@@ -118,17 +127,17 @@ Our processes and technologies work when and where needed
 
 <div class="grid-row">
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['NCC Task Management', 'Capacity Planning (OAR)', 'RefDataV2', 'Integrity Checks', 'Cerberus Task Management*']} bannerColour={'#28afb0'} />
+<RoadMapBlockContainer content={roadMapItem.streamLine.next} bannerColour={'#28afb0'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['Shift Debrief', 'Sit Rep View', 'Mandatory Declarations Viewer', 'Embedded BI dashboards in COP']} bannerColour={'#f18f01'} />
+<RoadMapBlockContainer content={roadMapItem.inform.next} bannerColour={'#f18f01'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['eDcoument read & verify', 'Workflow Engine Upgrade 7.13', 'Optimise Tool', 'User Documentation V2', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+<RoadMapBlockContainer content={roadMapItem.trusted.next} bannerColour={'#a23b72'} />
 </div>
 
 </div>
@@ -139,32 +148,23 @@ Our processes and technologies work when and where needed
 
 <div class="grid-row">
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['Record Refusal for entry (IS81)', 'OAR Enhance', 'Man DecV2', 'Ops Planning Tools']} bannerColour={'#28afb0'} />
+<RoadMapBlockContainer content={roadMapItem.streamLine.later} bannerColour={'#28afb0'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['Service Perf Dashboard', 'Ops Dashboard', 'Intel Dashboard']} bannerColour={'#f18f01'} />
+<RoadMapBlockContainer content={roadMapItem.inform.later} bannerColour={'#f18f01'} />
 </div>
 
 
 <div class="govuk-grid-column-one-third">
-<RoadMapBlockContainer content={['Fingerprint capture', 'Workflow Engine Upgrade 7.14', 'Release Comms', 'Secure, Run, Continuous Improve']} bannerColour={'#a23b72'} />
+<RoadMapBlockContainer content={roadMapItem.trusted.later} bannerColour={'#a23b72'} />
 </div>
 
 </div>
 </div>
 
-<div class="roadmap-mobile">
-<div class="govuk-grid-column-full">
 
-<Accordion content={roadmapItems}/>
-
-
-
-</div>
-
-</div>
 </div>
 </div>
 </div>
