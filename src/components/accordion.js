@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 
-const Accordion = (props) => {
-
-
-  return (
+const Accordion = (props) =>  (
     <div style={{marginBottom: '2em'}} className="accordion">
       {props.content.map((value, index) => {
         return <div key={index} className="option">
@@ -17,7 +14,6 @@ const Accordion = (props) => {
       })}
     </div>
   );
-};
 
 export default Accordion;
 

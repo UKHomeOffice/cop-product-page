@@ -1,9 +1,7 @@
 import React from "react";
 import RoadMapBlock from "./roadmap-block";
 
-const RoadMapBlockContainer = (props) => {
-  console.log(props.content)
-  return (
+const RoadMapBlockContainer = (props) =>  (
 
   <div>
     {props.content.map((value, index) => {
@@ -11,6 +9,5 @@ const RoadMapBlockContainer = (props) => {
     })}
   </div>
 );
-}
 
 export default RoadMapBlockContainer;
