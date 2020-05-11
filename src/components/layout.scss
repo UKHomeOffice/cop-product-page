@@ -620,7 +620,7 @@ a.boxclose {
   display: none;
 }
 
-@media (min-width: 48.0625em) {
+@media (min-width: 876px) {
   .roadmap-desktop {
     display: block;
   }
@@ -691,5 +691,20 @@ $font-color: #black;
   }
   & + .title:before {
     transform: rotate(90deg) !important;
+  }
+}
+
+
+
+.roadmap-column {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 15px;
+}
+
+@media (min-width: 876px) {
+  .roadmap-column {
+    width: 33.3333%;
+    float: left;
   }
 }
