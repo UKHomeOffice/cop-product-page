@@ -1,0 +1,46 @@
+import { Link } from 'gatsby'
+import Layout from '../../../components/layout'
+import "../../../components/layout.scss";
+import LargeTitle from "../../../components/large-title"
+import MediumTitle from "../../../components/MediumTitle"
+import Paragraph from "../../../components/paragraph"
+import HyperLink from "../../../components/hyperlink"
+import BreakLine from "../../../components/Break-line"
+import BulletList from "../../../components/bullet-list"
+import SubNavigation from "../../../components/sub_navigation-help";
+import Image from '../../../components/image'
+import Video from "../../../components/video"
+import {navItems} from "../../../navItems/help-nav-items"
+
+<div className="govuk-width-container main-height">
+
+<BreakLine pixels={'40'}/>
+
+<div className="grid-row">
+
+<SubNavigation navItems={navItems} />
+
+<div className="column-five-eighths">
+
+<LargeTitle text={'Mandatory Declarations (Man Dec)'} />
+
+<MediumTitle text={'Adding your line manager'}/>
+
+To fill in your Man Dec, you’ll need to add your line manager first.
+You can do this at the start of the Man Dec process or by going to “Edit Profile”
+
+Once you’ve added your line manager, you need to wait for their approval before you can begin submitting your Man Dec form.
+
+Once approved, you’ll see a task has been assigned to you on the ‘Operational Dashboard’. Go into the task and begin filling in your Man Dec form.
+
+<MediumTitle text={'Related links'}/>
+
+<ul class="govuk-list govuk-list--bullet">
+	<li><Link class="govuk-link" to="/help/mandec/">Overview</Link></li>
+	<li><Link class="govuk-link" to="/help/mandec/mandec-something-to-declare/">If you have something to declare</Link></li>
+	<li><Link class="govuk-link" to="/help/mandec/mandec-what-line-managers-need-to-do/">What Line Managers need to do</Link></li>
+</ul>
+
+</div>
+</div>
+</div>

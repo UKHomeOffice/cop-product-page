@@ -10,7 +10,7 @@ export const roadMapItem = {
     later: ["Record Refusal for entry (IS81)", "OAR Enhance", "Man DecV2", "Ops Planning Tools"]
   },
   inform: {
-    measure: ["# of events to Hub", "Speed of event to HUB", "# reports held in databricks", "# analysts using data"],
+    measure: ["# of events to Hub", "Speed of event to Hub", "# reports held in databricks", "# analysts using data"],
     now: ["BI Integration", "Intel reporting", "Intel", "Op Harku"],
     next: ["Shift Debrief", "Sit Rep View", "Mandatory Declarations Viewer", "Embedded BI dashboards in COP"],
     later: ["Service Perf Dashboard", "Ops Dashboard", "Intel Dashboard"]
