@@ -1,0 +1,78 @@
+import { Link } from 'gatsby'
+import Layout from '../../../components/layout'
+import "../../../components/layout.scss";
+import LargeTitle from "../../../components/large-title"
+import MediumTitle from "../../../components/MediumTitle"
+import Paragraph from "../../../components/paragraph"
+import HyperLink from "../../../components/hyperlink"
+import BreakLine from "../../../components/Break-line"
+import BulletList from "../../../components/bullet-list"
+import SubNavigation from "../../../components/sub_navigation-help";
+import Image from '../../../components/image'
+import Video from "../../../components/video"
+import {navItems} from "../../../navItems/help-nav-items"
+
+<div className="govuk-width-container main-height">
+
+<BreakLine pixels={'40'}/>
+
+<div className="grid-row">
+
+<SubNavigation navItems={navItems} />
+
+<div className="column-five-eighths">
+
+<LargeTitle text={'Submitting your OAR'} />
+
+<MediumTitle text={'Entering time and shift details'} />
+
+**1.** &nbsp; Enter the date and time your team started the shift
+
+**N.B** &nbsp; Leave ‘Location’ and ‘Team’ as is, or change if they’re not correct
+
+<div style={{marginBottom: "20px"}}>
+    <Image source={'/images/help/EnteringTimeShifts/submit.png'} alt={'Enter_Submit'}/>
+</div>
+
+**2.** &nbsp; Enter details for each staff on the shift. **‘Add another staff grade’** to include team members from different grades on the same shift.
+
+<div style={{marginBottom: "20px"}}>
+    <Image source={'/images/help/EnteringTimeShifts/add-another.png'} alt={'Enter_Add_Another'}/>
+</div>
+
+The ‘total time worked’ by your team is visible at the bottom. **Click Next**
+
+
+<MediumTitle text={'Recording details of your activity'} id="recordingDetailsActivity"/>
+
+**1.** &nbsp; At the top of the page, you’ll see the time you need to allocate to the various activities your team did in the shift
+
+Select all the activities your team did in the shift and enter the time spent on each activity (If you’re unsure about which activity to choose, check the guidance for more details)
+
+You can add more activities if required.
+
+<div style={{marginBottom: "20px"}}>
+    <Image source={'/images/help/RecordingDetails/1.png'} alt={'OAR_Dashboard'}/>
+</div>
+
+**2.** &nbsp;For activities that require ‘Target Type’, enter both positive and negative exams.
+
+<ul class="govuk-list govuk-list--bullet">
+  <li><span class="govuk-!-font-weight-bold">Positive exams</span> = the number of searches that resulted in detections</li>
+  <li><span class="govuk-!-font-weight-bold">Negative exams</span> = the number of searches that resulted in no detections</li>
+</ul>
+
+<div style={{marginBottom: "20px"}}>
+    <Image source={'/images/help/RecordingDetails/2.png'} alt={'OAR_Report'}/>
+</div>
+
+**3.** &nbsp; Finally, submit your OAR when ‘Time left to allocate’ is zero at the bottom of the page
+
+<div style={{marginBottom: "20px"}}>
+    <Image source={'/images/help/RecordingDetails/3.png'} alt={'OAR_Submit'}/>
+</div>
+
+
+</div>
+</div>
+</div>

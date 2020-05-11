@@ -21,6 +21,18 @@ const showMobileButton = () => {
   }
 };
 
+const isAboutPartiallyActive = ({ isPartiallyCurrent }) => {
+  return isPartiallyCurrent
+    ? { style: { color: "#1d8feb" } }
+    : {};
+};
+
+const isHelpPartiallyActive = ({ isPartiallyCurrent, location }) => {
+  return isPartiallyCurrent || location.pathname.includes('help')
+    ? { style: { color: "#1d8feb" } }
+    : {};
+};
+
 const Header = () => (
   <>
     <header className="govuk-header " role="banner" data-module="header">
@@ -55,15 +67,23 @@ const Header = () => (
                       {value.name}
                     </a>
                   </li>;
-                } else if (value.name === "About" || value.name === "Help") {
+                } else if (value.name === "About") {
                   return <li className="govuk-header__navigation-item"
                              key={index}>
-                    <Link to={value.href} partiallyActive={true} activeStyle={{ color: "#1d8feb" }}
+                    <Link to={value.href} getProps={isAboutPartiallyActive}
                           className="govuk-header__link header-nav-items">
                       {value.name}
                     </Link>
                   </li>;
-                } else {
+                } else if (value.name === "Help") {
+                return <li className="govuk-header__navigation-item"
+                key={index}>
+                <Link to={value.href} getProps={isHelpPartiallyActive}
+                className="govuk-header__link header-nav-items">
+                {value.name}
+                </Link>
+                </li>;
+              } else {
                   return <li className="govuk-header__navigation-item"
                              key={index}>
                     <Link to={value.href} activeStyle={{ color: "#1d8feb" }}

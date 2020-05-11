@@ -87,7 +87,7 @@ Array [
             >
               <a
                 className="govuk-header__link header-nav-items"
-                href="/help/"
+                href="/help/oar/"
               >
                 Help
               </a>

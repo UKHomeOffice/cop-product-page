@@ -7,7 +7,7 @@ import Head from "./head";
 const Layout = ({ children }) => (
   <>
     <Head/>
-    <Header/>
+    <Header />
     {children}
     <Footer/>
   </>
