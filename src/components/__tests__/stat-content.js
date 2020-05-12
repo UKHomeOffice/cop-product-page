@@ -7,9 +7,9 @@ describe("stat-content", () => {
   it("renders correctly", () => {
     const tree = renderer
       .create(<StatContent title={"Used and trusted by Border Force teams"}
-                           stats={[{ number: "6,652", description: "Border Force users" },
-                             { number: "7,500+", description: "forms and reports submitted per month" },
-                             { number: "300+", description: "COP visits per day" }]}/>)
+                           stats={[{ stat: "6,652", description: "Border Force users" },
+                             { stat: "7,500+", description: "forms and reports submitted per month" },
+                             { stat: "300+", description: "COP visits per day" }]}/>)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
@@ -17,9 +17,9 @@ describe("stat-content", () => {
   it("displays the service name", () => {
     const tree = renderer
       .create(<StatContent title={"Used and trusted by Border Force teams"}
-                           stats={[{ number: "6,652", description: "Border Force users" },
-                             { number: "7,500+", description: "forms and reports submitted per month" },
-                             { number: "300+", description: "COP visits per day" }]}/>);
+                           stats={[{ stat: "6,652", description: "Border Force users" },
+                             { stat: "7,500+", description: "forms and reports submitted per month" },
+                             { stat: "300+", description: "COP visits per day" }]}/>);
     const testInstance = tree.root;
     const getStatProp = (key) => {
       return testInstance.findByProps({ id: key })._fiber.memoizedProps.text;

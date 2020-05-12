@@ -1,0 +1,39 @@
+---
+templateKey: index-page
+panelTitle: Easily capture data, make better decisions
+panelParagraph: Use the Central Operations Platform (COP) to capture information quickly and produce data that informs decision making.
+isNotify: false
+multipleStats:
+   - description: 'Border Force users'
+     stat: '8700+'
+   - description: 'forms and reports submitted per month'
+     stat: '7500+'
+   - description: 'COP visits per day'
+     stat: '500+'
+---
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
+import Image from '../components/image'
+import SEO from '../components/seo'
+import ExtraLargeTitle from "../components/extra-large-title"
+import Panel from "../components/panel"
+import LargeTitle from "../components/large-title"
+import MediumTitle from "../components/MediumTitle"
+import Hr from "../components/hr"
+import BreakLine from "../components/Break-line"
+import StatContent from "../components/stats-content"
+import "../components/layout.scss";
+import BulletList from "../components/bullet-list"
+import Paragraph from "../components/paragraph"
+import SubPanel from "../components/sub-panel"
+
+<MediumTitle text={'Get data in and out easily'}/>
+
+COP helps you log information — whether it be forms, reports, images or biometrics — on laptops and mobile devices. It translates the information into data that you can track, analyse and share to help Border Force make better decisions.
+
+The services currently on COP include:
+
+<BulletList list={['Immediate Event Notification (IEN)', 'National Security (NS) Referral', 'Cash Detection', 'Operational Activity Reporting (OAR)', 'Mandatory Declarations (Man Dec)', 'Use of Force']}/>
+
+<p className="govuk-body">Find out <a href="https://training.cop.homeoffice.gov.uk/#cop" class="govuk-link" target="_blank">more about these services.</a></p>
+
