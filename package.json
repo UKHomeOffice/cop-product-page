@@ -39,8 +39,8 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "build:dev": "ACTIVE_ENV=DEV gatsby build",
-    "build:prod": "ACTIVE_ENV=PROD gatsby build",
+    "build:dev": "GATSBY_ACTIVE_ENV=DEV gatsby build",
+    "build:prod": "GATSBY_ACTIVE_ENV=PROD gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",

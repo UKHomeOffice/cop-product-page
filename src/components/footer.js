@@ -13,8 +13,8 @@ const Footer = () => (
               </a>
             </li>
             <li className="govuk-footer__list-item">
-              <Link className="govuk-footer__link" to="/support/">
-                Support
+              <Link className="govuk-footer__link" to="/contact/">
+                Contact
               </Link>
             </li>
             <li className="govuk-footer__list-item">

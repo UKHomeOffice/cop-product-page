@@ -63,7 +63,7 @@ const Header = () => (
                 if (value.name === "Sign-in") {
                   return <li className="govuk-header__navigation-item"
                              key={index}>
-                    <a href={value.href} className="govuk-header__link header-nav-items">
+                    <a href={value.href} target='_blank' className="govuk-header__link header-nav-items">
                       {value.name}
                     </a>
                   </li>;

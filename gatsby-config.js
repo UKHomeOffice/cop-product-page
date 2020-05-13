@@ -1,6 +1,7 @@
 const path = require('path')
 
-const activeEnv = process.env.ACTIVE_ENV || process.env.NODE_ENV || "PROD";
+const activeEnv = process.env.GATSBY_ACTIVE_ENV || "PROD";
+
 console.log(`Using environment config: '${activeEnv}'`);
 
 module.exports = {
