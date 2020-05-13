@@ -15,7 +15,7 @@ const NotFoundPage = () => (
             <p className="govuk-body">
               If you pasted the web address, check you copied the entire address.
             </p>
-            
+
             <p className="govuk-body">
               If the web address is correct or you selected a link or button, <a href="#" className="govuk-link">contact the
               COP Team </a>
