@@ -676,6 +676,7 @@ $font-color: #black;
 .content {
   display: block;
   margin: 10px auto !important;
+  margin-bottom: 0px !important;
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -693,8 +694,6 @@ $font-color: #black;
     transform: rotate(90deg) !important;
   }
 }
-
-
 
 .roadmap-column {
   box-sizing: border-box;

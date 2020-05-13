@@ -1,3 +1,7 @@
+---
+templateKey: help-page
+title: Accessing your services
+---
 import { Link } from 'gatsby'
 import Layout from '../../../components/layout'
 import "../../../components/layout.scss";
@@ -10,19 +14,7 @@ import BulletList from "../../../components/bullet-list"
 import SubNavigation from "../../../components/sub_navigation-help";
 import Image from '../../../components/image'
 import Video from "../../../components/video"
-import {navItems} from "../../../navItems/help-nav-items"
-
-<div className="govuk-width-container main-height">
-
-<BreakLine pixels={'40'}/>
-
-<div className="grid-row">
-
-<SubNavigation navItems={navItems} />
-
-<div className="column-five-eighths">
-
-<LargeTitle text={'Accessing your services'} />
+import {navItems} from "../../../config/help-nav-items"
 
 You will need to create an account on COP before you can access the various services and forms (such as Man Dec and OAR).
 
@@ -62,9 +54,4 @@ You can do this with your POISE Active Directory (AD) account.
 
 <div style={{marginBottom: "20px"}}>
     <Image source={'/images/help/accessing/3.png'} alt={'OAR_Submit'}/>
-</div>
-
-
-</div>
-</div>
 </div>

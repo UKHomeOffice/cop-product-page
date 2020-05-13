@@ -1,3 +1,7 @@
+---
+templateKey: about-page
+title: How COP helps you
+---
 import { Link } from 'gatsby'
 import Layout from '../../components/layout'
 import LargeTitle from "../../components/large-title"
@@ -10,22 +14,7 @@ import Image from "../../components/image"
 import Video from "../../components/video"
 import "../../components/layout.scss";
 import SubNavigation from "../../components/sub_navigation";
-import { navItems } from "../../navItems/about-nav-items"
-
-<div className="govuk-width-container main-height">
-
-<BreakLine pixels={'40'}/>
-
-<div className="grid-row">
-
-<div className="column-one-quarter">
-<SubNavigation navItems={navItems}/>
-</div>
-
-
-<div className="column-five-eighths">
-
-<LargeTitle text={'How COP helps you'}/>
+import { navItems } from "../../config/about-nav-items"
 
 COP supports the mobile workforce, allowing officers to enter data digitally on the go. The benefits include:
 
@@ -39,13 +28,6 @@ COP supports the mobile workforce, allowing officers to enter data digitally on 
 
 Watch how COP has made the work of Border Force staff easier
 
-<Video source={'https://training.dev.cop.homeoffice.gov.uk/videos/COP_Transforming.mp4'} width={487} height={64}/>
-
-</div>
-</div>
-</div>
-
-
-
+<Video source={'https://training.cop.homeoffice.gov.uk/videos/COP_Transforming.mp4'} width={487} height={64}/>
 
 

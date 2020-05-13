@@ -86,7 +86,7 @@ exports[`Header button onclick render correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="/help/oar/"
+              href="/help/accessing/"
             >
               Help
             </a>
@@ -204,7 +204,7 @@ exports[`Header renders correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="/help/oar/"
+              href="/help/accessing/"
             >
               Help
             </a>

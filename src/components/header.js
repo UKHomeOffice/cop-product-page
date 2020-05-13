@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import Logo from "./logo";
-import {navItems} from "../navItems/header-nav-items";
+import {navItems} from "../config/header-nav-items";
 
 const showMobileButton = () => {
   let menuButton = document.getElementById("menuButton");

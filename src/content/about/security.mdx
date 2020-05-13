@@ -1,3 +1,7 @@
+---
+templateKey: about-page
+title: Security
+---
 import { Link } from 'gatsby'
 import Layout from '../../components/layout'
 import LargeTitle from "../../components/large-title"
@@ -7,23 +11,7 @@ import SubNavigation from "../../components/sub_navigation";
 import Paragraph from "../../components/paragraph"
 import MediumTitle from "../../components/MediumTitle"
 import BulletList from "../../components/bullet-list"
-import { navItems } from "../../navItems/about-nav-items"
-
-<div className="govuk-width-container main-height">
-
-<BreakLine pixels={'40'}/>
-
-<div className="grid-row">
-
-<div className="column-one-quarter">
-
-<SubNavigation navItems={navItems}/>
-
-</div>
-
-<div className="column-five-eighths">
-
-<LargeTitle text={'Security'}/>
+import { navItems } from "../../config/about-nav-items"
 
 COP is a secure workflow platform that enables Border Force to work more effectively. Due to the sensitive nature of Border Force data, COP is designed and built with security in mind. We followed secure by design principles from discovery through to live to keep the application and data secure.
 
@@ -62,8 +50,6 @@ COP is approved by the Border Force Senior Responsible Owner on the advice of th
 <MediumTitle text={'Security Testing'}/>
 
 COP undergoes regular security testing in line with Home Office Policy.
-</div>
-</div>
-</div>
+
 
 

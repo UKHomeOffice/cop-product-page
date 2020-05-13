@@ -1,3 +1,7 @@
+---
+templateKey: help-page
+title: Submitting your OAR
+---
 import { Link } from 'gatsby'
 import Layout from '../../../components/layout'
 import "../../../components/layout.scss";
@@ -10,19 +14,7 @@ import BulletList from "../../../components/bullet-list"
 import SubNavigation from "../../../components/sub_navigation-help";
 import Image from '../../../components/image'
 import Video from "../../../components/video"
-import {navItems} from "../../../navItems/help-nav-items"
-
-<div className="govuk-width-container main-height">
-
-<BreakLine pixels={'40'}/>
-
-<div className="grid-row">
-
-<SubNavigation navItems={navItems} />
-
-<div className="column-five-eighths">
-
-<LargeTitle text={'Submitting your OAR'} />
+import {navItems} from "../../../config/help-nav-items"
 
 <MediumTitle text={'Entering time and shift details'} />
 
@@ -72,7 +64,3 @@ You can add more activities if required.
     <Image source={'/images/help/RecordingDetails/3.png'} alt={'OAR_Submit'}/>
 </div>
 
-
-</div>
-</div>
-</div>
