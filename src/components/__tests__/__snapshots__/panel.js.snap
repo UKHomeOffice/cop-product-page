@@ -74,6 +74,7 @@ exports[`Header renders correctly 1`] = `
                 "marginBottom": "0px",
               }
             }
+            target="_blank"
           >
             <div
               style={

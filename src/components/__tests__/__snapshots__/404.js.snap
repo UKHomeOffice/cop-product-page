@@ -97,9 +97,9 @@ Array [
             >
               <a
                 className="govuk-header__link header-nav-items"
-                href="/support/"
+                href="/contact/"
               >
-                Support
+                Contact
               </a>
             </li>
             <li
@@ -108,6 +108,7 @@ Array [
               <a
                 className="govuk-header__link header-nav-items"
                 href="https://www.cop.homeoffice.gov.uk/"
+                target="_blank"
               >
                 Sign-in
               </a>
@@ -198,9 +199,9 @@ Array [
             >
               <a
                 className="govuk-footer__link"
-                href="/support/"
+                href="/contact/"
               >
-                Support
+                Contact
               </a>
             </li>
             <li

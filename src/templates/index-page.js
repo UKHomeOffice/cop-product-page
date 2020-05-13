@@ -65,7 +65,7 @@ export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, 
             <MediumTitle text={"How to get support"}/>
             <p className="govuk-body">Find out <a className="govuk-link" href="https://training.cop.homeoffice.gov.uk"
                                                   target="_blank">how to use COP</a> and its services, or <Link
-              className="govuk-link" to="/support/">check the support section</Link> if you need any other help or
+              className="govuk-link" to="/contact/">check the contact section</Link> if you need any other help or
               assistance.
             </p>
           </div>
