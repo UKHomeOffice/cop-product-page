@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql } from "gatsby";
-import Layout from "../components/Layout";
+import Layout from "../components/layout";
 import BreakLine from "../components/Break-line";
 import StatContent from "../components/stats-content";
 import MediumTitle from "../components/MediumTitle";
