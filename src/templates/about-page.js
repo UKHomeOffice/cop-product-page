@@ -8,6 +8,7 @@ import BreakLine from "../components/Break-line";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { navItems } from "../config/about-nav-items";
 
+
 export const AboutPageTemplate = ({ title, content }) => {
   return (
     <div>
