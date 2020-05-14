@@ -6,21 +6,24 @@ Notify] and [GOV.UK Registers].
 
 ![Screenshot of COP product page](screenshot.png) 
 
-This site is built in [Gatsby.js] under the react framework, which uses 'Hooks' to render each component and allows developers to inject them in to the 'mdx' files.
-MDX files are used for content; developers may change text, inline styling, adding and removing components imported in to those files.
+This site is built in [Gatsby.js] under the react framework, which uses 'Hooks' to render each component and allows developers to inject them in to templates and 'mdx' files.
+MDX files are used for content; developers may change content styling or structure by importing or removing components.
 
-A minimum of Javascript/ React knowledge is required to develop and maintain this site for creating new components.
-Changing content within the MDX content files only requires knowledge to import, remove components and to have an understanding of how some components may need text, images, list and any other types of content data injecting in to a component as a 'prop.' This allows each component to be reused in many areas of the site.
+In order to develop and maintain components, a minimum of Javascript/ React knowledge is required. As for changing content, a developer will only need to edit content using plain text, writing light HTML for inline styling/ structure or importing components and adding text as a prop.
+
+Within the repository there are [templates](src/templates) created using HTML and content injected in using GraphQl. 
 
 Information of React and JSX can be found [here.](https://reactjs.org/docs/introducing-jsx.html)
 
 ## What are mdx files?
 
-MDX files (.mdx) is a superset of Markdown files (.md) that enables developers to use JSX and HTML. This allows developers to add styling, logic and jsx written components into the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
+MDX files (.mdx) is a superset of Markdown files (.md) that enables developers to use JSX and HTML. 
+This allows developers to add styling, logic and jsx written components into the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
 More information about mdx files can be found [here.](https://mdxjs.com/getting-started)
 
+Developers can still create .md files or use .mdx files with normal markdown syntax.
+
 As an example, in this repository, you will be able to see an imported 'Bullet point list.'
-e.g. Reusing the GDS paragraph component and adding in text as a prop.  
 
 ```html
 <BulletList list={['List 1', 'list 2']}/>
@@ -28,9 +31,13 @@ e.g. Reusing the GDS paragraph component and adding in text as a prop.
 
 ![Screenshot of GDS List](list.png)
 
+Note that `list` is a prop of type array of strings. This will render the list as shown above.
+
+You may wish to use HTML instead of the component above but it is recommended to use these components to reduce code and make content pages readable and maintainable.
+
 ## Styling
 Styling has been imported from the GDS frontend tool kit which leads to the [AlphaGov] repository.
-New styling classes have also been added in for specific layout purposes or for new elements.
+New styling classes have also been added in for specific layout purposes or for custom elements.
 
 Styling classes can be found in [layout.scss.](src/components/layout.scss)
 
@@ -110,15 +117,13 @@ Running `npm install` will install these packages as they are stated within the 
 [GOV.UK Frontend] asset files has been imported manually.
 
 ### MDX plugin
-MDX plugin is used in this site. By looking at the [gatsby-config.js](gatsby-config.js) file you will be able to see where the default mdx layout is outputted.
+MDX plugin is used in this site. By looking at the [gatsby-config.js](gatsby-config.js) file you will be able to see configurations of this plugin.
 
 ```javascript
-    {
+{
       resolve: `gatsby-plugin-mdx`,
       options: {
-        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
-      },
-    },
+        extensions: [".mdx", ".md"]...
 ```
 
 ### Matomo plugin
