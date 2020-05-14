@@ -21,7 +21,7 @@ MDX files (.mdx) is a superset of Markdown files (.md) that enables developers t
 This allows developers to add styling, logic and jsx written components into the same file. In result, making it maintainable, reusable and reduces the limitation of a basic markdown file.
 More information about mdx files can be found [here.](https://mdxjs.com/getting-started)
 
-Developers can still create .md files or use .mdx files with normal markdown syntax.
+Developers can still create .md files but this reduces the flexibility on structure and styling. MDX files also supports normal markdown syntax.
 
 As an example, in this repository, you will be able to see an imported 'Bullet point list.'
 
