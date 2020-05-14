@@ -36,7 +36,7 @@ const SubNavigation = (props) => {
                       return <li
                         className="sub-navigation__item"
                         key={i} style={{ paddingLeft: "30px" }}>
-                        <Link style={{ color: "#005ea5" }} getProps={isActive}
+                        <Link style={{ color: "#005ea5", cursor: 'pointer' }} getProps={isActive}
                               className="govuk-link subnav" to={v.href}>
                           <span>{v.name}</span>
                         </Link>
