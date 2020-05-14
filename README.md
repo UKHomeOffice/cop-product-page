@@ -68,7 +68,6 @@ Link to each component to get an idea of how they are written in JSX
 - [Video](src/components/video.js)
 
 Please feel free to create new components if needed in the future.
-Not all components need to be used as the current mdx files will display 'govuk-body' paragraphs by simple text.
 
 ## Layout
 
