@@ -19,7 +19,7 @@ module.exports = {
     }
   },
   support: {
-    support_nav_button: "//a[@class='govuk-header__link header-nav-items'][text()='Support']",
+    support_nav_button: "//a[@class='govuk-header__link header-nav-items'][text()='Contact']",
     title: "//h2[@class='govuk-heading-l'][text()='Support']"
   }
 };

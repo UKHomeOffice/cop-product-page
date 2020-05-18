@@ -3,12 +3,12 @@ import { Link } from "gatsby";
 
 const isPartiallyActive = ({ isPartiallyCurrent }) => {
   return isPartiallyCurrent
-    ? { className: "sub-navigation__item--active" }
+    ? { className: "sub-navigation__item--active", style: {color: "black"} }
     : {};
 };
 
 const isActive = ({ isCurrent }) => {
-  return isCurrent ? { className: "sub-navigation__item--active sub-nav-active" } : {};
+  return isCurrent ? { className: "sub-navigation__item--active sub-nav-active", style: {color: "black", textDecoration: 'none', cursor: 'default'} } : {};
 };
 
 const SubNavigation = (props) => {
@@ -36,7 +36,7 @@ const SubNavigation = (props) => {
                       return <li
                         className="sub-navigation__item"
                         key={i} style={{ paddingLeft: "30px" }}>
-                        <Link style={{ color: "#005ea5" }} getProps={isActive}
+                        <Link style={{ color: "#005ea5", cursor: 'pointer' }} getProps={isActive}
                               className="govuk-link subnav" to={v.href}>
                           <span>{v.name}</span>
                         </Link>

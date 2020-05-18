@@ -10,6 +10,6 @@ module.exports = {
     security_title: "Security",
   },
   support: {
-    title: "Support"
+    title: "Contact"
   }
 };

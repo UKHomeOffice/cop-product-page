@@ -1,0 +1,142 @@
+---
+templateKey: about-page
+title: Roadmap
+---
+import { Link } from 'gatsby'
+import { Accordion, BoxIcon, BreakLine, BulletList, Button, ExtraLargeTitle, Hr, HyperLink, Image, LargeParagraph,
+LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent,
+SubPanel, layout, Panel } from "../../config/imports.js";
+import "../../components/layout.scss";
+import { roadMapMobile, roadMapItem } from "../../config/roadmapItems-mobile"
+
+The COP roadmap shows what we want to achieve in the next 12 months.
+
+The outcomes of the roadmap will not change during the year, though the actions we prioritise may alter as we go through the coming months.
+
+<LargeParagraph text={'COP 12-month roadmap'} />
+
+<RoadMapLabel text={'OUTCOMES'} />
+
+
+
+<div class="grid-row">
+
+<div class="roadmap-column">
+
+**Streamline** <BoxIcon colour={'#28afb0'} />
+
+Less time on paperwork to focus on more valuable work
+
+</div>
+
+<div class="roadmap-mobile"><Accordion content={roadMapMobile.streamLine}/></div>
+
+
+
+<div class="roadmap-column">
+
+**Inform** <BoxIcon colour={'#f18f01'} />
+
+Accurate and timely data that enables evidence-based decisions
+
+</div>
+
+<div class="roadmap-mobile"><Accordion  content={roadMapMobile.inform}/></div>
+
+
+<div class="roadmap-column">
+
+**Trusted** <BoxIcon colour={'#a23b72'} />
+
+Our processes and technologies work when and where needed
+
+</div>
+
+<div class="roadmap-mobile"><Accordion content={roadMapMobile.trusted}/></div>
+
+</div>
+
+<div class="roadmap-desktop">
+
+<RoadMapLabel text={'MEASURE'} />
+
+<div class="grid-row">
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.streamLine.measure} bannerColour={'#28afb0'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.inform.measure} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.trusted.measure} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+
+<BreakLine pixels={'25'}/>
+
+<RoadMapLabel text={'NOW'} />
+
+<div class="grid-row">
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.streamLine.now} bannerColour={'#28afb0'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.inform.now} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.trusted.now} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+
+<BreakLine pixels={'25'}/>
+
+<RoadMapLabel text={'NEXT'} />
+
+<div class="grid-row">
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.streamLine.next} bannerColour={'#28afb0'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.inform.next} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.trusted.next} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+
+<BreakLine pixels={'25'}/>
+
+<RoadMapLabel text={'LATER'} />
+
+<div class="grid-row">
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.streamLine.later} bannerColour={'#28afb0'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.inform.later} bannerColour={'#f18f01'} />
+</div>
+
+
+<div class="govuk-grid-column-one-third">
+<RoadMapBlockContainer content={roadMapItem.trusted.later} bannerColour={'#a23b72'} />
+</div>
+
+</div>
+</div>
