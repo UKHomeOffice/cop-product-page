@@ -6,8 +6,12 @@ export const navItems = [
   {
     name: "Operational Activity Reporting", href: "/help/oar/",
     subItems: [{ name: "Overview", href: "/help/oar/" },
-      { name: "Submitting your OAR", href: "/help/oar/oar-submitting/" },
-      { name: "Checking your OAR Submission", href: "/help/oar/oar-checking/" }]
+      { name: "Before you begin your OAR", href: "/help/oar/oar-before-you-begin-your-oar/" },
+      { name: "Entering shift details and time", href: "/help/oar/oar-entering-shift-details-and-time/" },
+      { name: "Understanding activity categories", href: "/help/oar/oar-understanding-activity-categories/" },
+      { name: "Detection/search activities", href: "/help/oar/oar-detection-search-activities/" },
+      { name: "Checking your OAR submission", href: "/help/oar/oar-checking-your-oar-submission/" },
+    ]
   },
   {
     name: "Mandatory Declarations", href: "/help/mandec/",
