@@ -1,4 +1,4 @@
-import  {COPSite}  from "../Constants";
+import  {COPSite}  from "../environment-variables";
 
 export const navItems = [
   { name: "Home", href: "/" },

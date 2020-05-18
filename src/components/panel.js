@@ -3,7 +3,7 @@ import ExtraLargeTitle from "./extra-large-title";
 import Image from "./image";
 import LargeParagraph from "./large-paragraph";
 import { Link } from "gatsby";
-import  {COPSite}  from "../Constants";
+import  {COPSite}  from "../environment-variables";
 
 const bannerImageMobile = {
   maxWidth: "180px",

@@ -21,6 +21,7 @@ import StatContent from "../components/stats-content";
 import SubPanel from "../components/sub-panel";
 import layout from '../components/layout'
 import Panel from "../components/panel"
+import ImageNewWindow from "../components/image-new-window";
 
 export {
   Accordion,
@@ -45,6 +46,7 @@ export {
   StatContent,
   SubPanel,
   layout,
-  Panel
+  Panel,
+  ImageNewWindow
 }
 
