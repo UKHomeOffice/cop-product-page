@@ -1,16 +1,17 @@
 ---
 templateKey: help-page
-title: Operational Activity Reporting
+title: Help
+subTitle: Operational Activity Reporting
 ---
 import { Link } from 'gatsby'
 import { Accordion, BoxIcon, BreakLine, BulletList, Button, ExtraLargeTitle, Hr, HyperLink, Image, LargeParagraph,
 LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent,
-SubPanel, layout, Panel } from "../../../config/imports.js";
+SubPanel, layout, Panel, ImageNewWindow } from "../../../config/imports.js";
 import "../../../components/layout.scss";
 
 <MediumTitle text={'Detection/search activities'} />
 
-To understand what detection/search activities to choose, look at the activity guidance.
+To understand what detection/search activities to choose, <ImageNewWindow source={'/images/help/oar/FindingOAR/oar-guide.png'} text={'look at the activity guidance.'} />
 
 If the same detection/search activity is used several times with different ‘target types’, record each instance individually.
 
@@ -30,8 +31,8 @@ If the same detection/search activity is used several times with different ‘ta
 
 <ul class="govuk-list govuk-list--bullet">
 	<li><Link class="govuk-link" to="/help/oar/">Overview</Link></li>
-	<li><Link class="govuk-link" to="/help/oar/oar-before-you-begin-your-oar/">Before you begin your OAR</Link></li>
-	<li><Link class="govuk-link" to="/help/oar/oar-entering-shift-details-and-time/">Entering shift details and time</Link></li>
-	<li><Link class="govuk-link" to="/help/oar/oar-understanding-activity-categories/">Understanding activity categories</Link></li>
-    <li><Link class="govuk-link" to="/help/oar/oar-checking-your-oar-submission/">Checking your OAR submission</Link></li>
+	<li><Link class="govuk-link" to="/help/oar/oar-before-you-begin-your-oar/">Before you begin</Link></li>
+	<li><Link class="govuk-link" to="/help/oar/oar-entering-shift-details-and-time/">Enter shift details and time</Link></li>
+	<li><Link class="govuk-link" to="/help/oar/oar-understanding-activity-categories/">Understand activity categories</Link></li>
+    <li><Link class="govuk-link" to="/help/oar/oar-checking-your-oar-submission/">Check your OAR submission</Link></li>
 </ul>
