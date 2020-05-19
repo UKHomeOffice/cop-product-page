@@ -388,6 +388,35 @@ ol ol .sub-navigation__item {
   }
 }
 
+.column-five-eighths-help {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+@media (min-width: 641px) {
+  .column-five-eighths-help {
+    padding-left: 0em;
+    float: left;
+    width: 68%;
+  }
+}
+
+.column-one-quarter-help {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+@media (min-width: 641px) {
+  .column-one-quarter-help{
+    padding-right: 30px;
+    padding-left: 0;
+    float: left;
+    width: 32%;
+  }
+}
+
 .nowrap {
   white-space: nowrap
 }

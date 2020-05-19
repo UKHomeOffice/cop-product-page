@@ -14,8 +14,10 @@ export const HelpPageTemplate = ({ title, content }) => {
       <div className="govuk-width-container main-height">
         <BreakLine pixels={"40"}/>
         <div className="grid-row">
+          <div className="column-one-quarter-help">
             <SubNavigation navItems={navItems}/>
-          <div className="column-five-eighths">
+          </div>
+          <div className="column-five-eighths-help">
             <LargeTitle text={title}/>
             <MDXRenderer>{content}</MDXRenderer>
           </div>

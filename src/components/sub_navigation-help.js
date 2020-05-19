@@ -17,7 +17,6 @@ const SubNavigation = (props) => {
     isBrowser = typeof window !== `undefined`;
   });
   return (
-    <div className="column-one-quarter">
       <div className="sub-navigation-custom-help">
         <nav>
           <ol>
@@ -49,7 +48,6 @@ const SubNavigation = (props) => {
           </ol>
         </nav>
       </div>
-    </div>
   );
 };
 export default SubNavigation;
