@@ -1,7 +1,6 @@
 export const navItems = [
   {
-    name: "Accessing your services", href: "/help/accessing/",
-    subItems: [{ name: "Create your COP account", href: "/help/accessing/" }]
+    name: "Accessing your services", href: "/help/accessing/"
   },
   {
     name: "Operational Activity Reporting", href: "/help/oar/",
