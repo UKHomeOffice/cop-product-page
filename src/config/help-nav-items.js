@@ -19,5 +19,13 @@ export const navItems = [
       { name: "If you have something to declare", href: "/help/mandec/mandec-something-to-declare/" },
       { name: "What Line Managers need to do", href: "/help/mandec/mandec-what-line-managers-need-to-do/" }
     ]
+  },
+  {
+    name: "Use of Force", href: "/help/uof/",
+    subItems: [{ name: "Overview", href: "/help/uof/" },
+      { name: "Before you begin", href: "/help/uof/uof-before-you-begin/" },
+      { name: "When you must report use of force", href: "/help/uof/uof-when-you-must-report-use-of-force/" },
+      { name: "Personal Safety Training terms", href: "/help/uof/uof-personal-safety-training-terms/" }
+    ]
   }
 ];

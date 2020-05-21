@@ -1,0 +1,26 @@
+---
+templateKey: help-page
+title: Help
+subTitle: Use of Force
+---
+import { Link } from 'gatsby'
+import { Accordion, BoxIcon, BreakLine, BulletList, Button, ExtraLargeTitle, Hr, HyperLink, Image, LargeParagraph,
+LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent,
+SubPanel, layout, Panel } from "../../../config/imports.js";
+import "../../../components/layout.scss";
+
+<MediumTitle text={'Before you begin'}/>
+
+Make sure you:
+
+<BulletList list={['Read the information at the start of the form', 'Complete the form in one session. You cannot save a draft of the form']} />
+
+Once you’ve completed the form, **you’ll receive an email confirmation** and a copy of the information you’ve submitted.
+
+<MediumTitle text={'Related links'}/>
+
+<ul class="govuk-list govuk-list--bullet">
+	<li><Link class="govuk-link" to="/help/uof/">Overview</Link></li>
+	<li><Link class="govuk-link" to="/help/uof/uof-when-you-must-report-use-of-force/">When you must report use of force</Link></li>
+    <li><Link class="govuk-link" to="/help/uof/uof-personal-safety-training-terms/">Personal Safety Training terms</Link></li>
+</ul>
