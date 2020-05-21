@@ -176,8 +176,7 @@ Array [
             >
               <a
                 className="govuk-footer__link"
-                href="https://training.cop.homeoffice.gov.uk/#cop"
-                target="_blank"
+                href="/help/accessing/"
               >
                 How-to guide
               </a>
