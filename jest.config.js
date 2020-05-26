@@ -13,5 +13,5 @@ module.exports = {
   },
   testURL: `http://localhost`,
   setupFiles: [`<rootDir>/loadershim.js`],
-  collectCoverage: true
+  collectCoverage: true,
 }

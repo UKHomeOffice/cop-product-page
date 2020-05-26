@@ -1,6 +1,4 @@
 import React from "react";
-import { MDXRenderer } from "gatsby-plugin-mdx";
-import { graphql } from "gatsby";
 
 const panelAdditionalStyle = {
   background: "#bbd4fe",
