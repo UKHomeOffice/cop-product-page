@@ -2,9 +2,17 @@ import React, { useEffect } from "react";
 
 const Accordion = (props) => {
   useEffect(() => {
-    document.getElementById('streamLineNow1').click();
-    document.getElementById('informNow1').click();
-    document.getElementById('trustedNow1').click();
+    console.log(document.getElementById('streamLineNow1'));
+
+    if (document.getElementById('streamLineNow1')) {
+      document.getElementById('streamLineNow1').click();
+    }
+    if (document.getElementById('informNow1')) {
+      document.getElementById('informNow1').click();
+    }
+    if (document.getElementById('trustedNow1')) {
+      document.getElementById('trustedNow1').click();
+    }
   });
 
 

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`roadmapBlock renders correctly 1`] = `
+<div
+  className="rectangle rectangle-block"
+  style={
+    Object {
+      "borderLeft": "solid 6pxundefined",
+    }
+  }
+>
+  <div
+    className="roadmap-block-text"
+  >
+    roadmap item
+  </div>
+</div>
+`;
