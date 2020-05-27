@@ -11,4 +11,11 @@ describe("Accordion", () => {
       .toJSON();
     expect(tree).toMatchSnapshot()
   })
+
+  it("renders correctly in content", () => {
+    const tree = renderer
+      .create(<div><Accordion content={roadMapMobile.streamLine}/> <Accordion content={roadMapMobile.inform}/> <Accordion content={roadMapMobile.trusted}/></div>)
+      .toJSON();
+    expect(tree).toMatchSnapshot()
+  })
 })
