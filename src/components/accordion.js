@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 
 const Accordion = (props) => {
   useEffect(() => {
-    console.log(document.getElementById('streamLineNow1'));
-
     if (document.getElementById('streamLineNow1')) {
       document.getElementById('streamLineNow1').click();
     }
