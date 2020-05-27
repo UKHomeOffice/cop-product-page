@@ -15,14 +15,14 @@ export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, 
   return (
     <div>
       <Panel title={panelTitle}
-             imageSource={"/images/home/banner.png"} imageAlt={"transform"}
-             paragraphText={panelParagraph}/>
+        imageSource={"/images/home/banner.png"} imageAlt={"transform"}
+        paragraphText={panelParagraph} />
 
-      {isNotify && <Notification/>}
+      {isNotify && <Notification />}
 
       <div className="govuk-width-container">
 
-        <BreakLine pixels={"50"}/>
+        <BreakLine pixels={"50"} />
 
         <div className="govuk-grid-row">
 
@@ -32,37 +32,37 @@ export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, 
           </div>
 
           <div className="govuk-grid-column-one-half">
-            <Image noMobile={true} source={"/images/home/group-20.png"} alt={"transform"}/>
+            <Image noMobile={true} source={"/images/home/group-20.png"} alt={"transform"} />
           </div>
         </div>
 
-        <Hr inContent={true}/>
+        <Hr inContent={true} />
 
         <div className="govuk-grid-row homepage-content-margin">
           <div className="govuk-grid-column-one-half">
-            <MediumTitle text={"How COP helps frontline staff"}/>
+            <MediumTitle text={"How COP helps frontline staff"} />
           </div>
         </div>
 
         <div style={{ marginLeft: "5px" }} className="govuk-grid-row homepage-content-margin">
           <div className="govuk-grid-column-two-thirds">
-            <Image source={"/images/home/group-5.png"} alt={"transform"}/>
+            <Image source={"/images/home/group-5.png"} alt={"transform"} />
           </div>
         </div>
 
         <div className="govuk-grid-row homepage-content-margin">
           <div className="govuk-grid-column-one-half">
             <p className="govuk-body">Learn more about <Link className="govuk-link" to="/about/benefits/">how COP helps
-              the
+            the
               work of Border Force.</Link></p>
           </div>
         </div>
 
-        <Hr inContent={true}/>
+        <Hr inContent={true} />
 
         <div className="govuk-grid-row homepage-content-margin">
           <div className="govuk-grid-column-one-half">
-            <MediumTitle text={"How to get support"}/>
+            <MediumTitle text={"How to get support"} />
             <p className="govuk-body">Find out <Link className="govuk-link" to="/help/accessing/">how to use COP</Link> and its services, or <Link
               className="govuk-link" to="/contact/">check the contact section</Link> if you need any other help or
               assistance.
@@ -70,23 +70,23 @@ export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, 
           </div>
         </div>
 
-        <Hr inContent={true}/>
+        <Hr inContent={true} />
 
         <StatContent title={"Used and trusted by Border Force teams"}
-                     stats={stats}/>
+          stats={stats} />
 
         <div className="govuk-grid-row">
           <div className="govuk-grid-column-one-half">
             <p className="govuk-body">Learn <Link to="/about/" className="govuk-link">how COP is reducing
               work</Link> and
               capturing information faster and better. And find out how it is <Link to="/about/benefits/"
-                                                                                    className="govuk-link">making the
+                className="govuk-link">making the
                 work of
                 Border Force staff easier.</Link></p>
           </div>
         </div>
 
-        <BreakLine pixels={"50"}/>
+        <BreakLine pixels={"50"} />
 
       </div>
 
