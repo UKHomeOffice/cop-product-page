@@ -13,7 +13,7 @@ const panelContentAdditionalStyleOverrides = {
 };
 
 const closeSplash = () => {
-  let subPanel = document.getElementById("sub-panel");
+  const subPanel = document.getElementById("sub-panel");
   if (subPanel) {
     subPanel.style.display = "none";
   }

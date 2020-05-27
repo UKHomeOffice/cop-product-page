@@ -7,20 +7,22 @@ import { shallow } from 'enzyme';
 configure({ adapter: new Adapter() });
 
 describe("imageNewWindow", () => {
+  const link = 'www.google.com'
+  const text = 'image-name'
   it("renders correctly", () => {
     const tree = renderer
-      .create(<ImageNewWindow source={"www.google.com"} text={'image-name'} />)
+      .create(<ImageNewWindow source={link} text={text} />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it("Returns the correct imagenewwindow 'source' and 'text' prop passed in", () => {
     const tree = renderer
-      .create(<ImageNewWindow source={"www.google.com"} text={'image-name'} />);
+      .create(<ImageNewWindow source={link} text={text} />);
     const testInstance = tree.root;
-    const wrapper = shallow(<ImageNewWindow source={"www.google.com"} text={'image-name'} />);
+    const wrapper = shallow(<ImageNewWindow source={link} text={text} />);
     wrapper.find('a').prop('onClick')();
-    expect(testInstance.props).toHaveProperty('source', 'www.google.com');
-    expect(testInstance.props).toHaveProperty('text', 'image-name');
+    expect(testInstance.props).toHaveProperty('source', link);
+    expect(testInstance.props).toHaveProperty('text', text);
   });
 });
