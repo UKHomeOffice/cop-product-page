@@ -156,7 +156,7 @@ run `npm install -- -u` to update the snapshots.
 This can be found [here.](nightwatch)
 
 
-Run `nightwatch -e [BROWSER] nightwatch/test_spec.js` to run the Nightwatch tests.
+Run `npm run nightwatch` to run the Nightwatch tests.
 
 
 [GOV.UK Pay]: https://www.payments.service.gov.uk/
