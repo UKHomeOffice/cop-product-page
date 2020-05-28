@@ -4,6 +4,7 @@ import Paragraph from "../paragraph";
 import LargeParagraph from "../large-paragraph";
 
 describe("create paragraph", () => {
+  const paragraphText = 'paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text'
   it("renders correctly", () => {
     const tree = renderer
       .create(<Paragraph/>)
@@ -13,44 +14,44 @@ describe("create paragraph", () => {
 
   it("Returns the correct paragraph 'text' prop passed in", () => {
     const tree = renderer
-      .create(<Paragraph text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
+      .create(<Paragraph text={paragraphText}/>);
     const testInstance = tree.root;
-    expect(testInstance.props.text).toBe("paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text");
+    expect(testInstance.props.text).toBe(paragraphText);
   });
 
   it("Returns the incorrect paragraph 'text' prop passed in", () => {
     const tree = renderer
-      .create(<Paragraph text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
+      .create(<Paragraph text={paragraphText}/>);
     const testInstance = tree.root;
     expect(testInstance.props.text).not.toBe("");
   });
 
   it("Returns the correct paragraph 'text' prop passed in", () => {
     const tree = renderer
-      .create(<LargeParagraph text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
+      .create(<LargeParagraph text={paragraphText}/>);
     const testInstance = tree.root;
-    expect(testInstance.props.text).toBe("paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text");
+    expect(testInstance.props.text).toBe(paragraphText);
   });
 
   it("Returns the incorrect paragraph 'text' prop passed in", () => {
     const tree = renderer
-      .create(<LargeParagraph text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
+      .create(<LargeParagraph text={paragraphText}/>);
     const testInstance = tree.root;
     expect(testInstance.props.text).not.toBe("");
   });
 
   it("Returns style prop with color white when isPanel is true", () => {
     const tree = renderer
-      .create(<LargeParagraph style={{ color: "white" }} isPanel={true} text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
+      .create(<LargeParagraph style={{ color: "white" }} isPanel={true} text={paragraphText}/>);
     const testInstance = tree.root;
-    let style = testInstance.props.style;
+    const style = testInstance.props.style;
     expect(testInstance.props).toHaveProperty('style');
     expect(style).toHaveProperty('color', 'white');
   });
 
   it("Returns no style prop when isPanel is false", () => {
     const tree = renderer
-      .create(<LargeParagraph isPanel={false} text={"paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text, paragraph text"}/>);
+      .create(<LargeParagraph isPanel={false} text={paragraphText}/>);
     const testInstance = tree.root;
     expect(testInstance.props).not.toHaveProperty('style');
   });

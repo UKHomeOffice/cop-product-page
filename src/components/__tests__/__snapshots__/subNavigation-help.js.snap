@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubNavigationHelp renders correctly 1`] = `
+<div
+  className="sub-navigation-custom-help"
+>
+  <nav>
+    <ol>
+      <div>
+        <li
+          className="sub-navigation__item"
+        >
+          <a
+            className="govuk-link subnav"
+            href="/help/accessing/"
+            style={
+              Object {
+                "color": "black",
+              }
+            }
+          >
+            <span>
+              Accessing your services
+            </span>
+          </a>
+        </li>
+      </div>
+      <div>
+        <li
+          className="sub-navigation__item"
+        >
+          <a
+            className="govuk-link subnav"
+            href="/help/oar/"
+            style={
+              Object {
+                "color": "black",
+              }
+            }
+          >
+            <span>
+              Operational Activity Reporting
+            </span>
+          </a>
+        </li>
+      </div>
+      <div>
+        <li
+          className="sub-navigation__item"
+        >
+          <a
+            className="govuk-link subnav"
+            href="/help/mandec/"
+            style={
+              Object {
+                "color": "black",
+              }
+            }
+          >
+            <span>
+              Mandatory Declarations
+            </span>
+          </a>
+        </li>
+      </div>
+      <div>
+        <li
+          className="sub-navigation__item"
+        >
+          <a
+            className="govuk-link subnav"
+            href="/help/uof/"
+            style={
+              Object {
+                "color": "black",
+              }
+            }
+          >
+            <span>
+              Use of Force
+            </span>
+          </a>
+        </li>
+      </div>
+    </ol>
+  </nav>
+</div>
+`;

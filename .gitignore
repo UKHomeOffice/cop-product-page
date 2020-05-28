@@ -50,6 +50,7 @@ tests_output
 .idea/
 .vscode/
 *.sw*
+.history/
 
 # misc
 .serverless/

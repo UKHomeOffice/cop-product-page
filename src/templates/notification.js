@@ -1,6 +1,4 @@
 import React from "react";
-import { MDXRenderer } from "gatsby-plugin-mdx";
-import { graphql } from "gatsby";
 
 const panelAdditionalStyle = {
   background: "#bbd4fe",
@@ -16,7 +14,7 @@ const panelContentAdditionalStyleOverrides = {
 };
 
 const closeSplash = () => {
-  let subPanel = document.getElementById("sub-panel");
+  const subPanel = document.getElementById("sub-panel");
   if (subPanel) {
     subPanel.style.display = "none";
   }

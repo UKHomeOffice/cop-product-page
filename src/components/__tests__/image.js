@@ -3,6 +3,7 @@ import renderer from "react-test-renderer";
 import Image from "../image";
 
 describe("image", () => {
+  const link = 'www.google.com'
   it("renders correctly", () => {
     const tree = renderer
       .create(<Image/>)
@@ -19,15 +20,15 @@ describe("image", () => {
 
   it("Returns the correct source and alt with its correct values given", () => {
     const tree = renderer
-      .create(<Image alt={"description"} source={"http://test.com"}/>);
+      .create(<Image alt={"description"} source={link}/>);
     const testInstance = tree.root;
     expect(testInstance.props).toHaveProperty("alt", "description");
-    expect(testInstance.props).toHaveProperty("source", "http://test.com");
+    expect(testInstance.props).toHaveProperty("source", link);
   });
 
   it("Returns the correct class properties", () => {
     const tree = renderer
-      .create(<Image noImage={true} alt={"description"} source={"http://test.com"}/>);
+      .create(<Image noImage={true} alt={"description"} source={link}/>);
     const testInstance = tree.root;
     expect(testInstance.props).toHaveProperty("noImage", true);
   });
