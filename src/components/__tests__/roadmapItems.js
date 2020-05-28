@@ -1,5 +1,5 @@
 import React from "react";
-import { roadMapItem } from "../../config/roadmapItems-mobile";
+import { roadMapItem } from "../../config/roadmapItems";
 
 
 describe("roadmapBlock", () => {

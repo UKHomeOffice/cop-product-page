@@ -2,7 +2,7 @@ import React from "react"
 import renderer from "react-test-renderer"
 import Accordion from "../accordion";
 import RoadMapBlockContainer from "../RoadMapBlockContainer";
-import {roadMapItem, roadMapMobile} from "../../config/roadmapItems-mobile.js";
+import {roadMapItem, roadMapMobile} from "../../config/roadmapItems.js";
 
 
 describe("Accordion", () => {
