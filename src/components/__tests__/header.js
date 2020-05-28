@@ -21,9 +21,6 @@ describe("Header", () => {
   });
 
     it("button onclick render correctly", async () => {
-    const tree = create(<Header/>);
-    const instance = tree.root;
-
     jest.mock('../../config/header-nav-items', () => [
       { name: "Home", href: "/" },
       { name: "About", href: "/about/" },

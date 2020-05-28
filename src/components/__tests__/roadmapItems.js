@@ -1,6 +1,6 @@
 import React from "react";
 import { roadMapItem } from "../../config/roadmapItems";
-
+const secure_run_continuous_improve = 'Secure, Run, Continuous Improve';
 
 describe("roadmapBlock", () => {
   it("Returns the correct RoadMapBlock 'text' prop passed in", () => {
@@ -19,9 +19,9 @@ describe("roadmapBlock", () => {
       },
       trusted: {
         measure: ["Availability", "# grey IT systems removed", "Cost per transaction", "User satisfaction"],
-        now: ["Image Capture (Smartphone)", "Workflow collaboration Tool (Cawemo)", "24x7 Support", "Service Readiness Review", "Secure, Run, Continuous Improve"],
-        next: ["eDcoument read & verify", "Workflow Engine Upgrade 7.13", "Optimise Tool", "User Documentation V2", "Secure, Run, Continuous Improve"],
-        later: ["Fingerprint capture", "Workflow Engine Upgrade 7.14", "Release Comms", "Secure, Run, Continuous Improve"]
+        now: ["Image Capture (Smartphone)", "Workflow collaboration Tool (Cawemo)", "24x7 Support", "Service Readiness Review", secure_run_continuous_improve],
+        next: ["eDcoument read & verify", "Workflow Engine Upgrade 7.13", "Optimise Tool", "User Documentation V2", secure_run_continuous_improve],
+        later: ["Fingerprint capture", "Workflow Engine Upgrade 7.14", "Release Comms", secure_run_continuous_improve]
       }};
 
 
