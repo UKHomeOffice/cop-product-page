@@ -1,14 +1,13 @@
 ---
 templateKey: help-page
 title: Help
-subTitle: Accessing your services
+subTitle: Get started
 ---
 import { Link } from 'gatsby'
 import { Accordion, BoxIcon, BreakLine, BulletList, Button, ExtraLargeTitle, Hr, HyperLink, Image, LargeParagraph,
-LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent,
-SubPanel, layout, Panel } from "../../../config/imports.js";
-import "../../../components/layout.scss";
-import  {COPSite}  from "../../../environment-variables";
+LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent, layout, Panel } from "../../config/imports.js";
+import "../../components/layout.scss";
+import  {COPSite}  from "../../environment-variables";
 
 You will need to create an account on COP before you can access the various services and forms (such as Man Dec and OAR).
 
@@ -16,9 +15,7 @@ You can do this with your POISE Active Directory (AD) account.
 
 <MediumTitle text={'Create your COP account'}/>
 
-
-
-**1.** &nbsp;<a class="govuk-link" href={COPSite} target="_blank">Go to COP</a> and sign in using the **‘POISE’** button.
+**1.** &nbsp;<a class="govuk-link" href={COPSite} target="_blank" rel="noreferrer">Go to COP</a> and sign in using the **‘POISE’** button.
 
 <ul class="govuk-list govuk-list--bullet">
   <li>You should sign in to COP automatically if your laptop/desktop is already logged into <strong>POISE.</strong> If on a mobile, you’ll need to enter your <strong>POISE</strong> username and password again when prompted.</li>
@@ -32,12 +29,7 @@ You can do this with your POISE Active Directory (AD) account.
 
 
 
-**2.** &nbsp; After reading and accepting the privacy notice, enter your details in the ‘Onboard User’ form.
-
-<ul class="govuk-list govuk-list--bullet">
-  <li>Include your <strong>work mobile phone number</strong></li>
-  <li>You will also need your <strong>Adelphi number</strong> (ask your line manager if unsure)</li>
-</ul>
+**2.** &nbsp; After reading and accepting the privacy notice, enter your details in the ‘Onboard User’ form. You will also need your <strong>Adelphi number</strong> (ask your line manager if unsure.)
 
 <div style={{marginBottom: "20px"}}>
     <Image source={'/images/help/accessing/2.png'} alt={'Enter_Submit'}/>
