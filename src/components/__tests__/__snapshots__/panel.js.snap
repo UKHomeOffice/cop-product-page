@@ -68,6 +68,7 @@ exports[`Header renders correctly 1`] = `
             className="govuk-button product-page-button button-container__button govuk-!-margin-right-3"
             draggable="false"
             href="https://www.cop.homeoffice.gov.uk/"
+            rel="noreferrer"
             role="button"
             style={
               Object {

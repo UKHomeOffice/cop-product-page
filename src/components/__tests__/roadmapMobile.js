@@ -12,7 +12,7 @@ describe("roadmapBlock", () => {
         later: ["Record Refusal for entry (IS81)", "OAR Enhance", "Man DecV2", "Ops Planning Tools"]
       },
       inform: {
-        measure: ["# reports available", "# analysts using data", "# of cases to stakeholders", "faster availability of data"],
+        measure: ["# reports available", "analyst time saved", "# users accessing reports", "faster availability of data"],
         now: ["BI Integration", "Analyst Data (self serve)", "PRAU feed V2", "Product Page"],
         next: ["Shift Debrief", "Sit Rep View", "Mandatory Declarations Viewer", "Embedded BI dashboards in COP"],
         later: ["Service Perf Dashboard", "Ops Dashboard", "Intel Dashboard"]

@@ -45,23 +45,6 @@ exports[`SubNavigation renders correctly 1`] = `
       >
         <a
           className="govuk-link subnav"
-          href="/about/get_started/"
-          style={
-            Object {
-              "color": "black",
-            }
-          }
-        >
-          <span>
-            Get started
-          </span>
-        </a>
-      </li>
-      <li
-        className="sub-navigation__item"
-      >
-        <a
-          className="govuk-link subnav"
           href="/about/roadmap/"
           style={
             Object {

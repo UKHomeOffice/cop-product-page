@@ -86,7 +86,7 @@ exports[`Header button onclick render correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="/help/accessing/"
+              href="/help/"
             >
               Help
             </a>
@@ -96,17 +96,8 @@ exports[`Header button onclick render correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="/contact/"
-            >
-              Contact
-            </a>
-          </li>
-          <li
-            className="govuk-header__navigation-item"
-          >
-            <a
-              className="govuk-header__link header-nav-items"
               href="https://www.cop.homeoffice.gov.uk/"
+              rel="noreferrer"
               target="_blank"
             >
               Sign-in
@@ -205,7 +196,7 @@ exports[`Header renders correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="/help/accessing/"
+              href="/help/"
             >
               Help
             </a>
@@ -215,17 +206,8 @@ exports[`Header renders correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="/contact/"
-            >
-              Contact
-            </a>
-          </li>
-          <li
-            className="govuk-header__navigation-item"
-          >
-            <a
-              className="govuk-header__link header-nav-items"
               href="https://www.cop.homeoffice.gov.uk/"
+              rel="noreferrer"
               target="_blank"
             >
               Sign-in

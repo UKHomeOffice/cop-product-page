@@ -7,12 +7,13 @@ exports[`SubNavigationHelp renders correctly 1`] = `
   <nav>
     <ol>
       <div>
+         
         <li
           className="sub-navigation__item"
         >
           <a
             className="govuk-link subnav"
-            href="/help/accessing/"
+            href="/help/"
             style={
               Object {
                 "color": "black",
@@ -20,10 +21,11 @@ exports[`SubNavigationHelp renders correctly 1`] = `
             }
           >
             <span>
-              Accessing your services
+              Get started
             </span>
           </a>
         </li>
+         
       </div>
       <div>
         <li
@@ -39,7 +41,7 @@ exports[`SubNavigationHelp renders correctly 1`] = `
             }
           >
             <span>
-              Operational Activity Reporting
+              Operational Activity Reporting (OAR)
             </span>
           </a>
         </li>
@@ -81,6 +83,27 @@ exports[`SubNavigationHelp renders correctly 1`] = `
             </span>
           </a>
         </li>
+      </div>
+      <div>
+         
+        <li
+          className="sub-navigation__item"
+        >
+          <a
+            className="govuk-link subnav"
+            href="/help/contact/"
+            style={
+              Object {
+                "color": "black",
+              }
+            }
+          >
+            <span>
+              Contact
+            </span>
+          </a>
+        </li>
+         
       </div>
     </ol>
   </nav>

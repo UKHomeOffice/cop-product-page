@@ -28,6 +28,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               className="govuk-footer__link"
               href="https://cop.statuspage.io/"
+              rel="noreferrer"
               target="_blank"
             >
               System Status
@@ -38,7 +39,7 @@ exports[`Footer renders correctly 1`] = `
           >
             <a
               className="govuk-footer__link"
-              href="/contact/"
+              href="/help/contact/"
             >
               Contact
             </a>
@@ -49,6 +50,7 @@ exports[`Footer renders correctly 1`] = `
             <a
               className="govuk-footer__link"
               href="https://www.refdata.homeoffice.gov.uk/"
+              rel="noreferrer"
               target="_blank"
             >
               Refdata
@@ -59,9 +61,9 @@ exports[`Footer renders correctly 1`] = `
           >
             <a
               className="govuk-footer__link"
-              href="/help/accessing/"
+              href="/help/"
             >
-              How-to guide
+              Help
             </a>
           </li>
           <li
