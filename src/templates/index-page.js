@@ -63,9 +63,8 @@ export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, 
         <div className="govuk-grid-row homepage-content-margin">
           <div className="govuk-grid-column-one-half">
             <MediumTitle text={"How to get support"} />
-            <p className="govuk-body">Find out <Link className="govuk-link" to="/help/accessing/">how to use COP</Link> and its services, or <Link
-              className="govuk-link" to="/contact/">check the contact section</Link> if you need any other help or
-              assistance.
+            <p className="govuk-body">Find out <Link className="govuk-link" to="/help/">how to use COP</Link> and its services.
+            You can also <Link className="govuk-link" to="/help/contact/">get in touch</Link> with us if you need any help or assistance.
             </p>
           </div>
         </div>

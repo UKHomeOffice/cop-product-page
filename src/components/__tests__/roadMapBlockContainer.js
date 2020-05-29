@@ -1,7 +1,7 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import RoadMapBlockContainer from "../RoadMapBlockContainer";
-import {roadMapItem} from "../../config/roadmapItems-mobile.js";
+import {roadMapItem} from "../../config/roadmapItems.js";
 
 
 describe("roadmapBlockContainer", () => {

@@ -8,23 +8,23 @@ const Footer = () => (
         <div className="govuk-footer__section">
           <ul className="govuk-footer__list govuk-footer__list--columns-2">
             <li className="govuk-footer__list-item">
-              <a className="govuk-footer__link" href="https://cop.statuspage.io/" target="_blank">
+              <a className="govuk-footer__link" href="https://cop.statuspage.io/" target="_blank" rel="noreferrer">
                 System Status
               </a>
             </li>
             <li className="govuk-footer__list-item">
-              <Link className="govuk-footer__link" to="/contact/">
+              <Link className="govuk-footer__link" to="/help/contact/">
                 Contact
               </Link>
             </li>
             <li className="govuk-footer__list-item">
-              <a className="govuk-footer__link" href="https://www.refdata.homeoffice.gov.uk/" target="_blank">
+              <a className="govuk-footer__link" href="https://www.refdata.homeoffice.gov.uk/" target="_blank" rel="noreferrer">
                 Refdata
               </a>
             </li>
             <li className="govuk-footer__list-item">
-              <Link className="govuk-footer__link" to="/help/accessing/">
-                How-to guide
+              <Link className="govuk-footer__link" to="/help/">
+                Help
               </Link>
             </li>
             <li className="govuk-footer__list-item">

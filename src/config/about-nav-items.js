@@ -3,7 +3,6 @@ export const navItems = [
   {
     name: "How COP helps you", href: "/about/benefits/"
   },
-  { name: "Get started", href: "/about/get_started/" },
   { name: "Roadmap", href: "/about/roadmap/" },
   { name: "Security", href: "/about/security/" }
 ];
