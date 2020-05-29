@@ -1,4 +1,5 @@
 import React from "react";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
 const panelAdditionalStyle = {
   background: "#bbd4fe",
@@ -20,7 +21,7 @@ const closeSplash = () => {
   }
 };
 
-const Notification = () => {
+const Notification = ({notificationContent}) => {
   return (
     <div style={panelAdditionalStyle} id="sub-panel" className="govuk-panel">
       <div className="govuk-width-container">
@@ -30,6 +31,7 @@ const Notification = () => {
         <div className="govuk-grid-row">
           <div className="govuk-grid-column-two-thirds">
             <div style={panelContentAdditionalStyleOverrides}>
+            <MDXRenderer>{notificationContent}</MDXRenderer>
             </div>
           </div>
         </div>

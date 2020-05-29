@@ -8,8 +8,8 @@ import MediumTitle from "../components/MediumTitle";
 import Hr from "../components/hr";
 import Image from "../components/image";
 import Panel from "../components/panel";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import Notification from "./notification";
+import BulletList from "../components/bullet-list";
 
 export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, isNotify }) => {
   return (
@@ -18,7 +18,7 @@ export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, 
         imageSource={"/images/home/banner.png"} imageAlt={"transform"}
         paragraphText={panelParagraph} />
 
-      {isNotify && <Notification />}
+      {isNotify && <Notification notificationContent={content}/>}
 
       <div className="govuk-width-container">
 
@@ -28,7 +28,15 @@ export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, 
 
 
           <div className="govuk-grid-column-one-half">
-            <MDXRenderer>{content}</MDXRenderer>
+            <MediumTitle text={'Get data in and out easily'} />
+
+            <p className="govuk-body">COP helps you log information — whether it be forms, reports, images or biometrics — on laptops and mobile devices. It translates the information into data that you can track, analyse and share to help Border Force make better decisions.</p>
+
+            <p className="govuk-body">The services currently on COP include:</p>
+
+            <BulletList list={['Immediate Event Notification (IEN)', 'National Security (NS) Referral', 'Cash Detection', 'Operational Activity Reporting (OAR)', 'Mandatory Declarations', 'Use of Force']} />
+
+            <p className="govuk-body">Find out <Link to="/help/" class="govuk-link">more about these services.</Link></p>
           </div>
 
           <div className="govuk-grid-column-one-half">
