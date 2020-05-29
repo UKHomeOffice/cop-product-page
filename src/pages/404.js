@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import { Link } from 'gatsby'
 
 const NotFoundPage = () => (
   <Layout>
@@ -17,8 +18,7 @@ const NotFoundPage = () => (
             </p>
 
             <p className="govuk-body">
-              If the web address is correct or you selected a link or button, <a href="#" className="govuk-link">contact the
-              COP Team </a>
+            If you're still having problems go to our <Link to="/" className="govuk-link" >homepage</Link> or <Link to="/help/contact/" className="govuk-link">contact us</Link> if you can't find what you're looking for.
             </p>
           </div>
         </div>

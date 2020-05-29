@@ -24,7 +24,7 @@ const SubNavigation = (props) => {
             if (value.name === 'Get started' || value.name === 'Contact') {
               return <div key={index}> <li className="sub-navigation__item">
                 <Link style={{ color: "black" }}
-                  className="govuk-link subnav" to={value.href} activeClassName={"sub-navigation__item--active"} activeStyle={{ color: "black", textDecoration: 'none' }}>
+                   to={value.href} activeClassName={"sub-navigation__item--active"} activeStyle={{ color: "black", textDecoration: 'none' }}>
                   <span>{value.name}</span>
                 </Link>
               </li> </div>
