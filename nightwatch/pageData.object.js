@@ -33,7 +33,7 @@ module.exports = {
       what_line_managers_need_to_do: {title: "//h3[@class='govuk-heading-m'][text()='What Line Managers need to do']", button: "//span[text()='What Line Managers need to do']"}
     },
     uaf: {
-      overview: {title: "//h1[@class='govuk-heading-help-sub-title'][text()='Mandatory Declarations']", button: "//span[text()='Use of Force']"},
+      overview: {title: "//h1[@class='govuk-heading-help-sub-title'][text()='Use of Force']", button: "//span[text()='Use of Force']"},
       before_you_begin: {title: "//h3[@class='govuk-heading-m'][text()='Before you begin']", button: "//span[text()='Before you begin']"},
       when_you_must_report_use_of_force: {title: "//h3[@class='govuk-heading-m'][text()='When you must report use of force']", button: "//span[text()='When you must report use of force']"},
       personal_safety_training_terms: {title: "//h3[@class='govuk-heading-m'][text()='Personal Safety Training terms']", button: "//span[text()='Personal Safety Training terms']"}
