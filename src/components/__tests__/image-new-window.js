@@ -23,7 +23,6 @@ describe("imageNewWindow", () => {
       .create(<ImageNewWindow source={link} text={text} />);
     const testInstance = tree.root;
     window.open = jest.fn(() => ({}));
-    const openWindow = jest.fn(() => ({}));
     const wrapper = shallow(<ImageNewWindow source={link} text={text}/>);
     wrapper.find('a').prop('onClick')();
     expect(window.open).toBeCalled();
