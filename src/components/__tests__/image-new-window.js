@@ -1,10 +1,12 @@
 import React from "react";
 import renderer from "react-test-renderer";
 import ImageNewWindow from "../image-new-window";
-import { configure } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import Enzyme from "enzyme";
+import Adapter from "enzyme-adapter-react-16";
 import { shallow } from 'enzyme';
-configure({ adapter: new Adapter() });
+
+Enzyme.configure({ adapter: new Adapter() });
+
 
 describe("imageNewWindow", () => {
   const link = 'www.google.com'
@@ -20,8 +22,11 @@ describe("imageNewWindow", () => {
     const tree = renderer
       .create(<ImageNewWindow source={link} text={text} />);
     const testInstance = tree.root;
-    const wrapper = shallow(<ImageNewWindow source={link} text={text} />);
+    window.open = jest.fn(() => ({}));
+    const openWindow = jest.fn(() => ({}));
+    const wrapper = shallow(<ImageNewWindow source={link} text={text}/>);
     wrapper.find('a').prop('onClick')();
+    expect(window.open).toBeCalled();
     expect(testInstance.props).toHaveProperty('source', link);
     expect(testInstance.props).toHaveProperty('text', text);
   });

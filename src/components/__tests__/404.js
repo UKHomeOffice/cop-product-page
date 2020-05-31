@@ -9,7 +9,7 @@ describe("404", () => {
     expect(tree).toMatchSnapshot()
   })
 
-  it("displays the logo", () => {
+  it("displays page not found when 404 page is loaded", () => {
     const tree = renderer
       .create(<NotFoundPage/>);
     const testInstance = tree.root;

@@ -11,14 +11,14 @@ import Panel from "../components/panel";
 import Notification from "./notification";
 import BulletList from "../components/bullet-list";
 
-export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, isNotify }) => {
+export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, notify }) => {
   return (
     <div>
       <Panel title={panelTitle}
         imageSource={"/images/home/banner.png"} imageAlt={"transform"}
         paragraphText={panelParagraph} />
 
-      {isNotify && <Notification notificationContent={content}/>}
+      {notify && <Notification notificationContent={content}/>}
 
       <div className="govuk-width-container">
 
@@ -105,7 +105,7 @@ const IndexPage = ({ data }) => {
         panelParagraph={frontmatter.panelParagraph}
         content={body}
         stats={frontmatter.multipleStats}
-        isNotify={frontmatter.isNotify}
+        notify={frontmatter.notify}
       />
     </Layout>
   );
@@ -128,7 +128,7 @@ query IndexPageTemplate {
     frontmatter {
       panelTitle
       panelParagraph
-      isNotify
+      notify
       multipleStats {
           description
           stat

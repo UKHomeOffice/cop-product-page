@@ -12,7 +12,6 @@ exports[`SubNavigationHelp renders correctly 1`] = `
           className="sub-navigation__item"
         >
           <a
-            className="govuk-link subnav"
             href="/help/"
             style={
               Object {
@@ -90,7 +89,6 @@ exports[`SubNavigationHelp renders correctly 1`] = `
           className="sub-navigation__item"
         >
           <a
-            className="govuk-link subnav"
             href="/help/contact/"
             style={
               Object {

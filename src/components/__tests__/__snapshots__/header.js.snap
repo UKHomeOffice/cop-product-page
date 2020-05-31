@@ -1,6 +1,116 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header button onclick render correctly 1`] = `
+exports[`Header menu button renders correctly when active 1`] = `
+<header
+  className="govuk-header "
+  data-module="header"
+  role="banner"
+>
+  <div
+    className="govuk-header__container govuk-width-container"
+  >
+    <div
+      className="govuk-header__logo"
+    >
+      <a
+        className="govuk-header__link govuk-header__link--homepage"
+        href="/"
+      >
+        <span
+          style={
+            Object {
+              "marginRight": "6px",
+            }
+          }
+        >
+          <img
+            alt="logo"
+            className="cop-logo"
+            src="/images/logo.png"
+          />
+        </span>
+        <span
+          className="govuk-header__product-name service-name"
+          id="service-name"
+        />
+        <strong
+          className="govuk-tag govuk-phase-banner__content__tag"
+        >
+          beta
+        </strong>
+      </a>
+    </div>
+    <div
+      className="govuk-header__content"
+    >
+      <button
+        aria-controls="navigation"
+        aria-label="Show or hide Top Level Navigation"
+        className="govuk-header__menu-button js-header-toggle"
+        id="menuButton"
+        onClick={[Function]}
+        onKeyPress={[Function]}
+        role="button"
+        type="button"
+      >
+        Menu
+      </button>
+      <nav>
+        <ul
+          aria-label="Top Level Navigation"
+          className="govuk-header__navigation govuk-header__navigation--end"
+          id="navigation"
+        >
+          <li
+            className="govuk-header__navigation-item"
+          >
+            <a
+              className="govuk-header__link header-nav-items"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            className="govuk-header__navigation-item"
+          >
+            <a
+              className="govuk-header__link header-nav-items"
+              href="/about/"
+            >
+              About
+            </a>
+          </li>
+          <li
+            className="govuk-header__navigation-item"
+          >
+            <a
+              className="govuk-header__link header-nav-items"
+              href="/help/"
+            >
+              Help
+            </a>
+          </li>
+          <li
+            className="govuk-header__navigation-item"
+          >
+            <a
+              className="govuk-header__link header-nav-items"
+              href="https://www.cop.homeoffice.gov.uk/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Sign-in
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+`;
+
+exports[`Header menu button renders correctly when inactive 1`] = `
 <header
   className="govuk-header "
   data-module="header"
