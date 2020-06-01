@@ -150,7 +150,7 @@ This can be found [here.](src/components/__tests__)
 To run the test, simply run `npm test` command.
 To run the test after changing html code, 
 
-run `npm install -- -u` to update the snapshots.
+run `npm test -- -u` to update the snapshots.
 
 [Nightwatch] - used for end to end testing. Page objects, variables and test specs can be found in the `Nightwatch` folder within the `root.`
 This can be found [here.](nightwatch)
