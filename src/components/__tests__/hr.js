@@ -7,6 +7,7 @@ describe("Hr", () => {
     const tree = renderer
       .create(<Hr/>)
       .toJSON();
+    expect(tree.props.className).toEqual('gov-hr');
     expect(tree).toMatchSnapshot()
   })
 
@@ -14,6 +15,7 @@ describe("Hr", () => {
     const tree = renderer
       .create(<Hr inContent={true}/>)
       .toJSON();
+    expect(tree.props.className).toEqual('gov-hr govuk-width-container');
     expect(tree).toMatchSnapshot()
   })
 })

@@ -45,9 +45,12 @@
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "jest --coverage",
-    "nightwatch": "./node_modules/.bin/nightwatch /nightwatch/test_spec.js"
+    "nightwatch": "./node_modules/.bin/nightwatch /nightwatch/test_spec.js",
+    "serve": "gatsby serve"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^10.0.4",
     "babel-jest": "^25.1.0",
     "babel-preset-gatsby": "^0.2.29",
     "chromedriver": "^80.0.1",

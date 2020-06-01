@@ -211,10 +211,10 @@ const getPageTimeout = PageTimeout.config.STEPTIMEOUT;
     "Open contact": function(browser) {
       browser
         .useXpath()
-        .waitForElementVisible(pageObjects.help.contact.button, getPageTimeout)
-        .click(pageObjects.help.contact.button)
-        .waitForElementVisible(pageObjects.help.contact.title, getPageTimeout)
+        .waitForElementVisible(pageObjects.help.contact.overview.button, getPageTimeout)
+        .click(pageObjects.help.contact.overview.button)
+        .waitForElementVisible(pageObjects.help.contact.overview.title, getPageTimeout)
         .pause(2500)
-        .assert.containsText(pageObjects.help.contact.title, pageAssertions.help.contact.overview_title)
+        .assert.containsText(pageObjects.help.contact.overview.title, pageAssertions.help.contact.overview_title)
     },
 };

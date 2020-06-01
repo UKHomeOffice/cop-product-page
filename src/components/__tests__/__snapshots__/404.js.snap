@@ -141,13 +141,21 @@ Array [
           <p
             className="govuk-body"
           >
-            If the web address is correct or you selected a link or button, 
+            If you're still having problems go to our 
             <a
               className="govuk-link"
-              href="#"
+              href="/"
             >
-              contact the COP Team 
+              homepage
             </a>
+             or 
+            <a
+              className="govuk-link"
+              href="/help/contact/"
+            >
+              contact us
+            </a>
+             if you can't find what you're looking for.
           </p>
         </div>
       </div>

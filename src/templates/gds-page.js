@@ -47,12 +47,13 @@ GDSPage.propTypes = {
 
 export default GDSPage;
 
-export const supportPageQuery = graphql`
-  query SupportPage($id: String!) {
+export const GDSPageQuery = graphql`
+  query GDSPage($id: String!) {
     mdx(id: { eq: $id }) {
       body
       frontmatter {
         title
+        subTitle
       }
     }
   }

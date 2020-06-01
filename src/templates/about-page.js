@@ -9,7 +9,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 import { navItems } from "../config/about-nav-items";
 
 
-export const AboutPageTemplate = ({ title, content }) => {
+export const AboutPageTemplate = ({ title, content, subTitle }) => {
   return (
     <div>
       <div className="govuk-width-container main-height">
@@ -19,7 +19,7 @@ export const AboutPageTemplate = ({ title, content }) => {
             <SubNavigation navItems={navItems}/>
           </div>
           <div className="column-five-eighths">
-            <LargeTitle text={title}/>
+            <LargeTitle text={subTitle}/>
             <MDXRenderer>{content}</MDXRenderer>
           </div>
         </div>
@@ -41,6 +41,7 @@ const AboutPage = ({ data }) => {
     <Layout>
       <AboutPageTemplate
         title={post.frontmatter.title}
+        subTitle={post.frontmatter.subTitle}
         content={post.body}
       />
     </Layout>
@@ -59,6 +60,7 @@ export const aboutPageQuery = graphql`
       body
       frontmatter {
         title
+        subTitle
       }
     }
   }

@@ -1,43 +1,60 @@
 import React from "react";
 import renderer, { create } from "react-test-renderer";
 import Header from "../header";
-import { navItems } from "../../config/header-nav-items";
-
+const openNavClassName = 'govuk-header__navigation--open';
 describe("Header", () => {
   it("renders correctly", () => {
     const tree = renderer
-      .create(<Header/>)
+      .create(<Header />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it("button onclick render correctly", async () => {
-    const tree = create(<Header/>);
+  it("menu button renders correctly when active", () => {
+    const tree = create(<Header />);
     const instance = tree.root;
 
-    const button = instance.findByProps({id: 'menuButton'});
+    const mButton = global.document.createElement('button');
+    mButton.setAttribute('id', 'menuButton');
+    mButton.setAttribute('classList', openNavClassName);
+    global.window.domNode = mButton;
+    global.document.body.appendChild(mButton);
+
+    const mNavigation = global.document.createElement('ul');
+    mNavigation.setAttribute('id', 'navigation');
+    mNavigation.setAttribute('classList', openNavClassName);
+    global.window.domNode = mNavigation;
+    global.document.body.appendChild(mNavigation);
+    const button = instance.findByProps({ id: 'menuButton' });
     button.props.onClick();
     expect(tree).toMatchSnapshot();
+
   });
 
-    it("button onclick render correctly", async () => {
-    jest.mock('../../config/header-nav-items', () => [
-      { name: "Home", href: "/" },
-      { name: "About", href: "/about/" },
-      { name: "Help", href: "/help/" },
-      { name: "Sign-in", href: 'https://www.cop.homeoffice.gov.uk/' }
-    ])
-    expect(navItems).toStrictEqual([
-      { name: "Home", href: "/" },
-      { name: "About", href: "/about/" },
-      { name: "Help", href: "/help/" },
-      { name: "Sign-in", href: 'https://www.cop.homeoffice.gov.uk/' }
-    ]);
+  it("menu button renders correctly when inactive", () => {
+    const tree = create(<Header />);
+    const instance = tree.root;
+
+    const mButton = global.document.createElement('button');
+    mButton.setAttribute('id', 'menuButton');
+    mButton.removeAttribute('classList', openNavClassName);
+    global.window.domNode = mButton;
+    global.document.body.appendChild(mButton);
+
+    const mNavigation = global.document.createElement('ul');
+    mNavigation.setAttribute('id', 'navigation');
+    mNavigation.removeAttribute('classList', openNavClassName);
+    global.window.domNode = mNavigation;
+    global.document.body.appendChild(mNavigation);
+    const button = instance.findByProps({ id: 'menuButton' });
+    button.props.onClick();
+    expect(tree).toMatchSnapshot();
+
   });
 
-  it("displays the logo", () => {
+  it("displays the logo with correct source", () => {
     const tree = renderer
-      .create(<Header/>);
+      .create(<Header />);
     const testInstance = tree.root;
     expect(testInstance.findByProps({ id: "logo-image" })._fiber.memoizedProps.source).toEqual("/images/logo.png");
   });

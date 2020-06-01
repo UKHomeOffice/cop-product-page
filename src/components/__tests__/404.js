@@ -8,4 +8,11 @@ describe("404", () => {
       .toJSON();
     expect(tree).toMatchSnapshot()
   })
+
+  it("displays page not found when 404 page is loaded", () => {
+    const tree = renderer
+      .create(<NotFoundPage/>);
+    const testInstance = tree.root;
+    expect(testInstance.findByProps({ className: "govuk-heading-xl" }).children[0]).toEqual("Page not found");
+  });
 })
