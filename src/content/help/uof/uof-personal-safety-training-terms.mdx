@@ -1,0 +1,32 @@
+---
+templateKey: help-page
+title: Help
+subTitle: Use of Force
+subject: Personal Safety Training terms
+---
+import { Link } from 'gatsby'
+import { Accordion, BoxIcon, BreakLine, BulletList, Button, ExtraLargeTitle, Hr, HyperLink, Image, LargeParagraph,
+LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent, layout, Panel } from "../../../config/imports.js";
+import "../../../components/layout.scss";
+
+<MediumTitle text={'Personal Safety Training terms'}/>
+
+Many of the dropdown options include terms and definitions you would have learned about when you completed your Personal Safety Training (PST).
+
+If you’re unclear about any of these terms, please ask:
+
+<BulletList list={['your line manager', 'the Operational Safety Unit (OSU) for your port/region']} />
+
+<div style={{marginBottom: "20px"}}>
+    <Image source={'/images/help/uof/personal_safety.png'} alt={'uof-personal-safety'}/>
+</div>
+
+<p class="govuk-body"><i style="font-size: 16px">An example of the terms that pop-up in the dropdown for ‘pressure points’. If you uncertain about any terms on the form, please speak to your line manager or local OSU officer</i></p>
+
+<MediumTitle text={'Related links'}/>
+
+<ul class="govuk-list govuk-list--bullet">
+	<li><Link class="govuk-link" to="/help/uof/">Overview</Link></li>
+	<li><Link class="govuk-link" to="/help/uof/uof-before-you-begin/">Before you begin</Link></li>
+	<li><Link class="govuk-link" to="/help/uof/uof-when-you-must-report-use-of-force/">When you must report use of force</Link></li>
+</ul>

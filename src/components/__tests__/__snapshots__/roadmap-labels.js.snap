@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`roadmapLabel renders correctly 1`] = `
+<div
+  className="grid-row"
+>
+  <div
+    className="govuk-grid-column-one-third"
+  >
+    <div
+      className="govuk-body"
+      style={
+        Object {
+          "fontSize": "14px",
+        }
+      }
+    >
+      roadmap item
+    </div>
+  </div>
+</div>
+`;

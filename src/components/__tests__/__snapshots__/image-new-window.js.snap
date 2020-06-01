@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`imageNewWindow renders correctly 1`] = `
+<a
+  className="govuk-link"
+  href="#"
+  onClick={[Function]}
+  rel="noreferrer"
+  target="_blank"
+>
+  image-name
+</a>
+`;

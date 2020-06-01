@@ -1,6 +1,5 @@
 import React from "react";
 import { MDXRenderer } from "gatsby-plugin-mdx";
-import { graphql } from "gatsby";
 
 const panelAdditionalStyle = {
   background: "#bbd4fe",
@@ -16,13 +15,13 @@ const panelContentAdditionalStyleOverrides = {
 };
 
 const closeSplash = () => {
-  let subPanel = document.getElementById("sub-panel");
+  const subPanel = document.getElementById("sub-panel");
   if (subPanel) {
     subPanel.style.display = "none";
   }
 };
 
-const Notification = () => {
+const Notification = ({notificationContent}) => {
   return (
     <div style={panelAdditionalStyle} id="sub-panel" className="govuk-panel">
       <div className="govuk-width-container">
@@ -32,6 +31,7 @@ const Notification = () => {
         <div className="govuk-grid-row">
           <div className="govuk-grid-column-two-thirds">
             <div style={panelContentAdditionalStyleOverrides}>
+            <MDXRenderer>{notificationContent}</MDXRenderer>
             </div>
           </div>
         </div>

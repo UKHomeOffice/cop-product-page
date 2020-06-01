@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header renders correctly 1`] = `
+exports[`SubNavigation renders correctly 1`] = `
 <div
   className="sub-navigation-custom"
 >
@@ -37,23 +37,6 @@ exports[`Header renders correctly 1`] = `
         >
           <span>
             How COP helps you
-          </span>
-        </a>
-      </li>
-      <li
-        className="sub-navigation__item"
-      >
-        <a
-          className="govuk-link subnav"
-          href="/about/get_started/"
-          style={
-            Object {
-              "color": "black",
-            }
-          }
-        >
-          <span>
-            Get started
           </span>
         </a>
       </li>

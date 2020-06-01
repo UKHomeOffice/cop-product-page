@@ -24,7 +24,7 @@ exports[`stat-content renders correctly 1`] = `
       <h1
         className="govuk-heading-xl"
       >
-        6,652
+        6,6525
       </h1>
       <p
         className="govuk-body"
@@ -44,7 +44,7 @@ exports[`stat-content renders correctly 1`] = `
       <h1
         className="govuk-heading-xl"
       >
-        7,500+
+        7,55500+
       </h1>
       <p
         className="govuk-body"
@@ -64,7 +64,7 @@ exports[`stat-content renders correctly 1`] = `
       <h1
         className="govuk-heading-xl"
       >
-        300+
+        33300+
       </h1>
       <p
         className="govuk-body"

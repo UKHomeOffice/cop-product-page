@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box-icon renders correctly 1`] = `
+<i
+  className="icon-box"
+  style={
+    Object {
+      "backgroundColor": "red",
+    }
+  }
+/>
+`;

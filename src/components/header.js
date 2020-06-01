@@ -4,16 +4,17 @@ import Logo from "./logo";
 import {navItems} from "../config/header-nav-items";
 
 const showMobileButton = () => {
-  let menuButton = document.getElementById("menuButton");
-  let navigation = document.getElementById("navigation");
+  const menuButton = document.getElementById("menuButton");
+  const navigation = document.getElementById("navigation");
+  const headerButtonOpenClass = 'govuk-header__menu-button--open';
   if (menuButton) {
-    if (!menuButton.classList.contains("govuk-header__menu-button--open")) {
-      menuButton.classList.add("govuk-header__menu-button--open");
+    if (!menuButton.classList.contains(headerButtonOpenClass)) {
+      menuButton.classList.add(headerButtonOpenClass);
       navigation.classList.add("govuk-header__navigation--open");
       menuButton.setAttribute("aria-expanded", "true");
       navigation.setAttribute("aria-hidden", "false");
     } else {
-      menuButton.classList.remove("govuk-header__menu-button--open");
+      menuButton.classList.remove(headerButtonOpenClass);
       navigation.classList.remove("govuk-header__navigation--open");
       menuButton.setAttribute("aria-expanded", "false");
       navigation.setAttribute("aria-hidden", "true");
@@ -63,7 +64,7 @@ const Header = () => (
                 if (value.name === "Sign-in") {
                   return <li className="govuk-header__navigation-item"
                              key={index}>
-                    <a href={value.href} target='_blank' className="govuk-header__link header-nav-items">
+                    <a href={value.href} target='_blank' rel="noreferrer" className="govuk-header__link header-nav-items">
                       {value.name}
                     </a>
                   </li>;

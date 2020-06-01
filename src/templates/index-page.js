@@ -8,85 +8,87 @@ import MediumTitle from "../components/MediumTitle";
 import Hr from "../components/hr";
 import Image from "../components/image";
 import Panel from "../components/panel";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import Notification from "./notification";
+import BulletList from "../components/bullet-list";
 
-export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, isNotify }) => {
+export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, notify }) => {
   return (
     <div>
       <Panel title={panelTitle}
-             imageSource={"/images/home/banner.png"} imageAlt={"transform"}
-             paragraphText={panelParagraph}/>
+        imageSource={"/images/home/banner.png"} imageAlt={"transform"}
+        paragraphText={panelParagraph} />
 
-      {isNotify && <Notification/>}
+      {notify && <Notification notificationContent={content}/>}
 
       <div className="govuk-width-container">
 
-        <BreakLine pixels={"50"}/>
+        <BreakLine pixels={"50"} />
 
         <div className="govuk-grid-row">
 
-
           <div className="govuk-grid-column-one-half">
-            <MDXRenderer>{content}</MDXRenderer>
+            <MediumTitle text={'Get data in and out easily'} />
+            <p className="govuk-body">COP helps you log information — whether it be forms, reports, images or biometrics — on laptops and mobile devices. It translates the information into data that you can track, analyse and share to help Border Force make better decisions.</p>
+            <p className="govuk-body">The services currently on COP include:</p>
+            <BulletList list={['Immediate Event Notification (IEN)', 'National Security (NS) Referral', 'Cash Detection', 'Operational Activity Reporting (OAR)', 'Mandatory Declarations', 'Use of Force']} />
+            <p className="govuk-body">Find out how to <Link to="/help/" class="govuk-link">access these services</Link> and get started on COP.</p>
           </div>
 
           <div className="govuk-grid-column-one-half">
-            <Image noMobile={true} source={"/images/home/group-20.png"} alt={"transform"}/>
+            <Image noMobile={true} source={"/images/home/group-20.png"} alt={"transform"} />
           </div>
         </div>
 
-        <Hr inContent={true}/>
+        <Hr inContent={true} />
 
         <div className="govuk-grid-row homepage-content-margin">
           <div className="govuk-grid-column-one-half">
-            <MediumTitle text={"How COP helps frontline staff"}/>
+            <MediumTitle text={"How COP helps frontline staff"} />
           </div>
         </div>
 
         <div style={{ marginLeft: "5px" }} className="govuk-grid-row homepage-content-margin">
           <div className="govuk-grid-column-two-thirds">
-            <Image source={"/images/home/group-5.png"} alt={"transform"}/>
+            <Image source={"/images/home/group-5.png"} alt={"transform"} />
           </div>
         </div>
 
         <div className="govuk-grid-row homepage-content-margin">
           <div className="govuk-grid-column-one-half">
             <p className="govuk-body">Learn more about <Link className="govuk-link" to="/about/benefits/">how COP helps
-              the
+            the
               work of Border Force.</Link></p>
           </div>
         </div>
 
-        <Hr inContent={true}/>
+        <Hr inContent={true} />
 
         <div className="govuk-grid-row homepage-content-margin">
           <div className="govuk-grid-column-one-half">
-            <MediumTitle text={"How to get support"}/>
-            <p className="govuk-body">Find out <Link className="govuk-link" to="/help/accessing/">how to use COP</Link> and its services, or <Link
-              className="govuk-link" to="/contact/">check the contact section</Link> if you need any other help or
-              assistance.
+            <MediumTitle text={"How to get support"} />
+            <p className="govuk-body">Find out <Link className="govuk-link" to="/help/">how to use COP</Link> and its services.
+            You can also <Link className="govuk-link" to="/help/contact/">get in touch</Link> with us if you need any help or assistance.
             </p>
           </div>
         </div>
 
-        <Hr inContent={true}/>
+        <Hr inContent={true} />
 
         <StatContent title={"Used and trusted by Border Force teams"}
-                     stats={stats}/>
+          stats={stats} />
 
         <div className="govuk-grid-row">
           <div className="govuk-grid-column-one-half">
             <p className="govuk-body">Learn <Link to="/about/" className="govuk-link">how COP is reducing
               work</Link> and
               capturing information faster and better. And find out how it is <Link to="/about/benefits/"
-                                                                                    className="govuk-link">making the
+                className="govuk-link">making the
                 work of
                 Border Force staff easier.</Link></p>
           </div>
         </div>
 
-        <BreakLine pixels={"50"}/>
+        <BreakLine pixels={"50"} />
 
       </div>
 
@@ -103,7 +105,8 @@ const IndexPage = ({ data }) => {
         panelParagraph={frontmatter.panelParagraph}
         content={body}
         stats={frontmatter.multipleStats}
-        isNotify={frontmatter.isNotify}
+        notify={frontmatter.notify}
+        title={frontmatter.title}
       />
     </Layout>
   );
@@ -126,7 +129,8 @@ query IndexPageTemplate {
     frontmatter {
       panelTitle
       panelParagraph
-      isNotify
+      notify
+      title
       multipleStats {
           description
           stat

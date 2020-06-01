@@ -1,0 +1,2145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion renders correctly 1`] = `
+<div>
+  <div
+    className="accordion"
+    style={
+      Object {
+        "marginBottom": "2em",
+      }
+    }
+  >
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="streamLineMeasure0"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="streamLineMeasure0"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Measure
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Time saved
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Daily and monthly users
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              % of users on mobile
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              # of forms completed
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="streamLineNow1"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="streamLineNow1"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Now
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Intel Referral
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Events at the border
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Intel workflow
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              sGMR
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Firmstep Migration*
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="streamLineNext2"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="streamLineNext2"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Next
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              NCC Task Management
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Capacity Planning (OAR)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              RefDataV2
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Integrity Checks
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Cerberus Task Management*
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="streamLineLater3"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="streamLineLater3"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Later
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Record Refusal for entry (IS81)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              OAR Enhance
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Man DecV2
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Ops Planning Tools
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    className="accordion"
+    style={
+      Object {
+        "marginBottom": "2em",
+      }
+    }
+  >
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="informMeasure0"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="informMeasure0"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Measure
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              # reports available
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              analyst time saved
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              # users accessing reports
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              faster availability of data
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="informNow1"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="informNow1"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Now
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              BI Integration
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Analyst Data (self serve)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              PRAU feed V2
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Product Page
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="informNext2"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="informNext2"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Next
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Shift Debrief
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Sit Rep View
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Mandatory Declarations Viewer
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Embedded BI dashboards in COP
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="informLater3"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="informLater3"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Later
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Service Perf Dashboard
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Ops Dashboard
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Intel Dashboard
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    className="accordion"
+    style={
+      Object {
+        "marginBottom": "2em",
+      }
+    }
+  >
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="trustedMeasure0"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="trustedMeasure0"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Measure
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Availability
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              # grey IT systems removed
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Cost per transaction
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              User satisfaction
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="trustedNow1"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="trustedNow1"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Now
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Image Capture (Smartphone)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Workflow collaboration Tool (Cawemo)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              24x7 Support
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Service Readiness Review
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Secure, Run, Continuous Improve
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="trustedNext2"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="trustedNext2"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Next
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              eDcoument read & verify
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Workflow Engine Upgrade 7.13
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Optimise Tool
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              User Documentation V2
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Secure, Run, Continuous Improve
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="trustedLater3"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="trustedLater3"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Later
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Fingerprint capture
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Workflow Engine Upgrade 7.14
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Release Comms
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Secure, Run, Continuous Improve
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion renders correctly in content 1`] = `
+<div>
+  <div
+    className="accordion"
+    style={
+      Object {
+        "marginBottom": "2em",
+      }
+    }
+  >
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="streamLineMeasure0"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="streamLineMeasure0"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Measure
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Time saved
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Daily and monthly users
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              % of users on mobile
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              # of forms completed
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="streamLineNow1"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="streamLineNow1"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Now
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Intel Referral
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Events at the border
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Intel workflow
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              sGMR
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Firmstep Migration*
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="streamLineNext2"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="streamLineNext2"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Next
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              NCC Task Management
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Capacity Planning (OAR)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              RefDataV2
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Integrity Checks
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Cerberus Task Management*
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="streamLineLater3"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="streamLineLater3"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Later
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Record Refusal for entry (IS81)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              OAR Enhance
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Man DecV2
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#28afb0",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Ops Planning Tools
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    className="accordion"
+    style={
+      Object {
+        "marginBottom": "2em",
+      }
+    }
+  >
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="informMeasure0"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="informMeasure0"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Measure
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              # reports available
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              analyst time saved
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              # users accessing reports
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              faster availability of data
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="informNow1"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="informNow1"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Now
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              BI Integration
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Analyst Data (self serve)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              PRAU feed V2
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Product Page
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="informNext2"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="informNext2"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Next
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Shift Debrief
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Sit Rep View
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Mandatory Declarations Viewer
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Embedded BI dashboards in COP
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="informLater3"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="informLater3"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Later
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Service Perf Dashboard
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Ops Dashboard
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#f18f01",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Intel Dashboard
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    className="accordion"
+    style={
+      Object {
+        "marginBottom": "2em",
+      }
+    }
+  >
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="trustedMeasure0"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="trustedMeasure0"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Measure
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Availability
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              # grey IT systems removed
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Cost per transaction
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              User satisfaction
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="trustedNow1"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="trustedNow1"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Now
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Image Capture (Smartphone)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Workflow collaboration Tool (Cawemo)
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              24x7 Support
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Service Readiness Review
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Secure, Run, Continuous Improve
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="trustedNext2"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="trustedNext2"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Next
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              eDcoument read & verify
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Workflow Engine Upgrade 7.13
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Optimise Tool
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              User Documentation V2
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Secure, Run, Continuous Improve
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="trustedLater3"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="trustedLater3"
+        style={
+          Object {
+            "fontSize": "16px",
+            "marginBottom": "0px",
+          }
+        }
+      >
+        Later
+      </label>
+      <div
+        className="content"
+      >
+        <div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Fingerprint capture
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Workflow Engine Upgrade 7.14
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Release Comms
+            </div>
+          </div>
+          <div
+            className="rectangle rectangle-block"
+            style={
+              Object {
+                "borderLeft": "solid 6px#a23b72",
+              }
+            }
+          >
+            <div
+              className="roadmap-block-text"
+            >
+              Secure, Run, Continuous Improve
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

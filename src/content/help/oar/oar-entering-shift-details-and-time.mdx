@@ -1,12 +1,12 @@
 ---
 templateKey: help-page
 title: Help
-subTitle: Operational Activity Reporting
+subTitle: Operational Activity Reporting (OAR)
+subject: Enter time and shift details
 ---
 import { Link } from 'gatsby'
 import { Accordion, BoxIcon, BreakLine, BulletList, Button, ExtraLargeTitle, Hr, HyperLink, Image, LargeParagraph,
-LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent,
-SubPanel, layout, Panel } from "../../../config/imports.js";
+LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent, layout, Panel } from "../../../config/imports.js";
 import "../../../components/layout.scss";
 
 <MediumTitle text={'Enter time and shift details'} />
@@ -21,11 +21,15 @@ If that isn’t possible, you can create a separate report for those team member
 
 <SmallTitle text={'Calculating total hours'} />
 
-For each grade, calculate the total number of hours and minutes the team worked excluding, meal breaks. For example:
-If you had 10 higher officers on the shift, each working 7 hours and 20 minutes, the total time is 73 hours and 20 minutes.
-Repeat the process for other staff on your shift from different grades.
+Calculate the total number of hours and minutes staff from each grade worked. excluding meal breaks. 
 
-**N.B** don’t enter decimals (like in the old EOSR); so it’s 7 hours 20 minutes, not 7.4 hours.
+For example: 
+
+<BulletList list={['Ten higher officers on the shift work 7 hours and 20 minutes each', 'So 10 x 7 hours 20 minutes = 73 hours and 20 minutes.']} />
+
+Repeat the process for the staff from other grades.
+
+**Note,** don’t enter decimals (like in the old EOSR) — so it’s 7 hours 20 minutes, not 7.4 hours.
 
 
 <MediumTitle text={'Related links'}/>

@@ -87,7 +87,7 @@ Array [
             >
               <a
                 className="govuk-header__link header-nav-items"
-                href="/help/accessing/"
+                href="/help/"
               >
                 Help
               </a>
@@ -97,17 +97,8 @@ Array [
             >
               <a
                 className="govuk-header__link header-nav-items"
-                href="/contact/"
-              >
-                Contact
-              </a>
-            </li>
-            <li
-              className="govuk-header__navigation-item"
-            >
-              <a
-                className="govuk-header__link header-nav-items"
                 href="https://www.cop.homeoffice.gov.uk/"
+                rel="noreferrer"
                 target="_blank"
               >
                 Sign-in
@@ -150,13 +141,21 @@ Array [
           <p
             className="govuk-body"
           >
-            If the web address is correct or you selected a link or button, 
+            If you're still having problems go to our 
             <a
               className="govuk-link"
-              href="#"
+              href="/"
             >
-              contact the COP Team 
+              homepage
             </a>
+             or 
+            <a
+              className="govuk-link"
+              href="/help/contact/"
+            >
+              contact us
+            </a>
+             if you can't find what you're looking for.
           </p>
         </div>
       </div>
@@ -189,6 +188,7 @@ Array [
               <a
                 className="govuk-footer__link"
                 href="https://cop.statuspage.io/"
+                rel="noreferrer"
                 target="_blank"
               >
                 System Status
@@ -199,7 +199,7 @@ Array [
             >
               <a
                 className="govuk-footer__link"
-                href="/contact/"
+                href="/help/contact/"
               >
                 Contact
               </a>
@@ -210,6 +210,7 @@ Array [
               <a
                 className="govuk-footer__link"
                 href="https://www.refdata.homeoffice.gov.uk/"
+                rel="noreferrer"
                 target="_blank"
               >
                 Refdata
@@ -220,9 +221,9 @@ Array [
             >
               <a
                 className="govuk-footer__link"
-                href="/help/accessing/"
+                href="/help/"
               >
-                How-to guide
+                Help
               </a>
             </li>
             <li

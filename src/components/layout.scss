@@ -28,27 +28,19 @@ a, abbr, acronym, address, article, aside, b, big, blockquote, canvas, caption, 
 }
 
 p {
-  color: #0b0c0c;
-  font-family: 'GDS Transport', Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  @include govuk-text-colour;
+  @include govuk-font($size: 19);
+
   margin-top: 0;
-  margin-bottom: 15px;
+  @include govuk-responsive-margin(4, "bottom");
+
+.govuk-body-m {
+  @extend %govuk-body-m;
+}
 }
 
 strong {
   font-weight: 700 !important;
-}
-
-@media (min-width: 40.0625em) {
-  p {
-    margin-bottom: 20px;
-    font-size: 19px !important;
-    line-height: 1.31579;
-  }
 }
 
 .service-name:after {
@@ -369,7 +361,7 @@ ol ol .sub-navigation__item {
   .govuk-header__navigation-item {
     display: inline-block;
     margin-right: 15px;
-    padding: 5px 5px;
+    padding: 5px 12px;
     border: 0
   }
 }

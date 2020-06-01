@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`roadmapBlockContainer renders correctly 1`] = `
+<div>
+  <div
+    className="rectangle rectangle-block"
+    style={
+      Object {
+        "borderLeft": "solid 6px#28afb0",
+      }
+    }
+  >
+    <div
+      className="roadmap-block-text"
+    >
+      Intel Referral
+    </div>
+  </div>
+  <div
+    className="rectangle rectangle-block"
+    style={
+      Object {
+        "borderLeft": "solid 6px#28afb0",
+      }
+    }
+  >
+    <div
+      className="roadmap-block-text"
+    >
+      Events at the border
+    </div>
+  </div>
+  <div
+    className="rectangle rectangle-block"
+    style={
+      Object {
+        "borderLeft": "solid 6px#28afb0",
+      }
+    }
+  >
+    <div
+      className="roadmap-block-text"
+    >
+      Intel workflow
+    </div>
+  </div>
+  <div
+    className="rectangle rectangle-block"
+    style={
+      Object {
+        "borderLeft": "solid 6px#28afb0",
+      }
+    }
+  >
+    <div
+      className="roadmap-block-text"
+    >
+      sGMR
+    </div>
+  </div>
+  <div
+    className="rectangle rectangle-block"
+    style={
+      Object {
+        "borderLeft": "solid 6px#28afb0",
+      }
+    }
+  >
+    <div
+      className="roadmap-block-text"
+    >
+      Firmstep Migration*
+    </div>
+  </div>
+</div>
+`;
