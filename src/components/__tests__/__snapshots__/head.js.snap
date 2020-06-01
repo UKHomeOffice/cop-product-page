@@ -1,3 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Head renders correctly 1`] = `null`;
+
+exports[`Head renders correctly with no subtitle 1`] = `null`;
+
+exports[`Head renders correctly with no subtitle 2`] = `null`;

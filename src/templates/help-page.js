@@ -8,7 +8,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 import SubNavigation from "../components/sub_navigation-help";
 import { navItems } from "../config/help-nav-items";
 
-export const HelpPageTemplate = ({ title, subTitle, content }) => {
+export const HelpPageTemplate = ({ title, subTitle, content, subject }) => {
   return (
     <div>
       <div className="govuk-width-container main-height">
@@ -39,13 +39,13 @@ HelpPageTemplate.propTypes = {
 
 const HelpPage = ({ data }) => {
   const { mdx: post } = data;
-
   return (
     <Layout>
       <HelpPageTemplate
         title={post.frontmatter.title}
         subTitle={post.frontmatter.subTitle}
         content={post.body}
+        subject={post.frontmatter.subject}
       />
     </Layout>
   );
@@ -64,6 +64,7 @@ export const helpPageQuery = graphql`
       frontmatter {
         title
         subTitle
+        subject
       }
     }
   }

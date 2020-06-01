@@ -106,6 +106,7 @@ const IndexPage = ({ data }) => {
         content={body}
         stats={frontmatter.multipleStats}
         notify={frontmatter.notify}
+        title={frontmatter.title}
       />
     </Layout>
   );
@@ -129,6 +130,7 @@ query IndexPageTemplate {
       panelTitle
       panelParagraph
       notify
+      title
       multipleStats {
           description
           stat

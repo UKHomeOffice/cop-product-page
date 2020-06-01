@@ -53,6 +53,7 @@ export const GDSPageQuery = graphql`
       body
       frontmatter {
         title
+        subTitle
       }
     }
   }
