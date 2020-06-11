@@ -31,6 +31,13 @@ module.exports = {
       when_you_must_report_use_of_force_title: 'When you must report use of force',
       personal_safety_training_terms_title: 'Personal Safety Training terms'
     },
+  },
+    eab: {
+    overview_title: 'Events at the Border (EaB)',
+  },
+    ir: {
+    overview_title: 'Intelligence Referral (IR)',
+  },
     contact: {
       overview_title: "Contact"
     }
