@@ -47,6 +47,16 @@ describe("SubNavigationHelp", () => {
         ]
       },
       {
+        name: "Events at the Border", href: "/help/eab/",
+        subItems: [{ name: "Overview", href: "/help/eab/" },
+        ]
+      },
+      {
+        name: "Intelligence Referral", href: "/help/ir/",
+        subItems: [{ name: "Overview", href: "/help/ir/" },
+        ]
+      },
+      {
         name: "Contact", href: "/help/contact/",
       }
     ]);
