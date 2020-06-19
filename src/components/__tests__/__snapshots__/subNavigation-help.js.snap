@@ -84,6 +84,44 @@ exports[`SubNavigationHelp renders correctly 1`] = `
         </li>
       </div>
       <div>
+        <li
+          className="sub-navigation__item"
+        >
+          <a
+            className="govuk-link subnav"
+            href="/help/eab/"
+            style={
+              Object {
+                "color": "black",
+              }
+            }
+          >
+            <span>
+              Events at the Border
+            </span>
+          </a>
+        </li>
+      </div>
+      <div>
+        <li
+          className="sub-navigation__item"
+        >
+          <a
+            className="govuk-link subnav"
+            href="/help/ir/"
+            style={
+              Object {
+                "color": "black",
+              }
+            }
+          >
+            <span>
+              Intelligence Referral
+            </span>
+          </a>
+        </li>
+      </div>
+      <div>
          
         <li
           className="sub-navigation__item"
