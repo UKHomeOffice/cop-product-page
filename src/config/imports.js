@@ -22,7 +22,6 @@ import layout from '../components/layout'
 import Panel from "../components/panel"
 import ImageNewWindow from "../components/image-new-window";
 
-
 export {
   Accordion,
   BoxIcon,
