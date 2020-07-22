@@ -10,6 +10,7 @@ pipeline:
       - npm install
       - npm audit --audit-level=moderate
       - npm test
+      - npm run clean
       - npm run build:dev
     when:
       event: pull_request

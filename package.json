@@ -46,7 +46,8 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "jest --coverage",
     "nightwatch": "./node_modules/.bin/nightwatch /nightwatch/test_spec.js",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.9.0",
