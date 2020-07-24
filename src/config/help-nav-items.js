@@ -38,6 +38,6 @@ export const navItems = [
     name: "Intelligence Workflow", href: "/help/iw/"
   },
   {
-    name: "Contact", href: "/help/contact/",
+    name: "Contact", href: "/help/contact/"
   }
 ];
