@@ -29,14 +29,13 @@ export const navItems = [
     ]
   },
   {
-    name: "Events at the Border", href: "/help/eab/",
-    subItems: [{ name: "Overview", href: "/help/eab/" },
-    ]
+    name: "Events at the Border", href: "/help/eab/"
   },
   {
-    name: "Intelligence Referral", href: "/help/ir/",
-    subItems: [{ name: "Overview", href: "/help/ir/" },
-    ]
+    name: "Intelligence Referral", href: "/help/ir/"
+  },
+  {
+    name: "Intelligence Workflow", href: "/help/iw/"
   },
   {
     name: "Contact", href: "/help/contact/",
