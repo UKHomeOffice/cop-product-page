@@ -56,6 +56,9 @@ describe("SubNavigationHelp", () => {
         name: "Intelligence Workflow", href: "/help/iw/"
       },
       {
+        name: "Accessing COP on mobile devices", href: "/help/accessing-cop-on-mobile/"
+      },
+      {
         name: "Contact", href: "/help/contact/"
       }
     ]);
