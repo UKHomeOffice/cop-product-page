@@ -1,0 +1,3429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccordionOAR renders correctly in content 1`] = `
+<div>
+  <div
+    className="accordion"
+    style={
+      Object {
+        "marginBottom": "2em",
+      }
+    }
+  >
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="transportModesTransport Modes0"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="transportModesTransport Modes0"
+        style={
+          Object {
+            "backgroundColor": "#F0F0F0",
+            "color": "#0036a8",
+            "cursor": "pointer",
+            "fontSize": "16px",
+            "marginBottom": "5px",
+            "paddingBottom": "1em",
+            "paddingLeft": "10px",
+          }
+        }
+      >
+        Transport Modes
+      </label>
+      <div
+        className="content"
+        style={
+          Object {
+            "margin": "0px",
+          }
+        }
+      >
+        <div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Air Freight
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Commercial air freight",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Air Passenger
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Airlines carrying passengers",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Commercial Maritime
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Work with freight-carrying large ships e.g. container ships etc.",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Container
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Containers either accompanied or unaccompanied (excluding RoRo see below)",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Cruise
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Cruise ship passengers and crew",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Fast Parcels
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                General Aviation
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Work with private or charter aircraft including drones etc. at small airports and other locations",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                General Maritime
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Generally carried out with private or small marine craft e.g. at marinas and small ports",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                International Trade
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Search activities conducted to check that goods comply with trade rules and restrictions and have appropriate documentation, including an accurate description of the goods",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Post
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Rail Freight
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Commercial freight carried on trains",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Rail Passenger
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Eurostar and other commercial train operators",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                RoRo Freight
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Commercial freight handling vehicles handled by roll on roll off ferries. Please make it clear whether this applies to accompanied or unaccompanied freight (towed from RoRo to Port)",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                RoRo Tourist
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Private vehicles and foot passengers handled by roll on roll off ferries",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="pcpImmigrationActivitiesPCP & Immigration Activities1"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="pcpImmigrationActivitiesPCP & Immigration Activities1"
+        style={
+          Object {
+            "backgroundColor": "#F0F0F0",
+            "color": "#0036a8",
+            "cursor": "pointer",
+            "fontSize": "16px",
+            "marginBottom": "5px",
+            "paddingBottom": "1em",
+            "paddingLeft": "10px",
+          }
+        }
+      >
+        PCP & Immigration Activities
+      </label>
+      <div
+        className="content"
+        style={
+          Object {
+            "margin": "0px",
+          }
+        }
+      >
+        <div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Record work arising from Primary Control Point (PCP) and Immigration procedures
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Guidelines for recording PCP and Immigration Activities",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                General Primary Control Point (PCP)
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>To include all activity involving processing of EEA and Non EEA nationals up to the point of it becoming a case and being entered onto CID all subsequent work is entered into casework (see activity below).</p> <ul class=\\"govuk-list govuk-list--bullet\\"><li>PCP at airports and seaports.</li> <li>It may also include CTA work activity, the processing of crew, work on cruise liners, by the duty officer at small ports, by teams working at small airfields, on freight or any other area where EEA and Non EEA nationals are cleared.</li></ul> e-Gates - This is to include all officers involved in the processing of passengers through e-Passport Gates.",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Immigration Casework
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>Total hours spent on casework types including:</p><strong>LTE</strong><br><p>Cases recorded on CID that result in LTE (Leave to Enter).</p><strong>TA/DET</strong><br><p>Cases that remain unresolved and result in Temporary Admission (TA) or Detention pending further enquiries.</p><strong>RLE</strong><br><p>Non Visa Cases - Non Visa cases that result in Refusal of Leave to Enter (RLE).</p><strong>RLE Visa Case</strong><br><p>Visa cases that result in RLE.</p><strong>Other Case-Working Duties</strong><br><p>The total number of hours staff are deployed to other case-working duties. This will include any casework Border Force Higher Officers (BFHOs), coordinators or any other officers coordinating, continuing or concluding casework not accounted for in the previous casework sections (for example cases that have been bought back from Temporary Admission or detention to be concluded, and work relating to absconders and removal work activity that is not covered by any of the other casework sections.)</p>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Other Immigration
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>Deportation Orders, Medical Emergencies.</p><p><strong>Record actual examinations searches and results under ‘Detection/Search’ activities.</strong></p>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                National Security (NS) formerly ‘Counter Terrorism’ referrals
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "May include passengers or contents of freight, fast parcels and post.",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Safeguarding
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Including safeguarding patrols.",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Forgery
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>Further examination of potential forgery cases and use of specialist forgery detection equipment where appropriate.</p><p>Subsequent actions taken with passengers, documents etc. where forgery is detected.</p>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Asylum casework
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Casework for Asylum seekers.",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                COVID Compliance Checks
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Amount of time spent conducting spot and other checks on people entering the UK to ensure they have completed the necessary declarations and to process any subsequent reports and casework",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="customsActivitiesCustoms Activities2"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="customsActivitiesCustoms Activities2"
+        style={
+          Object {
+            "backgroundColor": "#F0F0F0",
+            "color": "#0036a8",
+            "cursor": "pointer",
+            "fontSize": "16px",
+            "marginBottom": "5px",
+            "paddingBottom": "1em",
+            "paddingLeft": "10px",
+          }
+        }
+      >
+        Customs Activities
+      </label>
+      <div
+        className="content"
+        style={
+          Object {
+            "margin": "0px",
+          }
+        }
+      >
+        <div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Custom Activities
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Guidelines for recording Customs Activities",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Channel
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>Also known as ‘Secondary’.</p><p>Include Stop and Question (S&Q) and BDI/profiling</p><p><strong>Record examinations searches and results under ‘Detection/Search’ activities.</strong></p><p>Anti-smuggling checks in the Green Channel (“Nothing to Declare”) and for taking any required further action in line with current customs operational guidance such as making any necessary referrals for civil penalties or for further investigation to HMRC/NCA and making any necessary arrests.</p><p><strong>Record actual search time and results (positive and negative) under ‘Detection/Search’ activities.</strong></p><p>Any resulting activity of recording and processing a positive result (e.g. after a commodity seizure) should be recorded using the appropriate activities available in OAR see ‘Other Activities’ below.</p>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                International trade checks
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>Regulatory international trade controls on goods entering or leaving the EU via the UK to ensure compliance with international, EU and domestic regulatory requirements.</p><p>Checking and endorsement of all international trade documentation requiring a customs stamp at the border to evidence import and export movements and compliance with any relevant customs clearance legal requirements.</p><p>Any other compliance checks to ensure that operators are complying with the conditions of relevant customs procedures governing the movement of cargo within the confines of a port / airport, including movements to temporary storage locations.</p>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Other customs duties
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>All other customs procedures and paperwork conducted outside of Channel and not included in International Trade Checks as above.</p><p>Investigation of collusion in customs fraud abetted by staff working for port or carriers</p><p><strong>Record examination search time and results under ‘Detection/Search’ activities</strong></p>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Declared goods
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Assess and collect at the border any taxes, duties or other charges liable to be paid on goods from passengers and crew that have declared goods in the Red Channel or at a Red Point facility (“Goods to Declare”).",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                VAT returns
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Checking and endorsement of VAT refund claims.",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Firearms management
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>Handling weapons for Air Marshals etc..</p><p>All ‘Make Safe’ procedures when clearing declared firearms or with seized firearms.</p><p><strong>Search and detection time where firearms are targetted or found are recorded as ‘Detection/Search’ Activities.</strong></p>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="searchDetectionActivitiesSearch & Detection Activities3"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="searchDetectionActivitiesSearch & Detection Activities3"
+        style={
+          Object {
+            "backgroundColor": "#F0F0F0",
+            "color": "#0036a8",
+            "cursor": "pointer",
+            "fontSize": "16px",
+            "marginBottom": "5px",
+            "paddingBottom": "1em",
+            "paddingLeft": "10px",
+          }
+        }
+      >
+        Search & Detection Activities
+      </label>
+      <div
+        className="content"
+        style={
+          Object {
+            "margin": "0px",
+          }
+        }
+      >
+        <div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Record Detection/Search Activities against each target type – includes all search and detection for Clandestine Immigrants, Victims of Modern Slavery etc. as well as all types of Commodities
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Guidelines for recording Search & Detection Activities",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Self-selection
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "For example as a result of Stop and Question (S&Q), observation, dog detection etc. including self selected baggage under S159 – (Power to Examine Goods (Passenger Baggage)) searches ",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                A category target
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                B category target
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                C category target
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Intelligence and third party referrals
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "Including airport security, ship security officers and other agencies",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Primary Control Point (PCP) referral
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Scanner referral
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Structured Assessment Border Risk (SABR)
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="cyclamenActivitiesCyclamen Activities4"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="cyclamenActivitiesCyclamen Activities4"
+        style={
+          Object {
+            "backgroundColor": "#F0F0F0",
+            "color": "#0036a8",
+            "cursor": "pointer",
+            "fontSize": "16px",
+            "marginBottom": "5px",
+            "paddingBottom": "1em",
+            "paddingLeft": "10px",
+          }
+        }
+      >
+        Cyclamen Activities
+      </label>
+      <div
+        className="content"
+        style={
+          Object {
+            "margin": "0px",
+          }
+        }
+      >
+        <div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Cyclamen
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="option"
+    >
+      <input
+        className="toggle"
+        id="otherActivitiesOther Activities5"
+        type="checkbox"
+      />
+      <label
+        className="title govuk-heading-s"
+        htmlFor="otherActivitiesOther Activities5"
+        style={
+          Object {
+            "backgroundColor": "#F0F0F0",
+            "color": "#0036a8",
+            "cursor": "pointer",
+            "fontSize": "16px",
+            "marginBottom": "5px",
+            "paddingBottom": "1em",
+            "paddingLeft": "10px",
+          }
+        }
+      >
+        Other Activities
+      </label>
+      <div
+        className="content"
+        style={
+          Object {
+            "margin": "0px",
+          }
+        }
+      >
+        <div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Other Activities
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Crew Exercise
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Custody Duties
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Detention management
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                GA/GM Monitoring (contact visit)
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                GA/GM Monitoring (non-contact visit)
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Health & Safety/Welfare
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Intelligence collection and reporting
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Management meetings
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Other non-operational
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<ul class=\\"govuk-list govuk-list--bullet\\"><li>Union functions</li><li>Other Facility time (Home Office Networks and Groups)</li><li>Administrative functions carried out by officers due to the absence of administrative staff.</li><li>Assurance Meetings</li></ul>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Other operational
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<ul class=\\"govuk-list govuk-list--bullet\\"><li>Reporting Duties (OAR etc.)</li><li>Duty Office</li><li>Management Functions (HO Activities)</li><li>Carriers Liability (CL)</li><li>Overtime Checking</li><li>Information Technology (IT)</li><li>Security</li><li>Secure ID Functions (Secure Identity)</li><li>Equality & Diversity</li><li>Investors in People</li><li>Data Quality</li></ul>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Queen's warehouse
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Training
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Travel time - offsite
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<p>Nationally (Except Heathrow):</p><ul class=\\"govuk-list govuk-list--bullet\\"><li>Includes all travel time once away from main site</li></ul> <p>Heathrow:</p><ul class=\\"govuk-list govuk-list--bullet\\"><li>Tarmac: Any time spent landside by Tarmac teams</li></ul><p>Freight: More than 30 minutes spent travelling by Freight teams</p>",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                Travel time - onsite
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            className="govuk-grid-row displayFlexOnDesktop"
+            style={
+              Object {
+                "marginBottom": "2px",
+              }
+            }
+          >
+            <div
+              className="govuk-grid-column-one-third"
+              style={
+                Object {
+                  "backgroundColor": "rgba(0, 53, 168, 0.69)",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                style={
+                  Object {
+                    "color": "white",
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              >
+                VIP Movements
+              </div>
+            </div>
+            <div
+              className="govuk-grid-column-two-thirds"
+              style={
+                Object {
+                  "backgroundColor": "#eef2f9",
+                }
+              }
+            >
+              <div
+                className="govuk-body"
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "&nbsp;",
+                  }
+                }
+                style={
+                  Object {
+                    "marginBottom": "auto",
+                    "marginTop": "auto",
+                    "padding": "10px",
+                    "textAlign": "left",
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

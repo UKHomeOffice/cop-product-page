@@ -1,6 +1,6 @@
 import React from "react"
 import renderer from "react-test-renderer"
-import Accordion from "../accordion-roadmap";
+import AccordionRoadmap from "../accordion-roadmap";
 import RoadMapBlockContainer from "../RoadMapBlockContainer";
 import {roadMapItem, roadMapMobile} from "../../config/roadmapItems.js";
 

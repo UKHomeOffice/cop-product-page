@@ -757,3 +757,9 @@ $font-color: #black;
     margin-bottom: 25px;
   }
 }
+
+@media (min-width: 40.0625em) {
+.displayFlexOnDesktop {
+  display: flex
+}
+}
