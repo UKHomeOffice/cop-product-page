@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
 
 const AccordionOar = (props) => {
-  console.log(props.contnet);
   return (
-    <div style={{ marginBottom: '2em' }} className="accordion">
+    <div id="oarTables" style={{ marginBottom: '2em' }} className="accordion">
       {props.content.map((value, index) => {
         return <div key={index} className="option">
           <input type="checkbox" id={`${value.id}${value.header}${index}`} className="toggle" />

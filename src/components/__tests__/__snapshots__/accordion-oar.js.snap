@@ -4,6 +4,7 @@ exports[`AccordionOAR renders correctly in content 1`] = `
 <div>
   <div
     className="accordion"
+    id="oarTables"
     style={
       Object {
         "marginBottom": "2em",
