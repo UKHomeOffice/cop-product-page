@@ -27,7 +27,8 @@ exports[`AccordionOAR renders correctly in content 1`] = `
             "color": "#0036a8",
             "cursor": "pointer",
             "fontSize": "16px",
-            "marginBottom": "5px",
+            "marginBottom": "6px",
+            "marginTop": "6px",
             "paddingBottom": "1em",
             "paddingLeft": "10px",
           }
@@ -862,7 +863,8 @@ exports[`AccordionOAR renders correctly in content 1`] = `
             "color": "#0036a8",
             "cursor": "pointer",
             "fontSize": "16px",
-            "marginBottom": "5px",
+            "marginBottom": "6px",
+            "marginTop": "6px",
             "paddingBottom": "1em",
             "paddingLeft": "10px",
           }
@@ -1412,7 +1414,8 @@ exports[`AccordionOAR renders correctly in content 1`] = `
             "color": "#0036a8",
             "cursor": "pointer",
             "fontSize": "16px",
-            "marginBottom": "5px",
+            "marginBottom": "6px",
+            "marginTop": "6px",
             "paddingBottom": "1em",
             "paddingLeft": "10px",
           }
@@ -1848,7 +1851,8 @@ exports[`AccordionOAR renders correctly in content 1`] = `
             "color": "#0036a8",
             "cursor": "pointer",
             "fontSize": "16px",
-            "marginBottom": "5px",
+            "marginBottom": "6px",
+            "marginTop": "6px",
             "paddingBottom": "1em",
             "paddingLeft": "10px",
           }
@@ -2398,7 +2402,8 @@ exports[`AccordionOAR renders correctly in content 1`] = `
             "color": "#0036a8",
             "cursor": "pointer",
             "fontSize": "16px",
-            "marginBottom": "5px",
+            "marginBottom": "6px",
+            "marginTop": "6px",
             "paddingBottom": "1em",
             "paddingLeft": "10px",
           }
@@ -2492,7 +2497,8 @@ exports[`AccordionOAR renders correctly in content 1`] = `
             "color": "#0036a8",
             "cursor": "pointer",
             "fontSize": "16px",
-            "marginBottom": "5px",
+            "marginBottom": "6px",
+            "marginTop": "6px",
             "paddingBottom": "1em",
             "paddingLeft": "10px",
           }
