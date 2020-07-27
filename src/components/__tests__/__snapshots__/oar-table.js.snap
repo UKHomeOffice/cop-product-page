@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OarTable renders correctly in content 1`] = `
+<div>
+  <div
+    className="govuk-grid-row displayFlexOnDesktop"
+    style={
+      Object {
+        "marginBottom": "2px",
+      }
+    }
+  >
+    <div
+      className="govuk-grid-column-one-third"
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 53, 168, 0.69)",
+        }
+      }
+    >
+      <div
+        className="govuk-body"
+        style={
+          Object {
+            "color": "white",
+            "marginBottom": "auto",
+            "marginTop": "auto",
+            "padding": "10px",
+            "textAlign": "left",
+          }
+        }
+      >
+        Cyclamen
+      </div>
+    </div>
+    <div
+      className="govuk-grid-column-two-thirds"
+      style={
+        Object {
+          "backgroundColor": "#eef2f9",
+        }
+      }
+    >
+      <div
+        className="govuk-body"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;",
+          }
+        }
+        style={
+          Object {
+            "marginBottom": "auto",
+            "marginTop": "auto",
+            "padding": "10px",
+            "textAlign": "left",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

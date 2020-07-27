@@ -696,8 +696,15 @@ $font-color: #black;
 }
 
 .content {
+  font-family: "GDS Transport", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   display: block;
-  margin: 10px auto !important;
+  margin: 10px auto;
   margin-bottom: 0px !important;
   width: fit-content;
   max-height: 0;
@@ -710,7 +717,7 @@ $font-color: #black;
   & + .title + .content {
   }
   & + .title + .content {
-    max-height: 500px;
+    max-height: fit-content;
   }
   & + .title:before {
     transform: rotate(90deg) !important;
@@ -749,4 +756,10 @@ $font-color: #black;
     line-height: 1.04167;
     margin-bottom: 25px;
   }
+}
+
+@media (min-width: 40.0625em) {
+.displayFlexOnDesktop {
+  display: flex
+}
 }
