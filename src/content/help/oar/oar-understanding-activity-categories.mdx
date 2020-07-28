@@ -5,8 +5,9 @@ subTitle: Operational Activity Reporting (OAR)
 subject: Understand activity categories
 ---
 import { Link } from 'gatsby'
-import { Accordion, BoxIcon, BreakLine, BulletList, Button, ExtraLargeTitle, Hr, HyperLink, Image, LargeParagraph,
+import { AccordionOar, BoxIcon, BreakLine, BulletList, Button, ExtraLargeTitle, Hr, HyperLink, Image, LargeParagraph,
 LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent, layout, Panel, ImageNewWindow } from "../../../config/imports.js";
+import {OarTables} from '../../../config/oar-tables.js'
 
 <MediumTitle text={'Understand activity categories'} />
 
@@ -16,8 +17,10 @@ Where activities cannot be assigned to a transport mode then put these under the
 
 Enter the activities the team undertook in the shift and the time spent on each activity. Note, travel time can be recorded as a separate activity.
 
-Make sure you choose the correct activity category. For further clarification about each activity, <ImageNewWindow source={'/images/help/oar/FindingOAR/oar-guide.pdf'} text={'check the activity guidance.'} />
+Make sure you choose the correct activity category. For further clarification about each transport mode or activity open the relevant link below:
 
+
+<AccordionOar content={OarTables} />
 
 <MediumTitle text={'Related links'}/>
 
@@ -27,4 +30,5 @@ Make sure you choose the correct activity category. For further clarification ab
 	<li><Link class="govuk-link" to="/help/oar/oar-entering-shift-details-and-time/">Enter shift details and time</Link></li>
     <li><Link class="govuk-link" to="/help/oar/oar-detection-search-activities/">Detection/search activities</Link></li>
     <li><Link class="govuk-link" to="/help/oar/oar-checking-your-oar-submission/">Check your OAR submission</Link></li>
+    <li><Link class="govuk-link" to="/help/oar/oar-add-shift-debrief-notes/">Add shift debrief notes</Link></li>
 </ul>

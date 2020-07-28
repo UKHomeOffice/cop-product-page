@@ -28,6 +28,7 @@ describe("SubNavigationHelp", () => {
           { name: "Understand activity categories", href: "/help/oar/oar-understanding-activity-categories/" },
           { name: "Detection/search activities", href: "/help/oar/oar-detection-search-activities/" },
           { name: "Check your OAR submission", href: "/help/oar/oar-checking-your-oar-submission/" },
+          { name: "Add shift debrief notes", href: "/help/oar/oar-add-shift-debrief-notes/" }
         ]
       },
       {
@@ -54,6 +55,9 @@ describe("SubNavigationHelp", () => {
       },
       {
         name: "Intelligence Workflow", href: "/help/iw/"
+      },
+      {
+        name: "Accessing COP on mobile devices", href: "/help/accessing-cop-on-mobile/"
       },
       {
         name: "Contact", href: "/help/contact/"

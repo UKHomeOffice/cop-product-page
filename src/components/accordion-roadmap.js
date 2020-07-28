@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-const Accordion = (props) => {
+const AccordionRoadmap = (props) => {
   useEffect(() => {
       document.getElementById('streamLineNow1').click();
       document.getElementById('informNow1').click();
@@ -24,5 +24,5 @@ const Accordion = (props) => {
   );
 };
 
-export default Accordion;
+export default AccordionRoadmap;
 
