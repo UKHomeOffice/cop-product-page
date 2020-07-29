@@ -30,7 +30,8 @@ export const navItems = [
     ]
   },
   {
-    name: "Events at the Border", href: "/help/eab/"
+    name: "Events at the Border", href: "/help/eab/",
+    subItems: [{name: "Overview", href: "/help/eab/"}, {name: "Minimal standard limits", href: "/help/eab/minimal-standard-limits/" }],
   },
   {
     name: "Intelligence Referral", href: "/help/ir/"
