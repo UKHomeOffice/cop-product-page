@@ -1,25 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`OarTable renders correctly in content 1`] = `
+exports[`MinimalStandardLimitsTable renders correctly in content 1`] = `
 <div>
   <div
     className="govuk-grid-row displayFlexOnDesktop"
-    style={
-      Object {
-        "marginBottom": "2px",
-      }
-    }
   >
     <div
-      className="govuk-grid-column-one-third"
+      className="govuk-grid-column-one-third minimalStandardsTable"
       style={
         Object {
           "backgroundColor": "#00703c",
+          "margin": "1px",
         }
       }
     >
       <div
         className="govuk-body"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Cyclamen",
+          }
+        }
         style={
           Object {
             "color": "white",
@@ -29,15 +30,14 @@ exports[`OarTable renders correctly in content 1`] = `
             "textAlign": "left",
           }
         }
-      >
-        Cyclamen
-      </div>
+      />
     </div>
     <div
-      className="govuk-grid-column-two-thirds"
+      className="govuk-grid-column-one-third minimalStandardsTable"
       style={
         Object {
           "backgroundColor": "rgba(0, 112, 60, 0.2)",
+          "margin": "1px",
         }
       }
     >
@@ -58,6 +58,39 @@ exports[`OarTable renders correctly in content 1`] = `
         }
       />
     </div>
+    <div
+      className="govuk-grid-column-one-third "
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 112, 60, 0.2)",
+          "margin": "1px",
+        }
+      }
+    >
+      <div
+        className="govuk-body"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&nbsp; &nbsp",
+          }
+        }
+        style={
+          Object {
+            "marginBottom": "auto",
+            "marginTop": "auto",
+            "padding": "10px",
+            "textAlign": "left",
+          }
+        }
+      />
+    </div>
   </div>
+  <div
+    style={
+      Object {
+        "marginTop": "20px",
+      }
+    }
+  />
 </div>
 `;

@@ -30,7 +30,7 @@ export const IndexPageTemplate = ({ panelTitle, panelParagraph, content, stats, 
             <MediumTitle text={'Get data in and out easily'} />
             <p className="govuk-body">COP helps you log information — whether it be forms, reports, images or biometrics — on laptops and mobile devices. It translates the information into data that you can track, analyse and share to help Border Force make better decisions.</p>
             <p className="govuk-body">The services currently on COP include:</p>
-            <BulletList list={['Immediate Event Notification (IEN)', 'National Security (NS) Referral', 'Cash Detection', 'Operational Activity Reporting (OAR)', 'Mandatory Declarations', 'Use of Force']} />
+            <BulletList list={['Event at the Border', 'Intelligence Referral', 'Operational Activity Reporting (OAR)', 'Mandatory Declarations', 'Use of Force']} />
             <p className="govuk-body">Find out how to <Link to="/help/" class="govuk-link">access these services</Link> and get started on COP.</p>
           </div>
 

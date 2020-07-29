@@ -1,5 +1,5 @@
 import AccordionRoadmap from "../components/accordion-roadmap";
-import AccordionOar from "../components/accordion-oar";
+import Accordion from "../components/accordion";
 import BoxIcon from "../components/box-icon";
 import BreakLine from "../components/Break-line";
 import BulletList from "../components/bullet-list";
@@ -24,7 +24,7 @@ import Panel from "../components/panel"
 import ImageNewWindow from "../components/image-new-window";
 
 export {
-  AccordionOar,
+  Accordion,
   AccordionRoadmap,
   BoxIcon,
   BreakLine,
