@@ -4,30 +4,10 @@ title: Help
 subTitle: Events at the Border (EaB)
 ---
 import { Link } from 'gatsby'
-import MinimalStandardLimitsTable from '../../../components/minimal-standard-limits-table'
-import { tableContent } from '../../../config/minimal-standards-limits-table-data'
+import { MinimalStandardLimitsTables } from '../../../config/minimal-standards-limits-table-data'
 import { Accordion, BoxIcon, BreakLine, BulletList, Button, ExtraLargeTitle, Hr, HyperLink, Image, LargeParagraph,
 LargeTitle, Logo, MediumTitle, Paragraph, RoadMapBlock, RoadMapLabel, RoadMapBlockContainer, SmallTitle, Video, StatContent, layout, Panel } from "../../../config/imports.js";
 
 <MediumTitle text={'Minimal standard limits'}/>
 
-<SmallTitle text={'Priority A'}/>
-
-<MinimalStandardLimitsTable table={tableContent.PriorityA} />
-
-<SmallTitle text={'Priority B'}/>
-
-<MinimalStandardLimitsTable table={tableContent.PriorityB} />
-
-<SmallTitle text={'Priority C'}/>
-
-<MinimalStandardLimitsTable table={tableContent.PriorityC} />
-
-<SmallTitle text={'Priority D'}/>
-
-<MinimalStandardLimitsTable table={tableContent.PriorityD} />
-
-<SmallTitle text={'Priority E'}/>
-
-<MinimalStandardLimitsTable table={tableContent.PriorityE} />
-
+<Accordion content={MinimalStandardLimitsTables} />

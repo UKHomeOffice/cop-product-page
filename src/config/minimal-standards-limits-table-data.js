@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
+import MinimalStandardLimitsTable from "../components/minimal-standard-limits-table"
 
-export const tableContent = {
+const tableContent = {
     PriorityA: [
         {
             column1: '-',
@@ -95,7 +96,7 @@ export const tableContent = {
             column3: 'Immigration case file'
         },
         {
-            column1: '<p><strong>Immigration identity crime:</strong> including:</p><ul class="govuk-list govuk-list--bullet"><li> inadequately documented arrivals (IDA)</li><li> transit without visa (TWOV) abuse</li><li>visa abuse</li></ul>',
+            column1: '<p style="color: white"><strong>Immigration identity crime:</strong> including:</p><ul style="color: white" class="govuk-list govuk-list--bullet"><li> inadequately documented arrivals (IDA)</li><li> transit without visa (TWOV) abuse</li><li>visa abuse</li></ul>',
             column2: '<p>Any cases in which there is evidence or suspicion of the involvement of organised criminality, widespread document abuse or persistent criminal behaviour or, due to the severity of the alleged offence, prosecution is deemed to be the most appropriate course of action.</p><p>ALL CASES relating to COVID-19</p>',
             column3: 'Immigration case file'
         },
@@ -181,7 +182,7 @@ export const tableContent = {
             column3: 'Seizure file'
         },
         {
-            column1: '<strong>Plant Health</strong>',
+            column1: '<strong>Indecent and obscene material</strong>',
             column2: '<p>All paedophile material including indicative material.</p> <p>Obscene material (rape, bestiality, torture) but not material involving consenting adults.</p><p>Snuff movies (killing of adults and children).</p><p>Commercial quantities larger than what could be deemed for personal use (25-50 tapes), or more than one of a specific tape or DVD.</p>',
             column3: 'Seizure file'
         },
@@ -192,3 +193,31 @@ export const tableContent = {
         },
     ],
 }
+
+export const MinimalStandardLimitsTables = [
+    {
+        id: 'priorityA',
+        header: "Priority A",
+        body: <MinimalStandardLimitsTable table={tableContent.PriorityA} />
+    },
+    {
+        id: 'priorityB',
+        header: "Priority B",
+        body: <MinimalStandardLimitsTable table={tableContent.PriorityB} />
+    },
+    {
+        id: 'priorityC',
+        header: "Priority C",
+        body: <MinimalStandardLimitsTable table={tableContent.PriorityC} />
+    },
+    {
+        id: 'priorityD',
+        header: "Priority D",
+        body: <MinimalStandardLimitsTable table={tableContent.PriorityD} />
+    },
+    {
+        id: 'priorityE',
+        header: "Priority E",
+        body: <MinimalStandardLimitsTable table={tableContent.PriorityE} />
+    }
+];
