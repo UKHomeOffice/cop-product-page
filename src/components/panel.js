@@ -3,7 +3,7 @@ import ExtraLargeTitle from "./extra-large-title";
 import Image from "./image";
 import LargeParagraph from "./large-paragraph";
 import { Link } from "gatsby";
-import  {COPSite}  from "../environment-variables";
+import  LoginForm  from "./login-form";
 
 const bannerImageMobile = {
   maxWidth: "180px",
@@ -22,10 +22,7 @@ const Panel = (props) => (
             </div>
             <LargeParagraph isPanel={true} text={props.paragraphText}/>
             <div className="button-container " style={{ marginBottom: "20px" }}>
-              <a href={COPSite} target="_blank" rel="noreferrer" role="button" draggable="false" style={{marginBottom: '0px'}}
-                 className="govuk-button product-page-button button-container__button govuk-!-margin-right-3">
-                <div style={{ paddingLeft: "20px" }}>Sign-in <i className="sign-in-arrow"/></div>
-              </a>
+              <LoginForm />
               or &nbsp;<Link style={{ color: "white" }} className="govuk-link govuk-!-font-weight-bold" to="/about/">find
               out more about COP</Link>
             </div>
