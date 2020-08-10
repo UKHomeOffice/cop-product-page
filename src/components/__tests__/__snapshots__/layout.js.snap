@@ -97,7 +97,7 @@ Array [
             >
               <a
                 className="govuk-header__link header-nav-items"
-                href="https://www.cop.homeoffice.gov.uk/"
+                href="https://www.cop.homeoffice.gov.uk"
                 rel="noreferrer"
                 target="_blank"
               >
