@@ -97,9 +97,9 @@ Array [
             >
               <a
                 className="govuk-header__link header-nav-items"
-                href="https://www.cop.homeoffice.gov.uk/"
+                href="#"
+                onClick={[Function]}
                 rel="noreferrer"
-                target="_blank"
               >
                 Sign-in
               </a>

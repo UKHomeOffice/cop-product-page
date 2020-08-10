@@ -96,9 +96,9 @@ exports[`Header menu button renders correctly when active 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="https://www.cop.homeoffice.gov.uk/"
+              href="#"
+              onClick={[Function]}
               rel="noreferrer"
-              target="_blank"
             >
               Sign-in
             </a>
@@ -206,9 +206,9 @@ exports[`Header menu button renders correctly when inactive 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="https://www.cop.homeoffice.gov.uk/"
+              href="#"
+              onClick={[Function]}
               rel="noreferrer"
-              target="_blank"
             >
               Sign-in
             </a>
@@ -316,9 +316,9 @@ exports[`Header renders correctly 1`] = `
           >
             <a
               className="govuk-header__link header-nav-items"
-              href="https://www.cop.homeoffice.gov.uk/"
+              href="#"
+              onClick={[Function]}
               rel="noreferrer"
-              target="_blank"
             >
               Sign-in
             </a>
