@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import axios from 'axios';
 import { COPSite, idpHint } from '../environment-variables';
 
@@ -22,7 +23,8 @@ export default class LoginForm extends Component {
   }
 
   /* istanbul ignore next */
-  login() {
+  login(e) {
+    e.preventDefault();
     const kc = this.Keycloak(this.config);
     kc.init()
       .then(() => {
@@ -37,7 +39,17 @@ export default class LoginForm extends Component {
   }
 
   render() {
-    return (
+    const { children } = this.props;
+    return children ? (
+      <a
+        className="govuk-header__link header-nav-items"
+        href="#"
+        onClick={this.login}
+        rel="noreferrer"
+      >
+        {children}
+      </a>
+    ) : (
       <button
         className="govuk-button product-page-button button-container__button govuk-!-margin-right-3"
         draggable="false"
@@ -52,3 +64,7 @@ export default class LoginForm extends Component {
     );
   }
 }
+
+LoginForm.propTypes = {
+  children: PropTypes.node,
+};
