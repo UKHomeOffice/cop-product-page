@@ -64,18 +64,16 @@ exports[`Panel renders correctly 1`] = `
             }
           }
         >
-          <a
+          <button
             className="govuk-button product-page-button button-container__button govuk-!-margin-right-3"
             draggable="false"
-            href="https://www.cop.homeoffice.gov.uk/"
+            onClick={[Function]}
             rel="noreferrer"
-            role="button"
             style={
               Object {
                 "marginBottom": "0px",
               }
             }
-            target="_blank"
           >
             <div
               style={
@@ -89,7 +87,7 @@ exports[`Panel renders correctly 1`] = `
                 className="sign-in-arrow"
               />
             </div>
-          </a>
+          </button>
           or  
           <a
             className="govuk-link govuk-!-font-weight-bold"
