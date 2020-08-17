@@ -12,14 +12,16 @@ export const HelpPageTemplate = ({ title, subTitle, content, subject }) => {
   return (
     <div>
       <div className="govuk-width-container main-height">
-        <BreakLine pixels={"40"} />
+        <BreakLine pixels={"40"}/>
         <div className="grid-row">
           <div className="column-one-quarter-help">
-            <SubNavigation navItems={navItems} />
+            <SubNavigation navItems={navItems}/>
           </div>
           <div className="column-five-eighths-help">
-            <LargeTitle text={title} />
-            <h1 className="govuk-heading-help-sub-title">{subTitle}</h1>
+            <LargeTitle text={title}/>
+            <h1 className="govuk-heading-help-sub-title">
+              {subTitle}
+            </h1>
             <MDXRenderer>{content}</MDXRenderer>
           </div>
         </div>
@@ -32,7 +34,7 @@ HelpPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   subTitle: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  contentComponent: PropTypes.func
 };
 
 const HelpPage = ({ data }) => {
@@ -50,7 +52,7 @@ const HelpPage = ({ data }) => {
 };
 
 HelpPage.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.object.isRequired
 };
 
 export default HelpPage;

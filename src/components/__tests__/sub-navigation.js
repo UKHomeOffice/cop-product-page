@@ -6,22 +6,22 @@ import { navItems } from "../../config/about-nav-items";
 describe("SubNavigation", () => {
   it("renders correctly", () => {
     const tree = renderer
-      .create(<SubNavigation navItems={navItems} />)
+      .create(<SubNavigation navItems={navItems}/>)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it("Returns the correct SubNavigation 'navItems' prop passed in", () => {
-    const tree = renderer.create(<SubNavigation navItems={navItems} />);
+    const tree = renderer
+      .create(<SubNavigation navItems={navItems}/>);
     const testInstance = tree.root;
     expect(testInstance.props).toHaveProperty("navItems", [
       { name: "About COP", href: "/about/" },
       {
-        name: "How COP helps you",
-        href: "/about/benefits/",
+        name: "How COP helps you", href: "/about/benefits/"
       },
       { name: "Roadmap", href: "/about/roadmap/" },
-      { name: "Security", href: "/about/security/" },
+      { name: "Security", href: "/about/security/" }
     ]);
   });
 });

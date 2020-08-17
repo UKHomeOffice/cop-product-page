@@ -4,13 +4,16 @@ import BreakLine from "../Break-line";
 
 describe("breakline", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<BreakLine />).toJSON();
+    const tree = renderer
+      .create(<BreakLine/>)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it("Returns the correct breakline 'pixel' prop passed in", () => {
-    const tree = renderer.create(<BreakLine pixels={"2"} />);
+    const tree = renderer
+      .create(<BreakLine pixels={"2"}/>);
     const testInstance = tree.root;
-    expect(testInstance.props).toHaveProperty("pixels", "2");
+    expect(testInstance.props).toHaveProperty('pixels', '2');
   });
 });
