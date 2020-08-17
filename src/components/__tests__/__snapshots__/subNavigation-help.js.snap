@@ -160,6 +160,25 @@ exports[`SubNavigationHelp renders correctly 1`] = `
         </li>
       </div>
       <div>
+        <li
+          className="sub-navigation__item"
+        >
+          <a
+            className="govuk-link subnav"
+            href="/help/using-cop-reports/"
+            style={
+              Object {
+                "color": "black",
+              }
+            }
+          >
+            <span>
+              Using COP Reports
+            </span>
+          </a>
+        </li>
+      </div>
+      <div>
          
         <li
           className="sub-navigation__item"

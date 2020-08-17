@@ -47,6 +47,14 @@ export const navItems = [
     name: "Accessing COP on mobile devices", href: "/help/accessing-cop-on-mobile/"
   },
   {
+    name: "Using COP Reports", href: "/help/using-cop-reports/",
+    subItems: [
+      {name: "Command Brief", href: "/help/using-cop-reports/"},
+      {name: "Listing and Accessing OARs", href: "/help/using-cop-reports/using-cop-reports-listing-accessing-oars/" },
+      {name: "Listing and Accessing Border Events", href: "/help/using-cop-reports/using-cop-reports-listing-accessing-border-events/" },
+    ]
+  },
+  {
     name: "Contact", href: "/help/contact/"
   }
 ];
