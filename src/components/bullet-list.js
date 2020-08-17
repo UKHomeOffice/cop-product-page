@@ -10,9 +10,7 @@ const BulletList = (props) => {
       </ul>
     );
   } catch (e) {
-    return (
-      <ul className="govuk-list govuk-list--bullet"/>
-    );
+    return <ul className="govuk-list govuk-list--bullet" />;
   }
 };
 

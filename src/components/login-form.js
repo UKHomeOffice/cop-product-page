@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import axios from 'axios';
-import { COPSite, idpHint } from '../environment-variables';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import axios from "axios";
+import { COPSite, idpHint } from "../environment-variables";
 
 export default class LoginForm extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ export default class LoginForm extends Component {
 
   /* istanbul ignore next */
   componentDidMount() {
-    this.Keycloak = require('keycloak-js');
+    this.Keycloak = require("keycloak-js");
     axios.get(`${COPSite}/api/config`).then(({ data }) => {
       ({
         KEYCLOAK_REALM: this.config.realm,
@@ -34,7 +34,7 @@ export default class LoginForm extends Component {
         });
       })
       .catch(() => {
-        console.error('Keycloak failed to initialise');
+        console.error("Keycloak failed to initialise");
       });
   }
 
@@ -55,9 +55,9 @@ export default class LoginForm extends Component {
         draggable="false"
         onClick={this.login}
         rel="noreferrer"
-        style={{ marginBottom: '0px' }}
+        style={{ marginBottom: "0px" }}
       >
-        <div style={{ paddingLeft: '20px' }}>
+        <div style={{ paddingLeft: "20px" }}>
           Sign-in <i className="sign-in-arrow" />
         </div>
       </button>

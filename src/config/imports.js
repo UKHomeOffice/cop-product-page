@@ -19,8 +19,8 @@ import RoadMapBlockContainer from "../components/RoadMapBlockContainer";
 import SmallTitle from "../components/SmallTitle";
 import Video from "../components/video";
 import StatContent from "../components/stats-content";
-import layout from '../components/layout'
-import Panel from "../components/panel"
+import layout from "../components/layout";
+import Panel from "../components/panel";
 import ImageNewWindow from "../components/image-new-window";
 
 export {
@@ -47,6 +47,5 @@ export {
   StatContent,
   layout,
   Panel,
-  ImageNewWindow
-}
-
+  ImageNewWindow,
+};

@@ -9,11 +9,11 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 export const GDSPageTemplate = ({ title, content }) => {
   return (
     <div>
-      <BreakLine pixels={40}/>
+      <BreakLine pixels={40} />
       <div className="govuk-width-container main-height">
         <div className="govuk-grid-row">
           <div className="govuk-grid-column-two-thirds">
-            <LargeTitle text={title}/>
+            <LargeTitle text={title} />
             <MDXRenderer>{content}</MDXRenderer>
           </div>
         </div>
@@ -25,7 +25,7 @@ export const GDSPageTemplate = ({ title, content }) => {
 GDSPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
 };
 
 const GDSPage = ({ data }) => {
@@ -33,16 +33,13 @@ const GDSPage = ({ data }) => {
 
   return (
     <Layout>
-      <GDSPageTemplate
-        title={post.frontmatter.title}
-        content={post.body}
-      />
+      <GDSPageTemplate title={post.frontmatter.title} content={post.body} />
     </Layout>
   );
 };
 
 GDSPage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default GDSPage;

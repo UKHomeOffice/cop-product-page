@@ -2,27 +2,34 @@ import React, { useEffect } from "react";
 
 const AccordionRoadmap = (props) => {
   useEffect(() => {
-      document.getElementById('streamLineNow1').click();
-      document.getElementById('informNow1').click();
-      document.getElementById('trustedNow1').click();
+    document.getElementById("streamLineNow1").click();
+    document.getElementById("informNow1").click();
+    document.getElementById("trustedNow1").click();
   });
 
-
   return (
-    <div style={{ marginBottom: '2em' }} className="accordion">
+    <div style={{ marginBottom: "2em" }} className="accordion">
       {props.content.map((value, index) => {
-        return <div key={index} className="option">
-          <input type="checkbox" id={`${value.id}${value.header}${index}`} className="toggle" />
-          <label style={{ fontSize: '16px', marginBottom: '0px' }} className="title govuk-heading-s" htmlFor={`${value.id}${value.header}${index}`}>{value.header}
-          </label>
-          <div className="content">
-            {value.body}
+        return (
+          <div key={index} className="option">
+            <input
+              type="checkbox"
+              id={`${value.id}${value.header}${index}`}
+              className="toggle"
+            />
+            <label
+              style={{ fontSize: "16px", marginBottom: "0px" }}
+              className="title govuk-heading-s"
+              htmlFor={`${value.id}${value.header}${index}`}
+            >
+              {value.header}
+            </label>
+            <div className="content">{value.body}</div>
           </div>
-        </div>;
+        );
       })}
     </div>
   );
 };
 
 export default AccordionRoadmap;
-

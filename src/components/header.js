@@ -1,35 +1,35 @@
-import { Link } from 'gatsby';
-import React from 'react';
-import Logo from './logo';
-import { navItems } from '../config/header-nav-items';
-import LoginForm from './login-form';
+import { Link } from "gatsby";
+import React from "react";
+import Logo from "./logo";
+import { navItems } from "../config/header-nav-items";
+import LoginForm from "./login-form";
 
 const showMobileButton = () => {
-  const menuButton = document.getElementById('menuButton');
-  const navigation = document.getElementById('navigation');
-  const headerButtonOpenClass = 'govuk-header__menu-button--open';
+  const menuButton = document.getElementById("menuButton");
+  const navigation = document.getElementById("navigation");
+  const headerButtonOpenClass = "govuk-header__menu-button--open";
   if (menuButton) {
     if (!menuButton.classList.contains(headerButtonOpenClass)) {
       menuButton.classList.add(headerButtonOpenClass);
-      navigation.classList.add('govuk-header__navigation--open');
-      menuButton.setAttribute('aria-expanded', 'true');
-      navigation.setAttribute('aria-hidden', 'false');
+      navigation.classList.add("govuk-header__navigation--open");
+      menuButton.setAttribute("aria-expanded", "true");
+      navigation.setAttribute("aria-hidden", "false");
     } else {
       menuButton.classList.remove(headerButtonOpenClass);
-      navigation.classList.remove('govuk-header__navigation--open');
-      menuButton.setAttribute('aria-expanded', 'false');
-      navigation.setAttribute('aria-hidden', 'true');
+      navigation.classList.remove("govuk-header__navigation--open");
+      menuButton.setAttribute("aria-expanded", "false");
+      navigation.setAttribute("aria-hidden", "true");
     }
   }
 };
 
 const isAboutPartiallyActive = ({ isPartiallyCurrent }) => {
-  return isPartiallyCurrent ? { style: { color: '#1d8feb' } } : {};
+  return isPartiallyCurrent ? { style: { color: "#1d8feb" } } : {};
 };
 
 const isHelpPartiallyActive = ({ isPartiallyCurrent, location }) => {
-  return isPartiallyCurrent || location.pathname.includes('help')
-    ? { style: { color: '#1d8feb' } }
+  return isPartiallyCurrent || location.pathname.includes("help")
+    ? { style: { color: "#1d8feb" } }
     : {};
 };
 
@@ -42,8 +42,8 @@ const Header = () => (
             to="/"
             className="govuk-header__link govuk-header__link--homepage"
           >
-            <span style={{ marginRight: '6px' }}>
-              <Logo id="logo-image" source={'/images/logo.png'} />
+            <span style={{ marginRight: "6px" }}>
+              <Logo id="logo-image" source={"/images/logo.png"} />
             </span>
             <span
               id="service-name"
@@ -74,13 +74,13 @@ const Header = () => (
               aria-label="Top Level Navigation"
             >
               {navItems.map((value, index) => {
-                if (value.name === 'Sign-in') {
+                if (value.name === "Sign-in") {
                   return (
                     <li className="govuk-header__navigation-item">
                       <LoginForm>{value.name}</LoginForm>
                     </li>
                   );
-                } else if (value.name === 'About') {
+                } else if (value.name === "About") {
                   return (
                     <li className="govuk-header__navigation-item" key={index}>
                       <Link
@@ -92,7 +92,7 @@ const Header = () => (
                       </Link>
                     </li>
                   );
-                } else if (value.name === 'Help') {
+                } else if (value.name === "Help") {
                   return (
                     <li className="govuk-header__navigation-item" key={index}>
                       <Link
@@ -109,7 +109,7 @@ const Header = () => (
                     <li className="govuk-header__navigation-item" key={index}>
                       <Link
                         to={value.href}
-                        activeStyle={{ color: '#1d8feb' }}
+                        activeStyle={{ color: "#1d8feb" }}
                         className="govuk-header__link header-nav-items"
                       >
                         {value.name}

@@ -8,18 +8,17 @@ import BreakLine from "../components/Break-line";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 import { navItems } from "../config/about-nav-items";
 
-
 export const AboutPageTemplate = ({ title, content, subTitle }) => {
   return (
     <div>
       <div className="govuk-width-container main-height">
-        <BreakLine pixels={"40"}/>
+        <BreakLine pixels={"40"} />
         <div className="grid-row">
           <div className="column-one-quarter">
-            <SubNavigation navItems={navItems}/>
+            <SubNavigation navItems={navItems} />
           </div>
           <div className="column-five-eighths">
-            <LargeTitle text={subTitle}/>
+            <LargeTitle text={subTitle} />
             <MDXRenderer>{content}</MDXRenderer>
           </div>
         </div>
@@ -31,7 +30,7 @@ export const AboutPageTemplate = ({ title, content, subTitle }) => {
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  contentComponent: PropTypes.func,
 };
 
 const AboutPage = ({ data }) => {
@@ -49,7 +48,7 @@ const AboutPage = ({ data }) => {
 };
 
 AboutPage.propTypes = {
-  data: PropTypes.object.isRequired
+  data: PropTypes.object.isRequired,
 };
 
 export default AboutPage;

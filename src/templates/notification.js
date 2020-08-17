@@ -6,12 +6,12 @@ const panelAdditionalStyle = {
   margin: "0 auto",
   paddingTop: "15px",
   paddingBottom: "0px",
-  textAlign: "left"
+  textAlign: "left",
 };
 
 const panelContentAdditionalStyleOverrides = {
-  marginBottom: '0px',
-  lineHeight: '1.4'
+  marginBottom: "0px",
+  lineHeight: "1.4",
 };
 
 const closeSplash = () => {
@@ -21,17 +21,20 @@ const closeSplash = () => {
   }
 };
 
-const Notification = ({notificationContent}) => {
+const Notification = ({ notificationContent }) => {
   return (
     <div style={panelAdditionalStyle} id="sub-panel" className="govuk-panel">
       <div className="govuk-width-container">
-        <a onClick={() => closeSplash()}
-           className="boxclose govuk-link" id="boxclose"/>
+        <a
+          onClick={() => closeSplash()}
+          className="boxclose govuk-link"
+          id="boxclose"
+        />
 
         <div className="govuk-grid-row">
           <div className="govuk-grid-column-two-thirds">
             <div style={panelContentAdditionalStyleOverrides}>
-            <MDXRenderer>{notificationContent}</MDXRenderer>
+              <MDXRenderer>{notificationContent}</MDXRenderer>
             </div>
           </div>
         </div>
@@ -39,6 +42,5 @@ const Notification = ({notificationContent}) => {
     </div>
   );
 };
-
 
 export default Notification;
