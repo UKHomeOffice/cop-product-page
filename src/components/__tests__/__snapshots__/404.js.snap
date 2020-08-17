@@ -141,25 +141,21 @@ Array [
           <p
             className="govuk-body"
           >
-            If you're still having problems go to our
-             
+            If you're still having problems go to our 
             <a
               className="govuk-link"
               href="/"
             >
               homepage
             </a>
-             
-            or
-             
+             or 
             <a
               className="govuk-link"
               href="/help/contact/"
             >
               contact us
             </a>
-             
-            if you can't find what you're looking for.
+             if you can't find what you're looking for.
           </p>
         </div>
       </div>
