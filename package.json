@@ -48,8 +48,7 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "jest --coverage",
     "nightwatch": "./node_modules/.bin/nightwatch /nightwatch/test_spec.js",
-    "serve": "gatsby serve",
-    "preinstall": "npx npm-force-resolutions"
+    "serve": "gatsby serve"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.2",
@@ -69,8 +68,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/UKHomeOffice/cop-product-page"
-  },
-  "resolutions": {
-    "dot-prop": ">=5.2.0"
   }
 }
