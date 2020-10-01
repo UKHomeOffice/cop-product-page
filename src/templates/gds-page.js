@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import LargeTitle from "../components/large-title";
+import ExtraLargeTitle from "../components/extra-large-title";
 import BreakLine from "../components/Break-line";
 import { MDXRenderer } from "gatsby-plugin-mdx";
 
@@ -13,7 +13,7 @@ export const GDSPageTemplate = ({ title, content }) => {
       <div className="govuk-width-container main-height">
         <div className="govuk-grid-row">
           <div className="govuk-grid-column-full gds-page-content-custom-width">
-            <LargeTitle text={title}/>
+            <ExtraLargeTitle text={title}/>
             <MDXRenderer>{content}</MDXRenderer>
           </div>
         </div>
