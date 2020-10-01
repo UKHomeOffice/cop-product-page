@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import LargeTitle from "../components/large-title";
 import ExtraLargeTitle from "../components/extra-large-title";
 import BreakLine from "../components/Break-line";
 import { MDXRenderer } from "gatsby-plugin-mdx";
