@@ -73,7 +73,7 @@ exports[`Footer renders correctly 1`] = `
               className="govuk-footer__link"
               href="/accessibility/"
             >
-              Accessibility
+              Accessibility Statement
             </a>
           </li>
           <li

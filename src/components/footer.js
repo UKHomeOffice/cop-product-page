@@ -29,7 +29,7 @@ const Footer = () => (
             </li>
             <li className="govuk-footer__list-item">
               <Link className="govuk-footer__link" to="/accessibility/">
-                Accessibility
+                Accessibility Statement
               </Link>
             </li>
             <li className="govuk-footer__list-item">
