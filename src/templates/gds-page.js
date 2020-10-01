@@ -12,7 +12,7 @@ export const GDSPageTemplate = ({ title, content }) => {
       <BreakLine pixels={40}/>
       <div className="govuk-width-container main-height">
         <div className="govuk-grid-row">
-          <div className="govuk-grid-column-two-thirds">
+          <div className="govuk-grid-column-full gds-page-content-custom-width">
             <LargeTitle text={title}/>
             <MDXRenderer>{content}</MDXRenderer>
           </div>
