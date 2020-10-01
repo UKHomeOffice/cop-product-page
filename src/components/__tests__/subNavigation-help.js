@@ -73,6 +73,17 @@ describe("SubNavigationHelp", () => {
         ]
       },
       {
+        name: "Hot Debrief", href: "/help/debriefing/",
+        subItems: [
+          {name: "Debriefing Overview", href: "/help/debriefing/"},
+          {name: "When should a Hot debrief be completed?", href: "/help/debriefing/debriefing-when-should-a-hot-debriefing-be-completed" },
+          {name: "How do I submit a Hot debrief? ", href: "/help/debriefing/debriefing-how-do-I-submit-a-hot-debrief" },
+        ]
+      },
+      {
+        name: "Accessing COP on a PC", href: "/help/accessing-cop-on-pc/"
+      },
+      {
         name: "Contact", href: "/help/contact/"
       }
     ]);
