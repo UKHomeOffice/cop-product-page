@@ -1,0 +1,32 @@
+---
+kind: pipeline
+type: kubernetes
+name: default
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: build
+  pull: if-not-exists
+  image: quay.io/ukhomeofficedigital/node-10:b43109ed7afbce9bd949fde0fa2db89d8ce31438
+  commands:
+  - npm install
+  - npm audit --audit-level=moderate
+  - npm test
+  - npm run build:dev
+  environment:
+    DOCKER_HOST: tcp://172.17.0.1:2375
+  when:
+    event:
+    - pull_request
+
+- name: pr_sonarqube_scan
+  pull: if-not-exists
+  image: quay.io/ukhomeofficedigital/sonar-scanner-node:latest
+  when:
+    event:
+    - pull_request
+
+...
