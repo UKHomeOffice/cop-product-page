@@ -233,7 +233,7 @@ Array [
                 className="govuk-footer__link"
                 href="/accessibility/"
               >
-                Accessibility
+                Accessibility Statement
               </a>
             </li>
             <li
@@ -241,9 +241,9 @@ Array [
             >
               <a
                 className="govuk-footer__link"
-                href="/privacy-policy/"
+                href="/privacy-and-cookie-policy/"
               >
-                Privacy Policy
+                Privacy and Cookie Policy
               </a>
             </li>
           </ul>

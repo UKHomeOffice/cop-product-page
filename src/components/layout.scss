@@ -380,6 +380,12 @@ ol ol .sub-navigation__item {
   }
 }
 
+@media (min-width: 48.0625em) {
+  .gds-page-content-custom-width {
+    width: 80%;
+  }
+}
+
 .column-five-eighths-help {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
