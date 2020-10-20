@@ -12,12 +12,16 @@ steps:
   pull: if-not-exists
   image: quay.io/ukhomeofficedigital/node-10:b43109ed7afbce9bd949fde0fa2db89d8ce31438
   commands:
+  - n=0; while [ "$n " -lt 60 ] && [ ! -e /var/run/docker.sock ]; do n=$(( n + 1 )); sleep 1; done
   - npm install
   - npm audit --audit-level=moderate
   - npm test
   - npm run build:dev
   environment:
     DOCKER_HOST: tcp://172.17.0.1:2375
+  volumes:
+  - name: dockersock
+    path: /var/run
   when:
     event:
     - pull_request
@@ -28,5 +32,24 @@ steps:
   when:
     event:
     - pull_request
+
+services:
+- name: docker
+  image: quay.io/ukhomeofficedigital/drone-docker
+  volumes:
+  - name: dockersock
+    path: /var/run
+
+- name: anchore-submission-server
+  image: quay.io/ukhomeofficedigital/anchore-submission:latest
+  commands:
+  - /anchore-submission server
+  volumes:
+  - name: dockersock
+    path: /var/run
+
+volumes:
+- name: dockersock
+  temp: {}
 
 ...
