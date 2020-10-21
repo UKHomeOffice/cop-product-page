@@ -10,9 +10,9 @@ platform:
 steps:
 - name: build
   pull: if-not-exists
-  image: quay.io/ukhomeofficedigital/node-10:b43109ed7afbce9bd949fde0fa2db89d8ce31438
+  image: docker:19.03.12-dind
   commands:
-  - n=0; while [ "$n " -lt 60 ] && [ ! -e /var/run/docker.sock ]; do n=$(( n + 1 )); sleep 1; done
+  - n=0; while [ "$n" -lt 60 ] && [ ! -e /var/run/docker.sock ]; do n=$(( n + 1 )); sleep 1; done
   - npm install
   - npm audit --audit-level=moderate
   - npm test
@@ -35,15 +35,18 @@ steps:
 
 services:
 - name: docker
-  image: quay.io/ukhomeofficedigital/drone-docker
+  image: docker:19.03.12-dind
   volumes:
   - name: dockersock
     path: /var/run
 
 - name: anchore-submission-server
-  image: quay.io/ukhomeofficedigital/anchore-submission:latest
+  image: docker.digital.homeoffice.gov.uk/acp-anchore-submission:latest
   commands:
   - /anchore-submission server
+  environment:
+    ANCHORE_URL: acp-anchore.acp.homeoffice.gov.uk
+    REGISTRY_URL: acp-ephemeral-registry.acp.homeoffice.gov.uk
   volumes:
   - name: dockersock
     path: /var/run
