@@ -17,8 +17,6 @@ steps:
   - npm audit --audit-level=moderate
   - npm test
   - npm run build:dev
-  environment:
-    DOCKER_HOST: tcp://172.17.0.1:2375
   volumes:
   - name: dockersock
     path: /var/run
