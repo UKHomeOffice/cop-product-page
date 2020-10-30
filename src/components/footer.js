@@ -29,12 +29,12 @@ const Footer = () => (
             </li>
             <li className="govuk-footer__list-item">
               <Link className="govuk-footer__link" to="/accessibility/">
-                Accessibility
+                Accessibility Statement
               </Link>
             </li>
             <li className="govuk-footer__list-item">
-              <Link className="govuk-footer__link" to="/privacy-policy/">
-                Privacy Policy
+              <Link className="govuk-footer__link" to="/privacy-and-cookie-policy/">
+                Privacy and Cookie Policy
               </Link>
             </li>
           </ul>
