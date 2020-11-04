@@ -10,7 +10,7 @@ platform:
 steps:
 - name: build
   pull: if-not-exists
-  image: docker:19.03.12-dind
+  image: quay.io/ukhomeofficedigital/node-10:b43109ed7afbce9bd949fde0fa2db89d8ce31438
   commands:
   - n=0; while [ "$n" -lt 60 ] && [ ! -e /var/run/docker.sock ]; do n=$(( n + 1 )); sleep 1; done
   - npm install
