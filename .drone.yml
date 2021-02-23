@@ -10,9 +10,8 @@ platform:
 steps:
 - name: build
   pull: always
-  image: 340268328991.dkr.ecr.eu-west-2.amazonaws.com/acp/dind
+  image: quay.io/ukhomeofficedigital/node-10:b43109ed7afbce9bd949fde0fa2db89d8ce31438
   commands:
-  - n=0; while [ "$n" -lt 60 ] && [ ! docker stats --no-stream ]; do n=$(( n + 1 )); sleep 1; done
   - npm install
   - npm audit --audit-level=moderate
   - npm test
