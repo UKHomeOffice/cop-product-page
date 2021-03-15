@@ -6,3 +6,4 @@ export const COPSite =
     : 'https://www.staging.cop.homeoffice.gov.uk';
 
 export const idpHint = 'poise-over-cop-prod';
+

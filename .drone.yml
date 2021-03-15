@@ -1,22 +1,40 @@
-pipeline:
+---
+kind: pipeline
+type: kubernetes
+name: default
 
-##### Build project #####
+platform:
+  os: linux
+  arch: amd64
 
-  build:
-    image: quay.io/ukhomeofficedigital/node-10:b43109ed7afbce9bd949fde0fa2db89d8ce31438
-    environment:
-      - DOCKER_HOST=tcp://172.17.0.1:2375
-    commands:
-      - npm install
-      - npm audit --audit-level=moderate
-      - npm test
-      - npm run build:dev
-    when:
-      event: pull_request
+steps:
+- name: test_build
+  pull: always
+  image: quay.io/ukhomeofficedigital/cop-node:13
+  commands:
+  - npm install
+  - npm audit --audit-level=moderate
+  - npm test
+  - npm run build:dev
+  when:
+    event:
+    - pull_request
 
-##### Run SonarQube scan on pull / merge requests #####
+- name: pr_sonarqube_scan
+  pull: if-not-exists
+  image: quay.io/ukhomeofficedigital/sonar-scanner-node:latest
+  when:
+    event:
+    - pull_request
 
-  pr_sonarqube_scan:
-    image: quay.io/ukhomeofficedigital/sonar-scanner-node:latest
-    when:
-      event: pull_request
+services:
+- name: docker
+  image: 340268328991.dkr.ecr.eu-west-2.amazonaws.com/acp/dind
+
+- name: anchore-submission-server
+  pull: always
+  image: 340268328991.dkr.ecr.eu-west-2.amazonaws.com/acp/anchore-submission:latest
+  commands:
+  - /run.sh server
+
+...
