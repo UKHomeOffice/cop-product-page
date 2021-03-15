@@ -10,7 +10,7 @@ platform:
 steps:
 - name: test_build
   pull: always
-  image: quay.io/ukhomeofficedigital/node-10:b43109ed7afbce9bd949fde0fa2db89d8ce31438
+  image: quay.io/ukhomeofficedigital/cop-node:13
   commands:
   - npm install
   - npm audit --audit-level=moderate
