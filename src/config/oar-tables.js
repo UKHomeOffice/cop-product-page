@@ -13,10 +13,10 @@ const tableContent = {
         { rowHeader: 'General Maritime', rowContent: 'Generally carried out with private or small marine craft e.g. at marinas and small ports' },
         { rowHeader: 'International Trade', rowContent: 'Search activities conducted to check that goods comply with trade rules and restrictions and have appropriate documentation, including an accurate description of the goods' },
         { rowHeader: 'Post', rowContent: '&nbsp;' },
-        { rowHeader: 'Rail Freight', rowContent: 'Commercial freight carried on trains' },
-        { rowHeader: 'Rail Passenger', rowContent: 'Eurostar and other commercial train operators' },
-        { rowHeader: 'RoRo Freight', rowContent: 'Commercial freight handling vehicles handled by roll on roll off ferries. Please make it clear whether this applies to accompanied or unaccompanied freight (towed from RoRo to Port)' },
-        { rowHeader: 'RoRo Tourist', rowContent: 'Private vehicles and foot passengers handled by roll on roll off ferries' }
+        { rowHeader: 'Rail Freight', rowContent: 'Unaccompanied freight carried on trains' },
+        { rowHeader: 'Rail Passenger', rowContent: 'Foot passengers on Eurostar and other commercial operators' },
+        { rowHeader: 'RoRo Freight', rowContent: 'Commercial freight handling vehicles handled by roll on roll off ferries or Eurotunnel. Please make it clear whether this applies to accompanied or unaccompanied freight (towed from RoRo to Port).' },
+        { rowHeader: 'RoRo Tourist', rowContent: 'Private vehicles and passengers and foot passengers handled by roll on roll off ferries or Eurotunnel.' }
     ],
     PCPImmigrationActivities: [
         { rowHeader: 'Record work arising from Primary Control Point (PCP) and Immigration procedures', rowContent: 'Guidelines for recording PCP and Immigration Activities'},

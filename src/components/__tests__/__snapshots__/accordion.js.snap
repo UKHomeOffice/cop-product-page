@@ -659,7 +659,7 @@ exports[`AccordionOAR renders correctly in content 1`] = `
                 className="govuk-body"
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "Commercial freight carried on trains",
+                    "__html": "Unaccompanied freight carried on trains",
                   }
                 }
                 style={
@@ -716,7 +716,7 @@ exports[`AccordionOAR renders correctly in content 1`] = `
                 className="govuk-body"
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "Eurostar and other commercial train operators",
+                    "__html": "Foot passengers on Eurostar and other commercial operators",
                   }
                 }
                 style={
@@ -773,7 +773,7 @@ exports[`AccordionOAR renders correctly in content 1`] = `
                 className="govuk-body"
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "Commercial freight handling vehicles handled by roll on roll off ferries. Please make it clear whether this applies to accompanied or unaccompanied freight (towed from RoRo to Port)",
+                    "__html": "Commercial freight handling vehicles handled by roll on roll off ferries or Eurotunnel. Please make it clear whether this applies to accompanied or unaccompanied freight (towed from RoRo to Port).",
                   }
                 }
                 style={
@@ -830,7 +830,7 @@ exports[`AccordionOAR renders correctly in content 1`] = `
                 className="govuk-body"
                 dangerouslySetInnerHTML={
                   Object {
-                    "__html": "Private vehicles and foot passengers handled by roll on roll off ferries",
+                    "__html": "Private vehicles and passengers and foot passengers handled by roll on roll off ferries or Eurotunnel.",
                   }
                 }
                 style={
